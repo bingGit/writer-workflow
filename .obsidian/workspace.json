@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "article/2025-12/注意力减负_公众号文章-为什么好的设计，让你\"看不见\"它的存在？.md",
+                "file": "article/2025-12/注意力减负_公众号文章.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "注意力减负_公众号文章-为什么好的设计，让你\"看不见\"它的存在？"
+              "title": "注意力减负_公众号文章"
             }
           }
         ]
@@ -166,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 889.5
+    "width": 472.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,5 +180,21 @@
     }
   },
   "active": "c8cbc22577cd953e",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "parse_result/呼吸感/界面分区与呼吸感策略.md",
+    "parse_result/呼吸感/留白与品牌势能的博弈.md",
+    "parse_result/呼吸感/注意力减负_details.md",
+    "parse_result/呼吸感/注意力减负_逻辑审计报告.md",
+    "parse_result/呼吸感/呼吸感_底层公式.md",
+    "parse_result/呼吸感",
+    "parse_result/呼吸感_底层公式.md",
+    "parse_result/注意力减负_逻辑审计报告.md",
+    "article/2025-12/注意力减负_公众号文章-为什么好的设计，让你\"看不见\"它的存在？.md",
+    "article/2025-12/注意力减负_公众号文章.md",
+    "rules/system.md",
+    "rules/产品经理.md",
+    "rules/git.md",
+    "rules/file.md",
+    "rules"
+  ]
 }
