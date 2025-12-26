@@ -100,7 +100,7 @@ class MoxingshuParser:
             output_lines.append(f"{indent}- {title}")
             
             if with_details:
-                time.sleep(random.uniform(0.3, 0.8)) # 稍微加快一点
+                time.sleep(random.uniform(1, 3)) # 稍微加快一点
                 raw = self.fetch_by_article_id(node["id"])
                 if raw and not raw.startswith("Error"):
                     texts = self.parse(raw)
