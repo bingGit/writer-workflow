@@ -17,11 +17,11 @@ class MoxingshuParser:
             "true", "false", "width", "height", "solid", "border", "radius",
             "padding", "margin", "font", "fontsize", "fontweight", "lineheight",
             "opacity", "zindex", "display", "flex", "none", "hidden", "visible",
-            "start", "level", "version", "editorversion", "back", "conte", "static"
+            "start", "level", "version", "editorversion", "static"
         }
         self.color_pattern = re.compile(r'^#[0-9a-fA-F]{3,8}$')
-        # 垃圾字符黑名单
-        self.garbage_chars = {"Ă", "ă"}
+        # 垃圾字符黑名单 (包含 Protobuf 常见的干扰符)
+        self.garbage_chars = {"Ă", "ă", "ƾ", "ƅ", "Ҙ", "%", "$"}
 
     def fetch_by_article_id(self, article_id):
         url = f"https://next-yjs.moxingshu.cn/v1/file/get?articleId={article_id}"
@@ -155,6 +155,7 @@ class MoxingshuParser:
                 start_pos = match.start()
                 end_pos = match.end()
                 
+                # 核心清洗步骤
                 clean_text = self._deep_clean(raw_text)
                 
                 if self._is_valid_text(clean_text):
@@ -180,7 +181,7 @@ class MoxingshuParser:
             
             # 放宽合并条件：对于正则匹配，gap 可能会稍微大一点（跳过乱码）
             # 或者 gap 为 0 (紧邻)
-            if 0 <= gap < 25:
+            if 0 <= gap < 100:
                 # 拼接时加一个空格缓冲，或者是直接拼？
                 # 对于中文，直接拼。对于英文，可能需要空格。
                 # 简单起见，直接拼，依赖后续肉眼或 _deep_clean
@@ -241,13 +242,22 @@ class MoxingshuParser:
         
         # 3. 颜色/CSS
         clean = text.replace('"', '').replace("'", "").strip()
-        if self.color_pattern.match(clean): return False
+        # 只要包含颜色代码开头，就认为是颜色（处理后面跟乱码的情况）
+        if re.match(r'^#[0-9a-fA-F]{3,8}', clean) or clean.startswith("rgb"): return False
         
+        # 增强：过滤样式堆砌字符串 (如 "#f4e6b9"null"#3C373B")
+        if "#" in text and ("null" in lt or text.count("#") > 1):
+             return False
+        
+        # 过滤纯 null 或重复的 null
+        if lt.replace("null", "").strip() == "":
+             return False
+
         # 4. 纯英文过滤 (更严格)
         is_ascii = all(ord(c) < 128 for c in text)
         if is_ascii:
-            # 必须包含空格才算句子，除非是很长的单词
-            if " " not in text and len(text) < 20: return False
+            # 必须包含空格才算句子，除非是很长的单词 (如 backdrop-filter)
+            if " " not in text and len(text) < 12: return False
             # 必须包含字母或数字
             if not re.search(r'[a-zA-Z0-9]', text): return False
             # 如果全是符号
