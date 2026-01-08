@@ -21,7 +21,7 @@ class MoxingshuParser:
         }
         self.color_pattern = re.compile(r'^#[0-9a-fA-F]{3,8}$')
         # 垃圾字符黑名单 (包含 Protobuf 常见的干扰符)
-        self.garbage_chars = {"Ă", "ă", "ƾ", "ƅ", "Ҙ", "%", "$"}
+        self.garbage_chars = {"Ă", "ă", "ƾ", "ƅ", "Ҙ", "ƍ", "%", "$"}
 
     def fetch_by_article_id(self, article_id):
         url = f"https://next-yjs.moxingshu.cn/v1/file/get?articleId={article_id}"
@@ -112,8 +112,15 @@ class MoxingshuParser:
                         if t_clean == title.strip(): continue
                         if t_clean in seen_texts: continue
                         
-                        output_lines.append(f"{indent}  > {t_clean}")
+                        
+                        # 处理文本中的换行符：拆分为多行引用块
+                        lines_in_text = t_clean.split('\n')
+                        for line in lines_in_text:
+                            line = line.strip()
+                            if line:  # 跳过空行
+                                output_lines.append(f"{indent}  > {line}")
                         seen_texts.add(t_clean)
+
 
             for child in children_map.get(node["id"], []):
                 traverse(child, level + 1)
@@ -182,10 +189,31 @@ class MoxingshuParser:
             # 放宽合并条件：对于正则匹配，gap 可能会稍微大一点（跳过乱码）
             # 或者 gap 为 0 (紧邻)
             if 0 <= gap < 100:
-                # 拼接时加一个空格缓冲，或者是直接拼？
-                # 对于中文，直接拼。对于英文，可能需要空格。
-                # 简单起见，直接拼，依赖后续肉眼或 _deep_clean
-                current['text'] += next_item['text']
+                # 智能拼接：检查是否需要换行
+                # 如果当前文本以句号、问号、感叹号等结束，添加换行
+                # 如果下一个文本以大写字母或中文开头，也添加换行
+                current_text = current['text'].rstrip()
+                next_text = next_item['text'].lstrip()
+                
+                # 判断是否需要换行
+                needs_newline = False
+                if current_text and next_text:
+                    # 中文句子结束符
+                    if current_text[-1] in '。！？；）"':
+                        needs_newline = True
+                    # 英文句子结束符
+                    elif current_text[-1] in '.!?;)"':
+                        needs_newline = True
+                    # 下一个文本看起来是新句子（大写字母或中文开头）
+                    elif next_text[0].isupper() or '\u4e00' <= next_text[0] <= '\u9fff':
+                        # 但当前不是以逗号等连接符结束
+                        if current_text[-1] not in ',，、':
+                            needs_newline = True
+                
+                if needs_newline:
+                    current['text'] = current_text + '\n' + next_text
+                else:
+                    current['text'] = current_text + next_text
                 current['end'] = next_item['end']
             else:
                 merged.append(current)
@@ -225,6 +253,16 @@ class MoxingshuParser:
         if match:
              text = match.group(2)
              
+        # 5. 去除垃圾字符串模式 (如 "57lyiny2n200(", "abc123xyz(")
+        # 匹配模式：数字+字母+数字+特殊符号的组合
+        text = re.sub(r'\d+[a-z]+\d+[a-z]*\d*\(', '', text)
+        # 也处理行尾的情况
+        text = re.sub(r'\d+[a-z]+\d+[a-z]*\d*\([,\s]*$', '', text)
+        # 清理残留的逗号+单字母前缀
+        text = re.sub(r'^[,，]\s*[a-z]\s*', '', text)
+        # 清理单字母+#的前缀
+        text = re.sub(r'^[a-z]#', '', text)
+        
         return text.strip()
 
     def _is_valid_text(self, text):

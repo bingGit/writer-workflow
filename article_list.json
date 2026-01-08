@@ -397101,30 +397101,6 @@
       "isOCI": false
     },
     {
-      "id": "695bac6c025fab454389d642",
-      "title": "？",
-      "parentId": "695bac4d025fab454389d63d",
-      "topParents": null,
-      "sort": 0,
-      "version": 1,
-      "iconType": 0,
-      "iconDetail": {
-        "color": null,
-        "marked": false
-      },
-      "createTime": "2026-01-05 20:19:56",
-      "updateTime": "2026-01-05 20:19:58",
-      "exts": {
-        "editorVersion": 2,
-        "taskState": 0,
-        "taskTime": null,
-        "taskStateMark": null,
-        "nodeType": null,
-        "nodeValue": null
-      },
-      "isOCI": false
-    },
-    {
       "id": "695bb2cb025fab454389d748",
       "title": "线条",
       "parentId": "695bb40e025fab454389d790",
@@ -397153,7 +397129,7 @@
       "title": "举例",
       "parentId": "695baac6025fab454389d5fb",
       "topParents": null,
-      "sort": 1,
+      "sort": 2,
       "version": 1,
       "iconType": 0,
       "iconDetail": {
@@ -397161,7 +397137,7 @@
         "marked": false
       },
       "createTime": "2026-01-05 20:51:52",
-      "updateTime": "2026-01-06 08:13:24",
+      "updateTime": "2026-01-07 08:27:05",
       "exts": {
         "editorVersion": 2,
         "taskState": 0,
@@ -397247,17 +397223,17 @@
     {
       "id": "695bb447025fab454389d7af",
       "title": "抽象",
-      "parentId": "695c5390025fab454389de6f",
+      "parentId": "695eee3c025fab45438a2dc9",
       "topParents": null,
       "sort": 0,
-      "version": 3,
+      "version": 6,
       "iconType": 0,
       "iconDetail": {
         "color": null,
         "marked": false
       },
       "createTime": "2026-01-05 20:53:27",
-      "updateTime": "2026-01-06 08:13:20",
+      "updateTime": "2026-01-08 07:37:44",
       "exts": {
         "editorVersion": 2,
         "taskState": 0,
@@ -397271,17 +397247,17 @@
     {
       "id": "695bb44d025fab454389d7b2",
       "title": "视觉",
-      "parentId": "695c5390025fab454389de6f",
+      "parentId": "695eee3c025fab45438a2dc9",
       "topParents": null,
       "sort": 1,
-      "version": 3,
+      "version": 5,
       "iconType": 0,
       "iconDetail": {
         "color": null,
         "marked": false
       },
       "createTime": "2026-01-05 20:53:33",
-      "updateTime": "2026-01-06 08:13:21",
+      "updateTime": "2026-01-08 07:37:44",
       "exts": {
         "editorVersion": 2,
         "taskState": 0,
@@ -397295,17 +397271,17 @@
     {
       "id": "695bb454025fab454389d7b5",
       "title": "美点",
-      "parentId": "695c5390025fab454389de6f",
+      "parentId": "695eee3c025fab45438a2dc9",
       "topParents": null,
       "sort": 2,
-      "version": 3,
+      "version": 5,
       "iconType": 0,
       "iconDetail": {
         "color": null,
         "marked": false
       },
       "createTime": "2026-01-05 20:53:40",
-      "updateTime": "2026-01-06 08:13:24",
+      "updateTime": "2026-01-08 07:37:44",
       "exts": {
         "editorVersion": 2,
         "taskState": 0,
@@ -397513,7 +397489,7 @@
       "title": "方法",
       "parentId": "695baac6025fab454389d5fb",
       "topParents": null,
-      "sort": 2,
+      "sort": 3,
       "version": 1,
       "iconType": 0,
       "iconDetail": {
@@ -397521,7 +397497,7 @@
         "marked": false
       },
       "createTime": "2026-01-05 20:57:11",
-      "updateTime": "2026-01-06 08:13:24",
+      "updateTime": "2026-01-07 08:27:05",
       "exts": {
         "editorVersion": 2,
         "taskState": 0,
@@ -397582,18 +397558,18 @@
     },
     {
       "id": "695c5390025fab454389de6f",
-      "title": "因",
-      "parentId": "695baac6025fab454389d5fb",
+      "title": "选择性注意",
+      "parentId": "695da84b025fab45438a02c4",
       "topParents": null,
       "sort": 0,
-      "version": 2,
+      "version": 6,
       "iconType": 0,
       "iconDetail": {
         "color": null,
         "marked": false
       },
       "createTime": "2026-01-06 08:13:04",
-      "updateTime": "2026-01-06 08:13:20",
+      "updateTime": "2026-01-07 08:27:58",
       "exts": {
         "editorVersion": 2,
         "taskState": 0,
@@ -398254,18 +398230,18 @@
     },
     {
       "id": "695cffa1025fab454389f630",
-      "title": "涉及注意力、记忆、预期、情绪、文化背景的参与",
+      "title": "涉及注意力、记忆、预期、情\n绪、文化背景的参与",
       "parentId": "695cff82025fab454389f627",
       "topParents": null,
       "sort": 4,
-      "version": 1,
+      "version": 2,
       "iconType": 0,
       "iconDetail": {
         "color": null,
         "marked": false
       },
       "createTime": "2026-01-06 20:27:13",
-      "updateTime": "2026-01-06 20:48:57",
+      "updateTime": "2026-01-07 23:23:49",
       "exts": {
         "editorVersion": 2,
         "taskState": 0,
@@ -398302,18 +398278,18 @@
     },
     {
       "id": "695d0030025fab454389f651",
-      "title": "心理过程",
-      "parentId": "695cf257025fab454389f3e4",
+      "title": "认知输出",
+      "parentId": "695ef4ec025fab45438a2e11",
       "topParents": null,
       "sort": 0,
-      "version": 1,
+      "version": 3,
       "iconType": 0,
       "iconDetail": {
         "color": null,
         "marked": false
       },
       "createTime": "2026-01-06 20:29:36",
-      "updateTime": "2026-01-06 20:29:37",
+      "updateTime": "2026-01-08 08:06:09",
       "exts": {
         "editorVersion": 2,
         "taskState": 0,
@@ -398350,18 +398326,18 @@
     },
     {
       "id": "695d003c025fab454389f656",
-      "title": "物理过程",
-      "parentId": "695cf252025fab454389f3e2",
+      "title": "物理输出",
+      "parentId": "695ef58c025fab45438a2e1b",
       "topParents": null,
       "sort": 0,
-      "version": 1,
+      "version": 3,
       "iconType": 0,
       "iconDetail": {
         "color": null,
         "marked": false
       },
       "createTime": "2026-01-06 20:29:48",
-      "updateTime": "2026-01-06 20:29:57",
+      "updateTime": "2026-01-08 08:08:53",
       "exts": {
         "editorVersion": 2,
         "taskState": 0,
@@ -399322,6 +399298,6558 @@
       },
       "createTime": "2026-01-06 23:39:55",
       "updateTime": "2026-01-06 23:40:53",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695da773025fab45438a02b5",
+      "title": "看不到抽象视觉美点",
+      "parentId": "695da84b025fab45438a02c3",
+      "topParents": null,
+      "sort": 0,
+      "version": 8,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": true
+      },
+      "createTime": "2026-01-07 08:23:15",
+      "updateTime": "2026-01-08 16:02:41",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695da802025fab45438a02bd",
+      "title": "万物因果",
+      "parentId": "695baac6025fab454389d5fb",
+      "topParents": null,
+      "sort": 0,
+      "version": 2,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 08:25:38",
+      "updateTime": "2026-01-07 08:25:56",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695da84b025fab45438a02c3",
+      "title": "主题因果",
+      "parentId": "695baac6025fab454389d5fb",
+      "topParents": null,
+      "sort": 1,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 08:26:51",
+      "updateTime": "2026-01-07 08:27:00",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695da84b025fab45438a02c4",
+      "title": "认知资源有限性",
+      "parentId": "695da802025fab45438a02bd",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 08:26:51",
+      "updateTime": "2026-01-07 08:27:40",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695da89c025fab45438a02cd",
+      "title": "模式识别（简化策略）降低认\n知负荷",
+      "parentId": "695c5390025fab454389de6f",
+      "topParents": null,
+      "sort": 0,
+      "version": 4,
+      "iconType": 1,
+      "iconDetail": {
+        "color": null,
+        "marked": true
+      },
+      "createTime": "2026-01-07 08:28:12",
+      "updateTime": "2026-01-08 10:56:29",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695da8b8025fab45438a02d3",
+      "title": "格式塔组织原则（具体机制）",
+      "parentId": "695da89c025fab45438a02cd",
+      "topParents": null,
+      "sort": 0,
+      "version": 2,
+      "iconType": 1,
+      "iconDetail": {
+        "color": null,
+        "marked": true
+      },
+      "createTime": "2026-01-07 08:28:40",
+      "updateTime": "2026-01-07 23:29:09",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695da94b025fab45438a02e7",
+      "title": "知觉的建构性（同一输入→不\n同输出）",
+      "parentId": "695da8b8025fab45438a02d3",
+      "topParents": null,
+      "sort": 0,
+      "version": 2,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 08:31:07",
+      "updateTime": "2026-01-07 08:31:33",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695da977025fab45438a02ea",
+      "title": "艺术=形式的二次翻译",
+      "parentId": "695da94b025fab45438a02e7",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 1,
+      "iconDetail": {
+        "color": null,
+        "marked": true
+      },
+      "createTime": "2026-01-07 08:31:51",
+      "updateTime": "2026-01-07 23:32:13",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e17d1025fab45438a14ba",
+      "title": "目标思考",
+      "parentId": "68f19934ad6fb0d2e3ca1ab1",
+      "topParents": null,
+      "sort": 3,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:22:41",
+      "updateTime": "2026-01-07 16:22:53",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e180c025fab45438a14d8",
+      "title": "日记树",
+      "parentId": null,
+      "topParents": null,
+      "sort": 15,
+      "version": 1,
+      "iconType": 99,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:23:40",
+      "updateTime": "2026-01-07 16:23:57",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1824025fab45438a14de",
+      "title": "及时沟通",
+      "parentId": "695e180c025fab45438a14d8",
+      "topParents": null,
+      "sort": 0,
+      "version": 2,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:24:04",
+      "updateTime": "2026-01-07 16:24:26",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e183d025fab45438a14e5",
+      "title": "觉察",
+      "parentId": "695e1824025fab45438a14de",
+      "topParents": null,
+      "sort": 0,
+      "version": 2,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:24:29",
+      "updateTime": "2026-01-07 16:55:04",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f10025fab45438a1671",
+      "title": "日记树公开课",
+      "parentId": "695e1f1b025fab45438a1672",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 99,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:36",
+      "updateTime": "2026-01-07 16:54:12",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f10682faf4e97f51757",
+      "title": "习惯树",
+      "parentId": "695e1f10025fab45438a1671",
+      "topParents": null,
+      "sort": 0,
+      "version": 0,
+      "iconType": 99,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:36",
+      "updateTime": "2026-01-07 16:53:36",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f10682faf4e97f51755",
+      "title": "幸福树",
+      "parentId": "695e1f10025fab45438a1671",
+      "topParents": null,
+      "sort": 4,
+      "version": 0,
+      "iconType": 99,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:36",
+      "updateTime": "2026-01-07 16:53:36",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f10682faf4e97f51758",
+      "title": "信念树",
+      "parentId": "695e1f10025fab45438a1671",
+      "topParents": null,
+      "sort": 1,
+      "version": 0,
+      "iconType": 99,
+      "iconDetail": {
+        "color": null,
+        "marked": true
+      },
+      "createTime": "2026-01-07 16:53:36",
+      "updateTime": "2026-01-07 16:53:36",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f10682faf4e97f51759",
+      "title": "人生树",
+      "parentId": "695e1f10025fab45438a1671",
+      "topParents": null,
+      "sort": 5,
+      "version": 0,
+      "iconType": 99,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:36",
+      "updateTime": "2026-01-07 16:53:36",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f10682faf4e97f51756",
+      "title": "性格树",
+      "parentId": "695e1f10025fab45438a1671",
+      "topParents": null,
+      "sort": 2,
+      "version": 0,
+      "iconType": 99,
+      "iconDetail": {
+        "color": null,
+        "marked": true
+      },
+      "createTime": "2026-01-07 16:53:36",
+      "updateTime": "2026-01-07 16:53:36",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f10682faf4e97f5175a",
+      "title": "本能树",
+      "parentId": "695e1f10025fab45438a1671",
+      "topParents": null,
+      "sort": 3,
+      "version": 0,
+      "iconType": 99,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:36",
+      "updateTime": "2026-01-07 16:53:36",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f51767",
+      "title": "自尊树",
+      "parentId": "695e1f10682faf4e97f51758",
+      "topParents": null,
+      "sort": 2,
+      "version": 0,
+      "iconType": 99,
+      "iconDetail": {
+        "color": null,
+        "marked": true
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f51760",
+      "title": "人际",
+      "parentId": "695e1f10682faf4e97f51755",
+      "topParents": null,
+      "sort": 1,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f51762",
+      "title": "攻击性",
+      "parentId": "695e1f10682faf4e97f51756",
+      "topParents": null,
+      "sort": 3,
+      "version": 0,
+      "iconType": 1,
+      "iconDetail": {
+        "color": null,
+        "marked": true
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f51769",
+      "title": "高光时刻",
+      "parentId": "695e1f10682faf4e97f51759",
+      "topParents": null,
+      "sort": 1,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f51761",
+      "title": "工作",
+      "parentId": "695e1f10682faf4e97f51755",
+      "topParents": null,
+      "sort": 2,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f5176a",
+      "title": "重大事件",
+      "parentId": "695e1f10682faf4e97f51759",
+      "topParents": null,
+      "sort": 2,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f51766",
+      "title": "自能树",
+      "parentId": "695e1f10682faf4e97f51758",
+      "topParents": null,
+      "sort": 1,
+      "version": 0,
+      "iconType": 99,
+      "iconDetail": {
+        "color": null,
+        "marked": true
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f51763",
+      "title": "社恐性",
+      "parentId": "695e1f10682faf4e97f51756",
+      "topParents": null,
+      "sort": 1,
+      "version": 0,
+      "iconType": 1,
+      "iconDetail": {
+        "color": null,
+        "marked": true
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f5175f",
+      "title": "摇滚",
+      "parentId": "695e1f10682faf4e97f51755",
+      "topParents": null,
+      "sort": 0,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f51765",
+      "title": "习惯培养",
+      "parentId": "695e1f10682faf4e97f51757",
+      "topParents": null,
+      "sort": 1,
+      "version": 0,
+      "iconType": 1,
+      "iconDetail": {
+        "color": null,
+        "marked": true
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f51764",
+      "title": "上瘾戒断",
+      "parentId": "695e1f10682faf4e97f51757",
+      "topParents": null,
+      "sort": 0,
+      "version": 0,
+      "iconType": 1,
+      "iconDetail": {
+        "color": null,
+        "marked": true
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f51768",
+      "title": "至暗时刻",
+      "parentId": "695e1f10682faf4e97f51759",
+      "topParents": null,
+      "sort": 0,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f51773",
+      "title": "行动",
+      "parentId": "695e1f11682faf4e97f51762",
+      "topParents": null,
+      "sort": 1,
+      "version": 0,
+      "iconType": 1,
+      "iconDetail": {
+        "color": null,
+        "marked": true
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f51771",
+      "title": "销售",
+      "parentId": "695e1f11682faf4e97f51766",
+      "topParents": null,
+      "sort": 2,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f51772",
+      "title": "觉察",
+      "parentId": "695e1f11682faf4e97f51762",
+      "topParents": null,
+      "sort": 0,
+      "version": 0,
+      "iconType": 1,
+      "iconDetail": {
+        "color": null,
+        "marked": true
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f51776",
+      "title": "健身树",
+      "parentId": "695e1f11682faf4e97f51765",
+      "topParents": null,
+      "sort": 0,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f51775",
+      "title": "自律树",
+      "parentId": "695e1f11682faf4e97f51764",
+      "topParents": null,
+      "sort": 0,
+      "version": 0,
+      "iconType": 99,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f51770",
+      "title": "演讲",
+      "parentId": "695e1f11682faf4e97f51766",
+      "topParents": null,
+      "sort": 1,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f51774",
+      "title": "成长",
+      "parentId": "695e1f11682faf4e97f51762",
+      "topParents": null,
+      "sort": 2,
+      "version": 0,
+      "iconType": 1,
+      "iconDetail": {
+        "color": null,
+        "marked": true
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f5176f",
+      "title": "自媒体",
+      "parentId": "695e1f11682faf4e97f51766",
+      "topParents": null,
+      "sort": 0,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f5177a",
+      "title": "成长日记",
+      "parentId": "695e1f11682faf4e97f51767",
+      "topParents": null,
+      "sort": 2,
+      "version": 0,
+      "iconType": 1,
+      "iconDetail": {
+        "color": null,
+        "marked": true
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f51777",
+      "title": "觉察日记",
+      "parentId": "695e1f11682faf4e97f51767",
+      "topParents": null,
+      "sort": 0,
+      "version": 0,
+      "iconType": 1,
+      "iconDetail": {
+        "color": null,
+        "marked": true
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f51779",
+      "title": "反馈日记",
+      "parentId": "695e1f11682faf4e97f51767",
+      "topParents": null,
+      "sort": 3,
+      "version": 0,
+      "iconType": 1,
+      "iconDetail": {
+        "color": null,
+        "marked": true
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f51778",
+      "title": "行动日记",
+      "parentId": "695e1f11682faf4e97f51767",
+      "topParents": null,
+      "sort": 1,
+      "version": 0,
+      "iconType": 1,
+      "iconDetail": {
+        "color": null,
+        "marked": true
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f5177b",
+      "title": "？",
+      "parentId": "695e1f11682faf4e97f5175f",
+      "topParents": null,
+      "sort": 0,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f51795",
+      "title": "行动日记",
+      "parentId": "695e1f11682faf4e97f5176f",
+      "topParents": null,
+      "sort": 1,
+      "version": 0,
+      "iconType": 1,
+      "iconDetail": {
+        "color": null,
+        "marked": true
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f51799",
+      "title": "？",
+      "parentId": "695e1f11682faf4e97f51771",
+      "topParents": null,
+      "sort": 0,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f5178e",
+      "title": "不善拒绝",
+      "parentId": "695e1f11682faf4e97f51777",
+      "topParents": null,
+      "sort": 5,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f5178a",
+      "title": "新建模型",
+      "parentId": "695e1f11682faf4e97f51773",
+      "topParents": null,
+      "sort": 0,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f51791",
+      "title": "主动",
+      "parentId": "695e1f11682faf4e97f51778",
+      "topParents": null,
+      "sort": 2,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f5178b",
+      "title": "敏感多疑",
+      "parentId": "695e1f11682faf4e97f51777",
+      "topParents": null,
+      "sort": 2,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f51793",
+      "title": "语言反馈",
+      "parentId": "695e1f11682faf4e97f51779",
+      "topParents": null,
+      "sort": 0,
+      "version": 0,
+      "iconType": 1,
+      "iconDetail": {
+        "color": null,
+        "marked": true
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f5178d",
+      "title": "害怕冲突",
+      "parentId": "695e1f11682faf4e97f51777",
+      "topParents": null,
+      "sort": 4,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f51794",
+      "title": "事件反馈",
+      "parentId": "695e1f11682faf4e97f51779",
+      "topParents": null,
+      "sort": 1,
+      "version": 0,
+      "iconType": 1,
+      "iconDetail": {
+        "color": null,
+        "marked": true
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f5178c",
+      "title": "讨好迎合",
+      "parentId": "695e1f11682faf4e97f51777",
+      "topParents": null,
+      "sort": 3,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f51796",
+      "title": "成长日记",
+      "parentId": "695e1f11682faf4e97f5176f",
+      "topParents": null,
+      "sort": 2,
+      "version": 0,
+      "iconType": 1,
+      "iconDetail": {
+        "color": null,
+        "marked": true
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f51797",
+      "title": "成就日记",
+      "parentId": "695e1f11682faf4e97f5176f",
+      "topParents": null,
+      "sort": 3,
+      "version": 0,
+      "iconType": 1,
+      "iconDetail": {
+        "color": null,
+        "marked": true
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f51792",
+      "title": "？",
+      "parentId": "695e1f11682faf4e97f51778",
+      "topParents": null,
+      "sort": 2,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f51798",
+      "title": "？",
+      "parentId": "695e1f11682faf4e97f51770",
+      "topParents": null,
+      "sort": 0,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f5178f",
+      "title": "害怕拒绝",
+      "parentId": "695e1f11682faf4e97f51777",
+      "topParents": null,
+      "sort": 5,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f51790",
+      "title": "拒绝",
+      "parentId": "695e1f11682faf4e97f51778",
+      "topParents": null,
+      "sort": 1,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f517b8",
+      "title": "学习",
+      "parentId": "695e1f11682faf4e97f51795",
+      "topParents": null,
+      "sort": 0,
+      "version": 0,
+      "iconType": 1,
+      "iconDetail": {
+        "color": null,
+        "marked": true
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f517b9",
+      "title": "做事",
+      "parentId": "695e1f11682faf4e97f51795",
+      "topParents": null,
+      "sort": 1,
+      "version": 0,
+      "iconType": 1,
+      "iconDetail": {
+        "color": null,
+        "marked": true
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f517bb",
+      "title": "能力成长",
+      "parentId": "695e1f11682faf4e97f51796",
+      "topParents": null,
+      "sort": 1,
+      "version": 0,
+      "iconType": 1,
+      "iconDetail": {
+        "color": null,
+        "marked": true
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f517c1",
+      "title": "Lv01.拒绝xxx不合理的要求",
+      "parentId": "695e1f11682faf4e97f51790",
+      "topParents": null,
+      "sort": 0,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f517be",
+      "title": "粉丝",
+      "parentId": "695e1f11682faf4e97f51797",
+      "topParents": null,
+      "sort": 1,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f517c5",
+      "title": "魅力",
+      "parentId": "695e1f11682faf4e97f51793",
+      "topParents": null,
+      "sort": 0,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f517bd",
+      "title": "爆款",
+      "parentId": "695e1f11682faf4e97f51797",
+      "topParents": null,
+      "sort": 0,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f517bc",
+      "title": "心理成长",
+      "parentId": "695e1f11682faf4e97f51796",
+      "topParents": null,
+      "sort": 2,
+      "version": 0,
+      "iconType": 1,
+      "iconDetail": {
+        "color": null,
+        "marked": true
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f517ba",
+      "title": "认知成长",
+      "parentId": "695e1f11682faf4e97f51796",
+      "topParents": null,
+      "sort": 0,
+      "version": 0,
+      "iconType": 1,
+      "iconDetail": {
+        "color": null,
+        "marked": true
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f517c0",
+      "title": "？",
+      "parentId": "695e1f11682faf4e97f5178e",
+      "topParents": null,
+      "sort": 0,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f517c2",
+      "title": "Lv02.……",
+      "parentId": "695e1f11682faf4e97f51790",
+      "topParents": null,
+      "sort": 1,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f517c4",
+      "title": "……",
+      "parentId": "695e1f11682faf4e97f51793",
+      "topParents": null,
+      "sort": 1,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f517c7",
+      "title": "？",
+      "parentId": "695e1f11682faf4e97f51794",
+      "topParents": null,
+      "sort": 1,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f517c6",
+      "title": "爱情",
+      "parentId": "695e1f11682faf4e97f51794",
+      "topParents": null,
+      "sort": 0,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f517c8",
+      "title": "不敢跟xxx打招呼",
+      "parentId": "695e1f11682faf4e97f5178f",
+      "topParents": null,
+      "sort": 0,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f517bf",
+      "title": "？",
+      "parentId": "695e1f11682faf4e97f5178d",
+      "topParents": null,
+      "sort": 0,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f517c3",
+      "title": "Lv01.主动找喜欢的人聊天",
+      "parentId": "695e1f11682faf4e97f51791",
+      "topParents": null,
+      "sort": 0,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f517f2",
+      "title": "LV01.会制作一张好看的封面图",
+      "parentId": "695e1f11682faf4e97f517bb",
+      "topParents": null,
+      "sort": 0,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f517eb",
+      "title": "聊天",
+      "parentId": "695e1f11682faf4e97f517c6",
+      "topParents": null,
+      "sort": 0,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f517f1",
+      "title": "Lv01.今天写了第一篇公众号\n文章",
+      "parentId": "695e1f11682faf4e97f517b9",
+      "topParents": null,
+      "sort": 0,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f517ee",
+      "title": "L01.今天写出一篇万赞爆款",
+      "parentId": "695e1f11682faf4e97f517bd",
+      "topParents": null,
+      "sort": 0,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f517ed",
+      "title": "……",
+      "parentId": "695e1f11682faf4e97f517c6",
+      "topParents": null,
+      "sort": 2,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f517ef",
+      "title": "Lv02.公众号突破500粉丝",
+      "parentId": "695e1f11682faf4e97f517be",
+      "topParents": null,
+      "sort": 0,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f517f3",
+      "title": "Lv02.会快速取一个好标题",
+      "parentId": "695e1f11682faf4e97f517bb",
+      "topParents": null,
+      "sort": 1,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f517ec",
+      "title": "约会",
+      "parentId": "695e1f11682faf4e97f517c6",
+      "topParents": null,
+      "sort": 1,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f517f5",
+      "title": "穿搭",
+      "parentId": "695e1f11682faf4e97f517c5",
+      "topParents": null,
+      "sort": 1,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f517f0",
+      "title": "Lv01.今天学了兰陵王的《人\n性写作法》",
+      "parentId": "695e1f11682faf4e97f517b8",
+      "topParents": null,
+      "sort": 0,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f517f6",
+      "title": "皮肤",
+      "parentId": "695e1f11682faf4e97f517c5",
+      "topParents": null,
+      "sort": 2,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f517f4",
+      "title": "外表",
+      "parentId": "695e1f11682faf4e97f517c5",
+      "topParents": null,
+      "sort": 0,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f517f7",
+      "title": "气质",
+      "parentId": "695e1f11682faf4e97f517c5",
+      "topParents": null,
+      "sort": 3,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f517f8",
+      "title": "说话",
+      "parentId": "695e1f11682faf4e97f517c5",
+      "topParents": null,
+      "sort": 4,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f51818",
+      "title": "……",
+      "parentId": "695e1f11682faf4e97f517eb",
+      "topParents": null,
+      "sort": 0,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f51819",
+      "title": "lv01.",
+      "parentId": "695e1f11682faf4e97f517ec",
+      "topParents": null,
+      "sort": 0,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f51816",
+      "title": "……",
+      "parentId": "695e1f11682faf4e97f517f4",
+      "topParents": null,
+      "sort": 1,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f51815",
+      "title": "Lv01.黑屋乐队2个人夸我很帅",
+      "parentId": "695e1f11682faf4e97f517f4",
+      "topParents": null,
+      "sort": 0,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f11682faf4e97f51817",
+      "title": "Lv01.",
+      "parentId": "695e1f11682faf4e97f517f8",
+      "topParents": null,
+      "sort": 0,
+      "version": 0,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:37",
+      "updateTime": "2026-01-07 16:53:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f1b025fab45438a1672",
+      "title": "兰陵王树",
+      "parentId": "695e180c025fab45438a14d8",
+      "topParents": null,
+      "sort": 1,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:53:47",
+      "updateTime": "2026-01-07 16:53:59",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f6c025fab45438a168d",
+      "title": "行动",
+      "parentId": "695e1824025fab45438a14de",
+      "topParents": null,
+      "sort": 1,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:55:08",
+      "updateTime": "2026-01-07 16:55:12",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f72025fab45438a168f",
+      "title": "成长",
+      "parentId": "695e1824025fab45438a14de",
+      "topParents": null,
+      "sort": 2,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:55:14",
+      "updateTime": "2026-01-07 16:55:18",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1f77025fab45438a1691",
+      "title": "反馈",
+      "parentId": "695e1824025fab45438a14de",
+      "topParents": null,
+      "sort": 3,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:55:19",
+      "updateTime": "2026-01-07 16:55:21",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1fdd025fab45438a16bc",
+      "title": "工作",
+      "parentId": "695e183d025fab45438a14e5",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:57:01",
+      "updateTime": "2026-01-07 16:57:05",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e1fe3025fab45438a16bd",
+      "title": "lv01. 告诉组长审核sql，我没\n想到即做到，内心在犹豫",
+      "parentId": "695e1fdd025fab45438a16bc",
+      "topParents": null,
+      "sort": 0,
+      "version": 3,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 16:57:07",
+      "updateTime": "2026-01-07 17:04:17",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e221f025fab45438a176d",
+      "title": "lv01. 犹豫后告诉了对方",
+      "parentId": "695e1f6c025fab45438a168d",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 17:06:39",
+      "updateTime": "2026-01-07 17:08:57",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e22f9025fab45438a17bc",
+      "title": "语言反馈",
+      "parentId": "695e1f77025fab45438a1691",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 17:10:17",
+      "updateTime": "2026-01-07 17:10:23",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e2300025fab45438a17c1",
+      "title": "事件反馈",
+      "parentId": "695e1f77025fab45438a1691",
+      "topParents": null,
+      "sort": 1,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 17:10:24",
+      "updateTime": "2026-01-07 17:10:35",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e2363025fab45438a17e5",
+      "title": "心理成长",
+      "parentId": "695e1f72025fab45438a168f",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 17:12:03",
+      "updateTime": "2026-01-07 17:12:14",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e2370025fab45438a17ee",
+      "title": "lv01-02. 再次认识自己的不足",
+      "parentId": "695e2363025fab45438a17e5",
+      "topParents": null,
+      "sort": 0,
+      "version": 2,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 17:12:16",
+      "updateTime": "2026-01-07 23:20:32",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e3785025fab45438a1e1a",
+      "title": "心理反馈",
+      "parentId": "695e1f77025fab45438a1691",
+      "topParents": null,
+      "sort": 2,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 18:37:57",
+      "updateTime": "2026-01-07 18:38:03",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e653a025fab45438a2789",
+      "title": "方法",
+      "parentId": "695e17d1025fab45438a14ba",
+      "topParents": null,
+      "sort": 1,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 21:52:58",
+      "updateTime": "2026-01-07 21:53:26",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e6547025fab45438a278d",
+      "title": "因",
+      "parentId": "695e17d1025fab45438a14ba",
+      "topParents": null,
+      "sort": 0,
+      "version": 2,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 21:53:11",
+      "updateTime": "2026-01-07 21:53:26",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e655c025fab45438a2795",
+      "title": "生存与繁衍",
+      "parentId": "695e65a8025fab45438a27a7",
+      "topParents": null,
+      "sort": 0,
+      "version": 2,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 21:53:32",
+      "updateTime": "2026-01-07 21:55:04",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e656f025fab45438a279d",
+      "title": "有意识",
+      "parentId": "695e6547025fab45438a278d",
+      "topParents": null,
+      "sort": 1,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 21:53:51",
+      "updateTime": "2026-01-07 22:00:03",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e6578025fab45438a27a0",
+      "title": "多巴胺机制",
+      "parentId": "695e692c025fab45438a2884",
+      "topParents": null,
+      "sort": 0,
+      "version": 2,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 21:54:00",
+      "updateTime": "2026-01-07 22:10:13",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e6580025fab45438a27a3",
+      "title": "恐惧驱动",
+      "parentId": "695e6949025fab45438a2887",
+      "topParents": null,
+      "sort": 0,
+      "version": 3,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 21:54:08",
+      "updateTime": "2026-01-07 22:10:42",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e65a8025fab45438a27a7",
+      "title": "传递基因",
+      "parentId": "695e672d025fab45438a27f9",
+      "topParents": null,
+      "sort": 0,
+      "version": 5,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 21:54:48",
+      "updateTime": "2026-01-07 22:01:23",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e66d7025fab45438a27e6",
+      "title": "无意识",
+      "parentId": "695e6547025fab45438a278d",
+      "topParents": null,
+      "sort": 0,
+      "version": 2,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 21:59:51",
+      "updateTime": "2026-01-07 21:59:58",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e672d025fab45438a27f9",
+      "title": "生物本能",
+      "parentId": "695e6f53025fab45438a2974",
+      "topParents": null,
+      "sort": 0,
+      "version": 3,
+      "iconType": 1,
+      "iconDetail": {
+        "color": null,
+        "marked": true
+      },
+      "createTime": "2026-01-07 22:01:17",
+      "updateTime": "2026-01-07 22:48:40",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e6739025fab45438a27fe",
+      "title": "1. 欲望",
+      "parentId": "695e6f57025fab45438a2978",
+      "topParents": null,
+      "sort": 0,
+      "version": 5,
+      "iconType": 1,
+      "iconDetail": {
+        "color": null,
+        "marked": true
+      },
+      "createTime": "2026-01-07 22:01:29",
+      "updateTime": "2026-01-07 23:12:28",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e692c025fab45438a2884",
+      "title": "油门-加速做一件事",
+      "parentId": "695e655c025fab45438a2795",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 22:09:48",
+      "updateTime": "2026-01-07 22:10:15",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e6949025fab45438a2887",
+      "title": "刹车-抑制做一件事",
+      "parentId": "695e655c025fab45438a2795",
+      "topParents": null,
+      "sort": 1,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 22:10:17",
+      "updateTime": "2026-01-07 22:10:42",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e6db6025fab45438a2905",
+      "title": "需要",
+      "parentId": "695e7219025fab45438a29e4",
+      "topParents": null,
+      "sort": 0,
+      "version": 2,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 22:29:10",
+      "updateTime": "2026-01-07 22:47:58",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e6dbc025fab45438a2906",
+      "title": "想要",
+      "parentId": "695e7220025fab45438a29e6",
+      "topParents": null,
+      "sort": 0,
+      "version": 2,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 22:29:16",
+      "updateTime": "2026-01-07 22:48:12",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e6df2025fab45438a290d",
+      "title": "需要和想要的区别",
+      "parentId": "695e653a025fab45438a2789",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 22:30:10",
+      "updateTime": "2026-01-07 22:30:16",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e6e7b025fab45438a2928",
+      "title": "社会模仿",
+      "parentId": "695e770e025fab45438a2aa8",
+      "topParents": null,
+      "sort": 0,
+      "version": 2,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 22:32:27",
+      "updateTime": "2026-01-07 23:09:08",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e6e7e025fab45438a292a",
+      "title": "竞争",
+      "parentId": "695e770e025fab45438a2aa8",
+      "topParents": null,
+      "sort": 1,
+      "version": 2,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 22:32:30",
+      "updateTime": "2026-01-07 23:09:10",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e6e9c025fab45438a2931",
+      "title": "对象的来源不同",
+      "parentId": "695e6df2025fab45438a290d",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 22:33:00",
+      "updateTime": "2026-01-07 22:33:01",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e6e9f025fab45438a2932",
+      "title": "紧迫性的性质不同",
+      "parentId": "695e6df2025fab45438a290d",
+      "topParents": null,
+      "sort": 1,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 22:33:03",
+      "updateTime": "2026-01-07 22:50:48",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e6ea0025fab45438a2934",
+      "title": "✅区分需要和想要",
+      "parentId": "695e6ea2025fab45438a2936",
+      "topParents": null,
+      "sort": 1,
+      "version": 5,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 22:33:04",
+      "updateTime": "2026-01-07 22:57:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e6ea2025fab45438a2936",
+      "title": "认知陷阱",
+      "parentId": "695e6df2025fab45438a290d",
+      "topParents": null,
+      "sort": 2,
+      "version": 7,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": true
+      },
+      "createTime": "2026-01-07 22:33:06",
+      "updateTime": "2026-01-07 22:57:28",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e6ec3025fab45438a293d",
+      "title": "生物本能",
+      "parentId": "695e6e9c025fab45438a2931",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 22:33:39",
+      "updateTime": "2026-01-07 22:33:40",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e6ec7025fab45438a293e",
+      "title": "模仿欲望",
+      "parentId": "695e6e9c025fab45438a2931",
+      "topParents": null,
+      "sort": 1,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 22:33:43",
+      "updateTime": "2026-01-07 22:33:49",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e6ed5025fab45438a2942",
+      "title": "对象是确定的、通用的",
+      "parentId": "695e6f8e025fab45438a2984",
+      "topParents": null,
+      "sort": 0,
+      "version": 2,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": true
+      },
+      "createTime": "2026-01-07 22:33:57",
+      "updateTime": "2026-01-07 22:37:10",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e6ee3025fab45438a2949",
+      "title": "血糖低了->找糖",
+      "parentId": "695e6ed5025fab45438a2942",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 22:34:11",
+      "updateTime": "2026-01-07 22:34:12",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e6ee6025fab45438a294a",
+      "title": "口渴了->找水",
+      "parentId": "695e6ed5025fab45438a2942",
+      "topParents": null,
+      "sort": 1,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 22:34:14",
+      "updateTime": "2026-01-07 22:34:22",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e6ef3025fab45438a294e",
+      "title": "遇到异性->繁衍",
+      "parentId": "695e6ed5025fab45438a2942",
+      "topParents": null,
+      "sort": 2,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 22:34:27",
+      "updateTime": "2026-01-07 22:34:28",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e6f05025fab45438a2955",
+      "title": "对象是空的、下载的",
+      "parentId": "695e6f97025fab45438a2985",
+      "topParents": null,
+      "sort": 0,
+      "version": 2,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 22:34:45",
+      "updateTime": "2026-01-07 22:37:19",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e6f2f025fab45438a2969",
+      "title": "你要买爱马仕",
+      "parentId": "695e6f05025fab45438a2955",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 22:35:27",
+      "updateTime": "2026-01-07 22:36:36",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e6f53025fab45438a2974",
+      "title": "怎么活下来",
+      "parentId": "695e6db6025fab45438a2905",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 22:36:03",
+      "updateTime": "2026-01-07 22:36:06",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e6f57025fab45438a2978",
+      "title": "为什么而活",
+      "parentId": "695e6dbc025fab45438a2906",
+      "topParents": null,
+      "sort": 0,
+      "version": 2,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 22:36:07",
+      "updateTime": "2026-01-07 22:36:15",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e6f7a025fab45438a297f",
+      "title": "你要考公务员",
+      "parentId": "695e6f05025fab45438a2955",
+      "topParents": null,
+      "sort": 1,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 22:36:42",
+      "updateTime": "2026-01-07 22:36:43",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e6f8e025fab45438a2984",
+      "title": "怎么活下来",
+      "parentId": "695e6ec3025fab45438a293d",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 22:37:02",
+      "updateTime": "2026-01-07 22:37:10",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e6f97025fab45438a2985",
+      "title": "为什么而活",
+      "parentId": "695e6ec7025fab45438a293e",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 22:37:11",
+      "updateTime": "2026-01-07 22:37:19",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e7219025fab45438a29e4",
+      "title": "内求",
+      "parentId": "695e66d7025fab45438a27e6",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 22:47:53",
+      "updateTime": "2026-01-07 22:47:59",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e7220025fab45438a29e6",
+      "title": "外求",
+      "parentId": "695e656f025fab45438a279d",
+      "topParents": null,
+      "sort": 0,
+      "version": 2,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 22:48:00",
+      "updateTime": "2026-01-07 22:48:12",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e7273025fab45438a29ee",
+      "title": "果",
+      "parentId": "695e6739025fab45438a27fe",
+      "topParents": null,
+      "sort": 1,
+      "version": 3,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 22:49:23",
+      "updateTime": "2026-01-07 23:09:10",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e727c025fab45438a29f3",
+      "title": "存在感",
+      "parentId": "695e7273025fab45438a29ee",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 22:49:32",
+      "updateTime": "2026-01-07 22:49:40",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e7289025fab45438a29f4",
+      "title": "满足除生存以外的空虚感",
+      "parentId": "695e7273025fab45438a29ee",
+      "topParents": null,
+      "sort": 1,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 22:49:45",
+      "updateTime": "2026-01-07 22:50:12",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e72ce025fab45438a29f8",
+      "title": "生存痛",
+      "parentId": "695e6e9f025fab45438a2932",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 22:50:54",
+      "updateTime": "2026-01-07 22:50:58",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e72d3025fab45438a29fb",
+      "title": "身份痛",
+      "parentId": "695e6e9f025fab45438a2932",
+      "topParents": null,
+      "sort": 1,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 22:50:59",
+      "updateTime": "2026-01-07 22:51:04",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e72ef025fab45438a2a00",
+      "title": "会死",
+      "parentId": "695e72ce025fab45438a29f8",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 22:51:27",
+      "updateTime": "2026-01-07 22:51:33",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e72f6025fab45438a2a03",
+      "title": "会生病",
+      "parentId": "695e72ce025fab45438a29f8",
+      "topParents": null,
+      "sort": 1,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 22:51:34",
+      "updateTime": "2026-01-07 22:51:38",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e7307025fab45438a2a06",
+      "title": "自我感觉受伤，但真实，身体\n不受伤",
+      "parentId": "695e72d3025fab45438a29fb",
+      "topParents": null,
+      "sort": 0,
+      "version": 2,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 22:51:51",
+      "updateTime": "2026-01-07 22:52:16",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e732f025fab45438a2a0d",
+      "title": "维护我是谁这个身份",
+      "parentId": "695e72d3025fab45438a29fb",
+      "topParents": null,
+      "sort": 1,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 22:52:31",
+      "updateTime": "2026-01-07 22:52:38",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e73b0025fab45438a2a41",
+      "title": "❌“想要”误以为是“需要”",
+      "parentId": "695e6ea2025fab45438a2936",
+      "topParents": null,
+      "sort": 0,
+      "version": 2,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 22:54:40",
+      "updateTime": "2026-01-07 22:57:20",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e73c3025fab45438a2a4a",
+      "title": "举例",
+      "parentId": "695e73b0025fab45438a2a41",
+      "topParents": null,
+      "sort": 0,
+      "version": 2,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 22:54:59",
+      "updateTime": "2026-01-07 22:57:31",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e741f025fab45438a2a56",
+      "title": "正确面对冲动",
+      "parentId": "695e6ea0025fab45438a2934",
+      "topParents": null,
+      "sort": 0,
+      "version": 3,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 22:56:31",
+      "updateTime": "2026-01-07 22:59:15",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e74e0025fab45438a2a6c",
+      "title": "举例",
+      "parentId": "695e741f025fab45438a2a56",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 22:59:44",
+      "updateTime": "2026-01-07 22:59:52",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e7668025fab45438a2a94",
+      "title": "进大厂",
+      "parentId": "695e6e7b025fab45438a2928",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 23:06:16",
+      "updateTime": "2026-01-07 23:06:24",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e7672025fab45438a2a97",
+      "title": "网红打卡",
+      "parentId": "695e6e7b025fab45438a2928",
+      "topParents": null,
+      "sort": 1,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 23:06:26",
+      "updateTime": "2026-01-07 23:06:31",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e7681025fab45438a2a9a",
+      "title": "身份认同",
+      "parentId": "695e727c025fab45438a29f3",
+      "topParents": null,
+      "sort": 0,
+      "version": 2,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 23:06:41",
+      "updateTime": "2026-01-07 23:06:50",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e770e025fab45438a2aa8",
+      "title": "因",
+      "parentId": "695e6739025fab45438a27fe",
+      "topParents": null,
+      "sort": 0,
+      "version": 2,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 23:09:02",
+      "updateTime": "2026-01-07 23:09:08",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e7717025fab45438a2aa9",
+      "title": "创伤",
+      "parentId": "695e7734025fab45438a2aaf",
+      "topParents": null,
+      "sort": 0,
+      "version": 3,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 23:09:11",
+      "updateTime": "2026-01-07 23:12:07",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e7734025fab45438a2aaf",
+      "title": "对自身缺陷的补偿",
+      "parentId": "695e78b1025fab45438a2aee",
+      "topParents": null,
+      "sort": 0,
+      "version": 5,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 23:09:40",
+      "updateTime": "2026-01-07 23:16:26",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e77bc025fab45438a2abd",
+      "title": "3. 创造与使命感",
+      "parentId": "695e6f57025fab45438a2978",
+      "topParents": null,
+      "sort": 2,
+      "version": 2,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 23:11:56",
+      "updateTime": "2026-01-07 23:16:22",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e7811025fab45438a2ac7",
+      "title": "我想体验什么？",
+      "parentId": "695e77bc025fab45438a2abd",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 23:13:21",
+      "updateTime": "2026-01-07 23:13:33",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e781f025fab45438a2ad7",
+      "title": "我想留下什么？",
+      "parentId": "695e77bc025fab45438a2abd",
+      "topParents": null,
+      "sort": 1,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 23:13:35",
+      "updateTime": "2026-01-07 23:13:40",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e78b1025fab45438a2aee",
+      "title": "2. 心理代偿-疗愈",
+      "parentId": "695e6f57025fab45438a2978",
+      "topParents": null,
+      "sort": 1,
+      "version": 2,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 23:16:01",
+      "updateTime": "2026-01-07 23:16:22",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e7959025fab45438a2b01",
+      "title": "lv02. 想要申请鼠标垫，却犹\n豫，最后用不需要的理由说服\n自己",
+      "parentId": "695e1fdd025fab45438a16bc",
+      "topParents": null,
+      "sort": 1,
+      "version": 3,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 23:18:49",
+      "updateTime": "2026-01-07 23:19:54",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e79a7025fab45438a2b10",
+      "title": "lv02. 犹豫后没有行动",
+      "parentId": "695e1f6c025fab45438a168d",
+      "topParents": null,
+      "sort": 1,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 23:20:07",
+      "updateTime": "2026-01-07 23:20:19",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e7c6a025fab45438a2b55",
+      "title": "第一次翻译：艺术家的\"看到\"",
+      "parentId": "695da977025fab45438a02ea",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 23:31:54",
+      "updateTime": "2026-01-07 23:31:59",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695e7c76025fab45438a2b56",
+      "title": "第二次翻译：作品的\"呈现\"",
+      "parentId": "695da977025fab45438a02ea",
+      "topParents": null,
+      "sort": 1,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-07 23:32:06",
+      "updateTime": "2026-01-07 23:32:09",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695eee3c025fab45438a2dc9",
+      "title": "解释",
+      "parentId": "695da773025fab45438a02b5",
+      "topParents": null,
+      "sort": 1,
+      "version": 2,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 07:37:32",
+      "updateTime": "2026-01-08 07:37:51",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695eee4a025fab45438a2dcb",
+      "title": "因",
+      "parentId": "695da773025fab45438a02b5",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 07:37:46",
+      "updateTime": "2026-01-08 07:37:51",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695eee54025fab45438a2dcd",
+      "title": "注意力分配模式不同",
+      "parentId": "695eee4a025fab45438a2dcb",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 07:37:56",
+      "updateTime": "2026-01-08 07:38:20",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695eee96025fab45438a2dd0",
+      "title": "注意力被\"实用信息\"占据",
+      "parentId": "695eefb6025fab45438a2dda",
+      "topParents": null,
+      "sort": 0,
+      "version": 3,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 07:39:02",
+      "updateTime": "2026-01-08 07:51:28",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695eef16025fab45438a2dd4",
+      "title": "生存优先模式",
+      "parentId": "695eee96025fab45438a2dd0",
+      "topParents": null,
+      "sort": 0,
+      "version": 3,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 07:41:10",
+      "updateTime": "2026-01-08 07:51:35",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695eef3e025fab45438a2dd5",
+      "title": "有用信息优先",
+      "parentId": "695eef16025fab45438a2dd4",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 07:41:50",
+      "updateTime": "2026-01-08 07:42:03",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695eef6f025fab45438a2dd6",
+      "title": "\"有用\"定义：与当前任务/目标\n/安全相关",
+      "parentId": "695eef3e025fab45438a2dd5",
+      "topParents": null,
+      "sort": 0,
+      "version": 2,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 07:42:39",
+      "updateTime": "2026-01-08 07:43:08",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695eefb6025fab45438a2dda",
+      "title": "元素被自动过滤",
+      "parentId": "695eee54025fab45438a2dcd",
+      "topParents": null,
+      "sort": 0,
+      "version": 3,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 07:43:50",
+      "updateTime": "2026-01-08 07:56:10",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695eefbf025fab45438a2ddb",
+      "title": "缺乏\"对比知觉\"的触发",
+      "parentId": "695eee4a025fab45438a2dcb",
+      "topParents": null,
+      "sort": 1,
+      "version": 4,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 07:43:59",
+      "updateTime": "2026-01-08 07:56:24",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef0a5025fab45438a2deb",
+      "title": "缺乏看关系的认知习惯",
+      "parentId": "695ef0ff025fab45438a2ded",
+      "topParents": null,
+      "sort": 0,
+      "version": 2,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 07:47:49",
+      "updateTime": "2026-01-08 07:49:24",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef0ff025fab45438a2ded",
+      "title": "知觉自动化",
+      "parentId": "695eee54025fab45438a2dcd",
+      "topParents": null,
+      "sort": 1,
+      "version": 2,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 07:49:19",
+      "updateTime": "2026-01-08 07:51:28",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef124025fab45438a2dee",
+      "title": "教育偏向概念化",
+      "parentId": "695ef0a5025fab45438a2deb",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 07:49:56",
+      "updateTime": "2026-01-08 07:49:57",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef19a025fab45438a2df4",
+      "title": "大脑快速贴标签后停止观察",
+      "parentId": "695ef124025fab45438a2dee",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 07:51:54",
+      "updateTime": "2026-01-08 07:51:55",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef1a6025fab45438a2df5",
+      "title": "举例",
+      "parentId": "695ef19a025fab45438a2df4",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 07:52:06",
+      "updateTime": "2026-01-08 07:52:18",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef1bc025fab45438a2df6",
+      "title": "普通人",
+      "parentId": "695ef1a6025fab45438a2df5",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 07:52:28",
+      "updateTime": "2026-01-08 07:52:32",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef1c3025fab45438a2df7",
+      "title": "看到椅子→标记\"椅子\"→注意力移开",
+      "parentId": "695ef1bc025fab45438a2df6",
+      "topParents": null,
+      "sort": 0,
+      "version": 2,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 07:52:35",
+      "updateTime": "2026-01-08 07:52:41",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef1cb025fab45438a2df8",
+      "title": "艺术家",
+      "parentId": "695ef1a6025fab45438a2df5",
+      "topParents": null,
+      "sort": 1,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 07:52:43",
+      "updateTime": "2026-01-08 07:52:48",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef1d9025fab45438a2dfa",
+      "title": "看到椅子→悬置概念→持续观\n察光线流动、线条交汇、阴影\n形状",
+      "parentId": "695ef1cb025fab45438a2df8",
+      "topParents": null,
+      "sort": 0,
+      "version": 3,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 07:52:57",
+      "updateTime": "2026-01-08 07:54:04",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef2b5025fab45438a2e00",
+      "title": "单次曝光无法激活关系意识",
+      "parentId": "695eefbf025fab45438a2ddb",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 07:56:37",
+      "updateTime": "2026-01-08 07:56:40",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef2d8025fab45438a2e01",
+      "title": "关系本身不可见",
+      "parentId": "695ef320025fab45438a2e07",
+      "topParents": null,
+      "sort": 0,
+      "version": 2,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 07:57:12",
+      "updateTime": "2026-01-08 07:58:31",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef2e2025fab45438a2e02",
+      "title": "关系存在于\"比较\"中",
+      "parentId": "695ef2d8025fab45438a2e01",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 07:57:22",
+      "updateTime": "2026-01-08 07:57:23",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef2eb025fab45438a2e03",
+      "title": "顺光的作用，只有与侧光对比才能被看到",
+      "parentId": "695ef2d8025fab45438a2e01",
+      "topParents": null,
+      "sort": 1,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 07:57:31",
+      "updateTime": "2026-01-08 07:57:32",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef30c025fab45438a2e05",
+      "title": "方法",
+      "parentId": "695ef2b5025fab45438a2e00",
+      "topParents": null,
+      "sort": 1,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 07:58:04",
+      "updateTime": "2026-01-08 07:58:31",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef316025fab45438a2e06",
+      "title": "拍两张同一场景不同光线的照片对比",
+      "parentId": "695ef30c025fab45438a2e05",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 07:58:14",
+      "updateTime": "2026-01-08 07:58:19",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef320025fab45438a2e07",
+      "title": "因",
+      "parentId": "695ef2b5025fab45438a2e00",
+      "topParents": null,
+      "sort": 0,
+      "version": 2,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 07:58:24",
+      "updateTime": "2026-01-08 07:58:31",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef336025fab45438a2e08",
+      "title": "不知道\"好\"的标准在哪里",
+      "parentId": "695ef379025fab45438a2e0b",
+      "topParents": null,
+      "sort": 0,
+      "version": 3,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 07:58:46",
+      "updateTime": "2026-01-08 07:59:56",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef35b025fab45438a2e0a",
+      "title": "审美标准的习得性",
+      "parentId": "695ef336025fab45438a2e08",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 07:59:23",
+      "updateTime": "2026-01-08 07:59:24",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef379025fab45438a2e0b",
+      "title": "无法识别自己作品中的问题",
+      "parentId": "695eefbf025fab45438a2ddb",
+      "topParents": null,
+      "sort": 1,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 07:59:53",
+      "updateTime": "2026-01-08 07:59:56",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef4d0025fab45438a2e0e",
+      "title": "方法",
+      "parentId": "695cf257025fab454389f3e4",
+      "topParents": null,
+      "sort": 1,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 08:05:36",
+      "updateTime": "2026-01-08 08:06:14",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef4ec025fab45438a2e11",
+      "title": "因",
+      "parentId": "695cf257025fab454389f3e4",
+      "topParents": null,
+      "sort": 0,
+      "version": 2,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 08:06:04",
+      "updateTime": "2026-01-08 08:06:09",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef4f9025fab45438a2e12",
+      "title": "1. 悬置概念层（不看\"是什么\"）",
+      "parentId": "695ef4d0025fab45438a2e0e",
+      "topParents": null,
+      "sort": 0,
+      "version": 2,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 08:06:17",
+      "updateTime": "2026-01-08 08:06:34",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef50d025fab45438a2e14",
+      "title": "2. 识别元素（线条/色调/形\n状/质感）",
+      "parentId": "695ef4d0025fab45438a2e0e",
+      "topParents": null,
+      "sort": 1,
+      "version": 2,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 08:06:37",
+      "updateTime": "2026-01-08 08:06:58",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef523025fab45438a2e16",
+      "title": "3. 看到元素之间的关系（对比/韵律/张力）",
+      "parentId": "695ef4d0025fab45438a2e0e",
+      "topParents": null,
+      "sort": 2,
+      "version": 2,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 08:06:59",
+      "updateTime": "2026-01-08 08:07:12",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef53d025fab45438a2e18",
+      "title": "4. 通过构图决策强化关键关系",
+      "parentId": "695ef4d0025fab45438a2e0e",
+      "topParents": null,
+      "sort": 3,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 08:07:25",
+      "updateTime": "2026-01-08 08:07:29",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef54b025fab45438a2e19",
+      "title": "5. 观众的知觉路径被引导至艺术家当时的感受",
+      "parentId": "695ef4d0025fab45438a2e0e",
+      "topParents": null,
+      "sort": 4,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 08:07:39",
+      "updateTime": "2026-01-08 08:07:43",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef552025fab45438a2e1a",
+      "title": "案例",
+      "parentId": "695cf257025fab454389f3e4",
+      "topParents": null,
+      "sort": 2,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 08:07:46",
+      "updateTime": "2026-01-08 08:07:52",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef58c025fab45438a2e1b",
+      "title": "因",
+      "parentId": "695cf252025fab454389f3e2",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 08:08:44",
+      "updateTime": "2026-01-08 08:08:53",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef599025fab45438a2e1c",
+      "title": "方法",
+      "parentId": "695cf252025fab454389f3e2",
+      "topParents": null,
+      "sort": 1,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 08:08:57",
+      "updateTime": "2026-01-08 08:09:01",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef5a4025fab45438a2e1d",
+      "title": "被概念锚定",
+      "parentId": "695ef599025fab45438a2e1c",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 08:09:08",
+      "updateTime": "2026-01-08 08:09:09",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef5bc025fab45438a2e20",
+      "title": "依赖题材冲击力",
+      "parentId": "695ef599025fab45438a2e1c",
+      "topParents": null,
+      "sort": 1,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 08:09:32",
+      "updateTime": "2026-01-08 08:09:33",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef5d8025fab45438a2e23",
+      "title": "缺少二次翻译",
+      "parentId": "695ef599025fab45438a2e1c",
+      "topParents": null,
+      "sort": 2,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 08:10:00",
+      "updateTime": "2026-01-08 08:10:01",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef5f0025fab45438a2e26",
+      "title": "只有记录没有表达",
+      "parentId": "695ef5d8025fab45438a2e23",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 1,
+      "iconDetail": {
+        "color": null,
+        "marked": true
+      },
+      "createTime": "2026-01-08 08:10:24",
+      "updateTime": "2026-01-08 08:10:32",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef610025fab45438a2e27",
+      "title": "案例",
+      "parentId": "695cf252025fab454389f3e2",
+      "topParents": null,
+      "sort": 2,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 08:10:56",
+      "updateTime": "2026-01-08 08:11:05",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef78d025fab45438a2e40",
+      "title": "如何训练\"看到抽象视觉美点\"\n的能力",
+      "parentId": "695bb527025fab454389d7f4",
+      "topParents": null,
+      "sort": 3,
+      "version": 2,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 08:17:17",
+      "updateTime": "2026-01-08 08:17:26",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef7ae025fab45438a2e42",
+      "title": "目标",
+      "parentId": "695ef78d025fab45438a2e40",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 08:17:50",
+      "updateTime": "2026-01-08 08:17:53",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef7b3025fab45438a2e43",
+      "title": "从\"看见\"→\"看到\"→\"看透\"的三阶训练",
+      "parentId": "695ef7ae025fab45438a2e42",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 08:17:55",
+      "updateTime": "2026-01-08 08:18:00",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef7ba025fab45438a2e44",
+      "title": "建立形式知觉习惯",
+      "parentId": "695ef78d025fab45438a2e40",
+      "topParents": null,
+      "sort": 1,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 08:18:02",
+      "updateTime": "2026-01-08 08:18:25",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef7c9025fab45438a2e48",
+      "title": "1. 注意力重定向练习",
+      "parentId": "695ef7ba025fab45438a2e44",
+      "topParents": null,
+      "sort": 0,
+      "version": 2,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 08:18:17",
+      "updateTime": "2026-01-08 08:18:44",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef7dc025fab45438a2e4b",
+      "title": "2. 对比知觉训练",
+      "parentId": "695ef7ba025fab45438a2e44",
+      "topParents": null,
+      "sort": 1,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 08:18:36",
+      "updateTime": "2026-01-08 08:20:21",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef7dd025fab45438a2e4c",
+      "title": "3. 持续观察训练",
+      "parentId": "695ef7ba025fab45438a2e44",
+      "topParents": null,
+      "sort": 2,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 08:18:37",
+      "updateTime": "2026-01-08 08:21:42",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef801025fab45438a2e51",
+      "title": "悬置概念标签",
+      "parentId": "695ef7c9025fab45438a2e48",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 08:19:13",
+      "updateTime": "2026-01-08 08:19:14",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef80d025fab45438a2e53",
+      "title": "强制注意力停留在形式层",
+      "parentId": "695ef7c9025fab45438a2e48",
+      "topParents": null,
+      "sort": 1,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 08:19:25",
+      "updateTime": "2026-01-08 08:19:26",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef816025fab45438a2e55",
+      "title": "大脑开始建立新的知觉通道",
+      "parentId": "695ef7c9025fab45438a2e48",
+      "topParents": null,
+      "sort": 2,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 08:19:34",
+      "updateTime": "2026-01-08 08:19:35",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef821025fab45438a2e56",
+      "title": "日常场景中自动\"看到\"形式元素",
+      "parentId": "695ef7c9025fab45438a2e48",
+      "topParents": null,
+      "sort": 3,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 08:19:45",
+      "updateTime": "2026-01-08 08:19:46",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef84b025fab45438a2e60",
+      "title": "对比激活\"关系意识\"",
+      "parentId": "695ef7dc025fab45438a2e4b",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 08:20:27",
+      "updateTime": "2026-01-08 08:20:42",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef85c025fab45438a2e64",
+      "title": "看到单一元素的作用",
+      "parentId": "695ef7dc025fab45438a2e4b",
+      "topParents": null,
+      "sort": 1,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 08:20:44",
+      "updateTime": "2026-01-08 08:20:51",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef86a025fab45438a2e66",
+      "title": "理解\"形式元素如何制造效果\"",
+      "parentId": "695ef7dc025fab45438a2e4b",
+      "topParents": null,
+      "sort": 2,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 08:20:58",
+      "updateTime": "2026-01-08 08:20:59",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef870025fab45438a2e67",
+      "title": "拍摄时能主动控制这些变量",
+      "parentId": "695ef7dc025fab45438a2e4b",
+      "topParents": null,
+      "sort": 3,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 08:21:04",
+      "updateTime": "2026-01-08 08:21:05",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef8a9025fab45438a2e6b",
+      "title": "对抗知觉自动化",
+      "parentId": "695ef7dd025fab45438a2e4c",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 08:22:01",
+      "updateTime": "2026-01-08 08:22:03",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef8b1025fab45438a2e6d",
+      "title": "发现层层递进的细节",
+      "parentId": "695ef7dd025fab45438a2e4c",
+      "topParents": null,
+      "sort": 1,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 08:22:09",
+      "updateTime": "2026-01-08 08:22:10",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef8b9025fab45438a2e6f",
+      "title": "建立\"好作品\"的内在标尺",
+      "parentId": "695ef7dd025fab45438a2e4c",
+      "topParents": null,
+      "sort": 2,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 08:22:17",
+      "updateTime": "2026-01-08 08:22:18",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef8c3025fab45438a2e71",
+      "title": "评估自己作品时有明确参照",
+      "parentId": "695ef7dd025fab45438a2e4c",
+      "topParents": null,
+      "sort": 3,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 08:22:27",
+      "updateTime": "2026-01-08 08:22:28",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef8e2025fab45438a2e79",
+      "title": "避免美的题材陷阱",
+      "parentId": "695ef78d025fab45438a2e40",
+      "topParents": null,
+      "sort": 2,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 08:22:58",
+      "updateTime": "2026-01-08 08:23:00",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef8f8025fab45438a2e7f",
+      "title": "丑陋题材练习",
+      "parentId": "695ef8e2025fab45438a2e79",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 08:23:20",
+      "updateTime": "2026-01-08 08:23:22",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef8fb025fab45438a2e80",
+      "title": "三遍观察法",
+      "parentId": "695ef8e2025fab45438a2e79",
+      "topParents": null,
+      "sort": 1,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 08:23:23",
+      "updateTime": "2026-01-08 08:23:30",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef90c025fab45438a2e87",
+      "title": "题材无冲击力",
+      "parentId": "695ef8f8025fab45438a2e7f",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 08:23:40",
+      "updateTime": "2026-01-08 08:23:41",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef913025fab45438a2e8b",
+      "title": "无法依赖内容",
+      "parentId": "695ef8f8025fab45438a2e7f",
+      "topParents": null,
+      "sort": 1,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 08:23:47",
+      "updateTime": "2026-01-08 08:23:53",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef914025fab45438a2e8c",
+      "title": "必须靠形式制造美感",
+      "parentId": "695ef8f8025fab45438a2e7f",
+      "topParents": null,
+      "sort": 2,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 08:23:48",
+      "updateTime": "2026-01-08 08:24:03",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef915025fab45438a2e8d",
+      "title": "避免被题材\"欺骗\"",
+      "parentId": "695ef8f8025fab45438a2e7f",
+      "topParents": null,
+      "sort": 3,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 08:23:49",
+      "updateTime": "2026-01-08 08:24:10",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef917025fab45438a2e8e",
+      "title": "刻意分离概念层与形式层",
+      "parentId": "695ef8fb025fab45438a2e80",
+      "topParents": null,
+      "sort": 0,
+      "version": 2,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 08:23:51",
+      "updateTime": "2026-01-08 08:24:35",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef945025fab45438a2e92",
+      "title": "打破自动化",
+      "parentId": "695ef8fb025fab45438a2e80",
+      "topParents": null,
+      "sort": 1,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 08:24:37",
+      "updateTime": "2026-01-08 08:24:47",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef946025fab45438a2e93",
+      "title": "拍摄时先问\"形式\"再按快门",
+      "parentId": "695ef8fb025fab45438a2e80",
+      "topParents": null,
+      "sort": 2,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 08:24:38",
+      "updateTime": "2026-01-08 08:24:58",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695ef948025fab45438a2e94",
+      "title": "避免\"看到雪山就拍\"的冲动",
+      "parentId": "695ef8fb025fab45438a2e80",
+      "topParents": null,
+      "sort": 3,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 08:24:40",
+      "updateTime": "2026-01-08 08:25:06",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695f09d9025fab45438a31e5",
+      "title": "跨领域-写作/文字艺术领域方法",
+      "parentId": "695bb527025fab454389d7f4",
+      "topParents": null,
+      "sort": 4,
+      "version": 2,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 09:35:21",
+      "updateTime": "2026-01-08 09:35:44",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695f0a57025fab45438a320c",
+      "title": "写作时主动设计读者的知觉路径",
+      "parentId": "695f0c52025fab45438a3267",
+      "topParents": null,
+      "sort": 3,
+      "version": 5,
+      "iconType": null,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 09:37:27",
+      "updateTime": "2026-01-08 09:48:36",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695f0c52025fab45438a3264",
+      "title": "意识到\"选择\"的力量",
+      "parentId": "695f0c52025fab45438a3267",
+      "topParents": null,
+      "sort": 0,
+      "version": 2,
+      "iconType": null,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 09:45:54",
+      "updateTime": "2026-01-08 09:48:26",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695f0c52025fab45438a3263",
+      "title": "同一素材不同表达",
+      "parentId": "695f0c52025fab45438a3267",
+      "topParents": null,
+      "sort": 1,
+      "version": 3,
+      "iconType": null,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 09:45:54",
+      "updateTime": "2026-01-08 09:48:30",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695f0c52025fab45438a3265",
+      "title": "理解\"形式服务于情绪\"",
+      "parentId": "695f0c52025fab45438a3267",
+      "topParents": null,
+      "sort": 2,
+      "version": 2,
+      "iconType": null,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 09:45:54",
+      "updateTime": "2026-01-08 09:48:33",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695f0c52025fab45438a3266",
+      "title": "避免\"有趣题材\"依赖症",
+      "parentId": "695f09d9025fab45438a31e5",
+      "topParents": null,
+      "sort": 1,
+      "version": 2,
+      "iconType": null,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 09:45:54",
+      "updateTime": "2026-01-08 09:48:36",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695f0c52025fab45438a3267",
+      "title": "从信息到表达的翻译",
+      "parentId": "695f09d9025fab45438a31e5",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 09:45:54",
+      "updateTime": "2026-01-08 09:48:36",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695f0c52025fab45438a3268",
+      "title": "题材无趣",
+      "parentId": "695f0c52025fab45438a3266",
+      "topParents": null,
+      "sort": 0,
+      "version": 2,
+      "iconType": null,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 09:45:54",
+      "updateTime": "2026-01-08 09:48:56",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695f0cd4025fab45438a3283",
+      "title": "避免\"只要题材好就能写好\"的错觉",
+      "parentId": "695f0c52025fab45438a3266",
+      "topParents": null,
+      "sort": 3,
+      "version": 2,
+      "iconType": null,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 09:48:04",
+      "updateTime": "2026-01-08 09:49:33",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695f0d11025fab45438a328a",
+      "title": "无法依赖内容冲击",
+      "parentId": "695f0c52025fab45438a3266",
+      "topParents": null,
+      "sort": 1,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 09:49:05",
+      "updateTime": "2026-01-08 09:49:08",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695f0d1d025fab45438a328d",
+      "title": "必须靠句式节奏/意象对比/悬念设计",
+      "parentId": "695f0c52025fab45438a3266",
+      "topParents": null,
+      "sort": 2,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 09:49:17",
+      "updateTime": "2026-01-08 09:49:21",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695f0d9e025fab45438a329a",
+      "title": "艺术创作",
+      "parentId": "695da84b025fab45438a02c3",
+      "topParents": null,
+      "sort": 1,
+      "version": 1,
+      "iconType": 1,
+      "iconDetail": {
+        "color": null,
+        "marked": true
+      },
+      "createTime": "2026-01-08 09:51:26",
+      "updateTime": "2026-01-08 10:03:37",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695f0da9025fab45438a329d",
+      "title": "悬置概念层 + 识别形式关系 + 二次翻译强化",
+      "parentId": "695f0dc0025fab45438a32a3",
+      "topParents": null,
+      "sort": 0,
+      "version": 2,
+      "iconType": null,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 09:51:37",
+      "updateTime": "2026-01-08 09:52:07",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695f0dc0025fab45438a32a3",
+      "title": "因",
+      "parentId": "695f0d9e025fab45438a329a",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 09:52:00",
+      "updateTime": "2026-01-08 09:52:07",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695f0dc2025fab45438a32a4",
+      "title": "方法",
+      "parentId": "695f0d9e025fab45438a329a",
+      "topParents": null,
+      "sort": 1,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 09:52:02",
+      "updateTime": "2026-01-08 09:52:10",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695f0dcc025fab45438a32a8",
+      "title": "打动受众",
+      "parentId": "695f0dc2025fab45438a32a4",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 09:52:12",
+      "updateTime": "2026-01-08 09:52:23",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695f0dd9025fab45438a32aa",
+      "title": "凑齐因",
+      "parentId": "695f0dcc025fab45438a32a8",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 09:52:25",
+      "updateTime": "2026-01-08 09:52:35",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695f0e0f025fab45438a32b7",
+      "title": "1. 艺术家的形式知觉（看到/听到/感到抽象美点）",
+      "parentId": "695f0dd9025fab45438a32aa",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 09:53:19",
+      "updateTime": "2026-01-08 09:53:29",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695f0e0f025fab45438a32b8",
+      "title": "2. 转化决策（选择关键元素+削弱干扰元素）",
+      "parentId": "695f0dd9025fab45438a32aa",
+      "topParents": null,
+      "sort": 0,
+      "version": 2,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 09:53:19",
+      "updateTime": "2026-01-08 09:58:33",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695f0e0f025fab45438a32b9",
+      "title": "3. 观众的知觉引导（通过形式\n设计对齐感受）",
+      "parentId": "695f0dd9025fab45438a32aa",
+      "topParents": null,
+      "sort": 0,
+      "version": 2,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 09:53:19",
+      "updateTime": "2026-01-08 10:29:06",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695f0f96025fab45438a3311",
+      "title": "阻断因",
+      "parentId": "695f0dcc025fab45438a32a8",
+      "topParents": null,
+      "sort": 1,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 09:59:50",
+      "updateTime": "2026-01-08 09:59:56",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695f0fa2025fab45438a3317",
+      "title": "1. 概念化知觉自动化（快速贴标签后停止观察）",
+      "parentId": "695f0f96025fab45438a3311",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 10:00:02",
+      "updateTime": "2026-01-08 10:00:12",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695f0fa3025fab45438a3319",
+      "title": "2. 题材冲击力依赖（误以为美会自动转化）",
+      "parentId": "695f0f96025fab45438a3311",
+      "topParents": null,
+      "sort": 1,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 10:00:03",
+      "updateTime": "2026-01-08 10:02:54",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695f0fa4025fab45438a331b",
+      "title": "3. 复制模式（记录所有vs翻译核心）",
+      "parentId": "695f0f96025fab45438a3311",
+      "topParents": null,
+      "sort": 2,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 10:00:04",
+      "updateTime": "2026-01-08 10:03:27",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695f1a8d025fab45438a35b7",
+      "title": "方法",
+      "parentId": "6927aa9a611e1c8c53cc1324",
+      "topParents": null,
+      "sort": 4,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 10:46:37",
+      "updateTime": "2026-01-08 10:47:05",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695f1aaa025fab45438a35bd",
+      "title": "对角线",
+      "parentId": "695f1a8d025fab45438a35b7",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 10:47:06",
+      "updateTime": "2026-01-08 10:47:10",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695f1aaf025fab45438a35c0",
+      "title": "？",
+      "parentId": "695f1aaa025fab45438a35bd",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 10:47:11",
+      "updateTime": "2026-01-08 10:47:13",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695f2de5025fab45438a3b0c",
+      "title": "概念清洗",
+      "parentId": "695baac6025fab454389d5fb",
+      "topParents": null,
+      "sort": 4,
+      "version": 2,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 12:09:09",
+      "updateTime": "2026-01-08 12:09:29",
+      "exts": {
+        "editorVersion": 2,
+        "taskState": 0,
+        "taskTime": null,
+        "taskStateMark": null,
+        "nodeType": null,
+        "nodeValue": null
+      },
+      "isOCI": false
+    },
+    {
+      "id": "695f2dfa025fab45438a3b0f",
+      "title": "知觉",
+      "parentId": "695f2de5025fab45438a3b0c",
+      "topParents": null,
+      "sort": 0,
+      "version": 1,
+      "iconType": 0,
+      "iconDetail": {
+        "color": null,
+        "marked": false
+      },
+      "createTime": "2026-01-08 12:09:30",
+      "updateTime": "2026-01-08 12:09:33",
       "exts": {
         "editorVersion": 2,
         "taskState": 0,
