@@ -21,7 +21,7 @@ class MoxingshuParser:
         }
         self.color_pattern = re.compile(r'^#[0-9a-fA-F]{3,8}$')
         # 垃圾字符黑名单 (包含 Protobuf 常见的干扰符)
-        self.garbage_chars = {"Ă", "ă", "ƾ", "ƅ", "Ҙ", "ƍ", "%", "$"}
+        self.garbage_chars = {"Ă", "ă", "ƾ", "ƅ", "Ҙ", "ƍ", "Ʀ", "Ħ", "%", "$"}
 
     def fetch_by_article_id(self, article_id):
         url = f"https://next-yjs.moxingshu.cn/v1/file/get?articleId={article_id}"
@@ -262,6 +262,11 @@ class MoxingshuParser:
         text = re.sub(r'^[,，]\s*[a-z]\s*', '', text)
         # 清理单字母+#的前缀
         text = re.sub(r'^[a-z]#', '', text)
+        # 清理数字+特殊符号的前缀/后缀 (如 "7-", "0[!", "G6", "Y!")
+        text = re.sub(r'^[0-9]+[^\u4e00-\u9fff\w\s]', '', text)  # 开头的数字+符号
+        text = re.sub(r'[0-9]+[^\u4e00-\u9fff\w\s]$', '', text)  # 结尾的数字+符号
+        text = re.sub(r'^[A-Z][0-9]+', '', text)  # 开头的大写字母+数字 (如 G6, Y!)
+        text = re.sub(r"[a-z][',\[!]", '', text)  # 字母+特殊符号组合 (如 l', 0[!)
         
         return text.strip()
 
