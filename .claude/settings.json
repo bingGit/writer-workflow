@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "Write(parse_result/动机树可视化白板.html)",
+      "Write(parse_result/动机树canvas白板.html)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
