@@ -1,1 +1,14 @@
+# 文件input: 无 (Git 配置)
+# 文件ouput: Git 忽略规则
+# 文件pos: 项目根目录，控制版本库忽略的文件
+# 一旦我被更新，务必更新我的开头注释，以及所属的文件夹的md。
+
 .obsidian/workspace.json
+
+# 忽略“小红书”目录下的图片
+article/小红书/**/*.jpg
+article/小红书/**/*.jpeg
+article/小红书/**/*.png
+article/小红书/**/*.gif
+article/小红书/**/*.webp
+article/小红书/**/*.heic
