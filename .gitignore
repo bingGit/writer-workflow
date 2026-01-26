@@ -5,10 +5,13 @@
 
 .obsidian/workspace.json
 
-# 忽略“小红书”目录下的图片
-article/小红书/**/*.jpg
-article/小红书/**/*.jpeg
-article/小红书/**/*.png
-article/小红书/**/*.gif
-article/小红书/**/*.webp
-article/小红书/**/*.heic
+# 忽略所有图片文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+*.heic
+*.bmp
+*.tiff
+*.svg
