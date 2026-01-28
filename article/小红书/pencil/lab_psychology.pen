@@ -9,88 +9,133 @@
       "y": 0,
       "width": 1080,
       "height": 1440,
-      "fill": {
-        "type": "image",
-        "url": "blue_texture.png",
-        "mode": "fill",
-        "scale": 1.0
-      },
+      "fill": "#5B8BA3",
+      "clip": true,
+      "layout": "none",
       "children": [
         {
-          "type": "frame",
-          "name": "Content Area",
+          "type": "rectangle",
           "x": 0,
           "y": 0,
           "width": 1080,
           "height": 1440,
-          "padding": 120,
-          "layout": "vertical",
-          "gap": 60,
-          "alignItems": "center",
-          "children": [
-            {
-              "type": "frame",
-              "layout": "vertical",
-              "gap": 15,
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "text",
-                  "content": "每天一点心理学",
-                  "fontFamily": "Songti SC",
-                  "fontSize": 48,
-                  "fontWeight": "900",
-                  "fill": "#222222FF",
-                  "letterSpacing": 4
-                },
-                {
-                  "type": "text",
-                  "content": "A little Psychology every day",
-                  "fontFamily": "Times New Roman",
-                  "fontSize": 28,
-                  "fill": "#555555",
-                  "fontStyle": "italic"
-                }
-              ]
+          "fill": {
+            "type": "image",
+            "url": "blue_texture.png",
+            "mode": "fill",
+            "opacity": 0.35,
+            "blendMode": "multiply"
+          }
+        },
+        {
+          "type": "text",
+          "x": 0,
+          "y": 180,
+          "width": 1080,
+          "content": "每天一点心理学",
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": 64,
+          "fontWeight": "bold",
+          "fill": "#FFFFFFFF",
+          "textAlign": "center",
+          "letterSpacing": 10
+        },
+        {
+          "type": "text",
+          "x": 0,
+          "y": 265,
+          "width": 1080,
+          "content": "A little Psychology every day",
+          "fontFamily": "Georgia, serif",
+          "fontSize": 36,
+          "fill": "#FFFFFFCC",
+          "textAlign": "center",
+          "fontStyle": "italic",
+          "letterSpacing": 2
+        },
+        {
+          "type": "text",
+          "x": 0,
+          "y": 410,
+          "width": 1080,
+          "content": "创伤反应",
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": 140,
+          "fontWeight": "900",
+          "textAlign": "center",
+          "fill": "#FCE492",
+          "effect": {
+            "type": "shadow",
+            "shadowType": "drop",
+            "color": "#FCE49226",
+            "offset": {
+              "x": 0,
+              "y": 2
             },
-            {
-              "type": "text",
-              "content": "创伤反应",
-              "fontFamily": "Songti SC",
-              "fontSize": 140,
-              "fontWeight": "black",
-              "fill": "#111111EE",
-              "effect": {
-                "type": "shadow",
-                "shadowType": "drop",
-                "color": "#FFFFFF4D",
-                "offset": {
-                  "x": 0,
-                  "y": 0
-                },
-                "blur": 10
-              }
-            },
-            {
-              "type": "text",
-              "content": "创伤不仅是发生了什么，\n而是你的身体和神经系统记住了什么。\n\n它不是一种病，\n而是一种未完成的生存反应。\n\n—— 贝塞尔·范德考克",
-              "fontFamily": "Songti SC",
-              "fontSize": 46,
-              "lineHeight": 1.8,
-              "textAlign": "center",
-              "fill": "#555555FF",
-              "effect": {
-                "type": "shadow",
-                "shadowType": "drop",
-                "color": "#FFFFFF26",
-                "offset": {
-                  "x": 0,
-                  "y": 1
-                },
-                "blur": 0
-              }
-            }
-          ]
+            "blur": 8
+          }
+        },
+        {
+          "type": "rectangle",
+          "x": 370,
+          "y": 700,
+          "width": 200,
+          "height": 240,
+          "cornerRadius": [
+            100,
+            100,
+            10,
+            10
+          ],
+          "fill": "#EDC967",
+          "rotation": -5
+        },
+        {
+          "type": "rectangle",
+          "x": 525,
+          "y": 850,
+          "width": 30,
+          "height": 120,
+          "fill": "#F5EFE6"
+        },
+        {
+          "type": "rectangle",
+          "x": 495,
+          "y": 770,
+          "width": 90,
+          "height": 110,
+          "cornerRadius": 45,
+          "fill": "#F5EFE6"
+        },
+        {
+          "type": "rectangle",
+          "x": 420,
+          "y": 960,
+          "width": 240,
+          "height": 350,
+          "fill": "#1A1A1A"
+        },
+        {
+          "type": "text",
+          "x": 420,
+          "y": 1110,
+          "width": 240,
+          "content": "♥",
+          "fontSize": 80,
+          "fill": "#FFFFFF",
+          "textAlign": "center"
+        },
+        {
+          "type": "text",
+          "x": 0,
+          "y": 1250,
+          "width": 1080,
+          "content": "「让过去成为土壤，而非枷锁」",
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": 48,
+          "fill": "#FFFFFFFF",
+          "textAlign": "center",
+          "letterSpacing": 2
         }
       ]
     }
