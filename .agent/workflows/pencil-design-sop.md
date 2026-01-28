@@ -1,0 +1,369 @@
+---
+description: Pencil JSON 设计工具标准操作流程 - 从需求到交付的完整指南
+---
+
+# Pencil 设计工作流 SOP
+
+> **文件 Input**: 设计需求、参考样式、内容文案  
+> **文件 Output**: 可渲染的 `.pen` JSON 文件、工作流程文档  
+> **文件 Pos**: 设计工具使用规范，指导 Pencil JSON 格式的卡片设计
+
+---
+
+## 一、项目背景
+
+**原始需求**: 为小红书创建 5 张"情绪感"主题的审美知识卡片  
+**技术选型**: Pencil JSON 设计工具（声明式 UI 描述语言）  
+**目标交付**: 视觉统一、排版精良、可复用的卡片模板系统
+
+---
+
+## 二、完整工作流程
+
+### 阶段 1: 需求分析与样式确定
+
+#### 步骤 1.1 明确设计要求
+- [ ] 确定卡片数量和主题
+- [ ] 收集参考样式（如 `xiaohongshu_vibe.md`）
+- [ ] 定义核心视觉元素（色彩、字体、效果）
+
+#### 步骤 1.2 建立视觉规范
+**本项目采用的核心样式**:
+```json
+{
+  "毛玻璃容器": {
+    "fill": "#FFFFFF1A",
+    "effect": {
+      "type": "background_blur",
+      "radius": 40
+    }
+  },
+  "双层文字阴影": {
+    "effect": {
+      "type": "shadow",
+      "shadowType": "outer",
+      "color": "#00000066",
+      "offset": {"x": 2, "y": 2},
+      "blur": 0
+    }
+  }
+}
+```
+
+**呼吸感排版层级**:
+- 标题: 70px, Bold, 黄色 (#FDED9EFF)
+- 主文本: 54px, Bold, 白色 (#FFFFFFFF)
+- 辅助文本: 42px, Normal, 黄色-80% (#FDED9ECC)
+- 注释/隐喻文本: 36px, Italic, 白色-60% (#FFFFFF99)
+
+---
+
+### 阶段 2: JSON 结构搭建
+
+#### 步骤 2.1 创建基础文件结构
+```json
+{
+  "name": "项目名称",
+  "pages": [
+    {
+      "name": "P1: 封面",
+      "width": 1080,
+      "height": 1440,
+      "fill": "渐变背景",
+      "children": [
+        // 背景层
+        // 内容层
+      ]
+    }
+  ]
+}
+```
+
+#### 步骤 2.2 分层设计原则
+1. **背景层**: 图片 + overlay 蒙版（opacity: 0.4）
+2. **内容层**: Frame 容器 + 垂直布局
+3. **文本层**: 分层文本组件（标题/正文/注释）
+
+**⚠️ 关键错误 #1: 初始 P1 模板错误**
+- **问题**: 使用了"V1: 纯色渐变"占位模板，未包含实际内容
+- **解决**: 对照需求重写 P1，包含"每天一个审美知识"、"情绪感"、底部标语
+
+---
+
+### 阶段 3: 内容填充与样式应用
+
+#### 步骤 3.1 样式统一化（P2-P5）
+**从 P2 确定的毛玻璃+双层文字模板**:
+```json
+{
+  "type": "frame",
+  "fill": "#FFFFFF1A",
+  "effect": {"type": "background_blur", "radius": 40},
+  "layout": "vertical",
+  "gap": 40,
+  "padding": 60,
+  "children": [
+    // 文本内容
+  ]
+}
+```
+
+**⚠️ 关键错误 #2: 直接替换大块 JSON 导致结构损坏**
+- **问题**: 使用 `replace_file_content` 替换 P2-P5 时，由于目标内容不唯一导致 JSON 格式错误
+- **表现**: `Expecting ',' delimiter: line 808 column 11`
+- **解决**: 改用 Python 脚本全量重建文件
+
+---
+
+### 阶段 4: 呼吸感排版优化
+
+#### 步骤 4.1 文本层级拆解
+**从单文本块到多层组件**:
+
+❌ **Before (扁平结构)**:
+```json
+{
+  "type": "text",
+  "content": "标题\n\n正文内容\n\n注释",
+  "fontSize": 42
+}
+```
+
+✅ **After (层级结构)**:
+```json
+{
+  "type": "frame",
+  "layout": "vertical",
+  "gap": 12,
+  "children": [
+    {"type": "text", "fontSize": 54, "fontWeight": "bold", "fill": "#FFF"},
+    {"type": "text", "fontSize": 42, "fill": "#FDED9ECC"},
+    {"type": "text", "fontSize": 36, "fontStyle": "italic", "fill": "#FFFFFF99"}
+  ]
+}
+```
+
+#### 步骤 4.2 间距与对齐微调
+- **垂直间距**: 使用 `gap` 控制（12px / 40px / 50px）
+- **内边距**: 容器统一 `padding: 60`
+- **对齐方式**: P1 使用 `center`，P2-P5 使用默认 `flex-start`
+
+**⚠️ 关键错误 #3: P1 文本层对齐问题**
+- **问题**: 双层文本结构导致底部文字无法完美对齐
+- **解决**: 使用单层文本 + `shadow` effect 替代双层结构
+
+---
+
+### 阶段 5: 内容优化（基于 xiaohongshu_vibe.md）
+
+#### 步骤 5.1 文案风格调整
+**遵循原则**:
+- 短句优先，善用换行
+- 减少说教感，增加诗意表达
+- 添加场景化隐喻（"像清晨的艺术馆"）
+
+**具体改动示例（P2）**:
+- Before: "情绪感是设计通过视觉传递的情感氛围"
+- After: "它藏在页面打开的第一秒。\n\n是大脑在读懂文字之前，\n就已经做出的直觉判断。"
+
+#### 步骤 5.2 结构化内容呈现（P3）
+**分类清晰展示**:
+- 颜色 Color → 莫兰迪色 = 宁静 高级
+- 形状 Shape → 圆角 = 安全 柔软
+- 留白 Space → 负空间 = 秩序 冷静
+
+---
+
+## 三、技术难点与解决方案
+
+### 问题 1: 中文引号导致 JSON 渲染失败
+**症状**: 文件无法被 Pencil 解析  
+**原因**: 使用了中文全角引号 `""`  
+**解决**: 强制使用英文半角引号 `""`  
+**预防**: 
+```python
+# 使用 Python 脚本时确保 ensure_ascii=False
+json.dump(data, f, ensure_ascii=False, indent=2)
+```
+
+---
+
+### 问题 2: 大规模 JSON 编辑导致结构损坏
+**症状**: JSON 解析错误，缺少逗号或括号  
+**原因**: `replace_file_content` 工具在处理大块非唯一目标时失效  
+**解决**: 
+```python
+# 使用 Python 全量重建脚本
+with open('file.pen', 'r') as f:
+    data = json.load(f)
+
+# 修改 data 结构
+data['pages'][0]['children'] = new_content
+
+with open('file.pen', 'w') as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+```
+
+**最佳实践**:
+- 小范围修改 → 使用 `replace_file_content`
+- 大规模重构 → 使用 Python 脚本完整重写
+
+---
+
+### 问题 3: 视觉对齐精度问题
+**症状**: 双层文本无法完美对齐  
+**原因**: 两个独立的 text 元素微小的渲染差异  
+**解决**: 使用单层文本 + `shadow` effect  
+**适用场景**: 需要描边/外发光效果的文本
+
+---
+
+## 四、工作流程最佳实践
+
+### 4.1 增量开发策略
+1. ✅ **先完成 P1 封面验证渲染**
+2. ✅ **在 P2 建立样式模板（毛玻璃+文字效果）**
+3. ✅ **复制 P2 结构到 P3-P5，仅修改内容**
+4. ✅ **最后统一优化呼吸感排版**
+
+### 4.2 文件编辑策略选择表
+
+| 操作类型 | 推荐工具 | 原因 |
+|---------|---------|------|
+| 单字段修改（如颜色值） | `replace_file_content` | 快速精准 |
+| 单卡片内容更新 | `replace_file_content` | 目标唯一易定位 |
+| 多卡片样式统一 | Python 脚本 | 避免重复操作 |
+| 全量结构重构 | Python 脚本 | 保证 JSON 完整性 |
+| 新增卡片 | 复制现有卡片 + 修改内容 | 保持样式一致 |
+
+### 4.3 调试与验证流程
+```bash
+// turbo
+# 1. 验证 JSON 格式
+python3 -c "import json; json.load(open('file.pen'))"
+
+# 2. 检查文件内容
+cat file.pen | head -n 50
+
+# 3. 使用 Pencil 渲染工具测试（如果有）
+pencil render file.pen -o output.png
+```
+
+---
+
+## 五、需求演进记录
+
+### 版本 1: 初始需求
+- 创建 5 张卡片
+- 主题：情绪感
+- 风格：现代、简洁
+
+### 版本 2: 样式细化
+- 引入毛玻璃效果 (glassmorphism)
+- 添加双层文字阴影
+- 确定黄白配色方案
+
+### 版本 3: 排版优化
+- 引入"呼吸感"概念
+- 实现文本层级（70/54/42/36px）
+- 使用 `gap` 控制垂直间距
+
+### 版本 4: 内容调性
+- 基于 `xiaohongshu_vibe.md` 优化文案
+- 减少说教，增加诗意
+- 添加场景化隐喻
+
+### 版本 5: 细节打磨
+- 解决 P1 对齐问题（双层 → shadow）
+- 统一所有卡片的视觉规范
+- 完成最终交付
+
+---
+
+## 六、可复用模板
+
+### 卡片模板 1: 封面卡（垂直居中）
+```json
+{
+  "layout": "vertical",
+  "gap": 60,
+  "padding": 80,
+  "justifyContent": "center",
+  "alignItems": "center",
+  "children": [
+    {"type": "text", "fontSize": 64, "fontWeight": "bold", "content": "主标题"},
+    {"type": "frame", "children": [/* 核心内容 */]},
+    {"type": "text", "fontSize": 48, "content": "底部标语"}
+  ]
+}
+```
+
+### 卡片模板 2: 内容卡（毛玻璃容器）
+```json
+{
+  "type": "frame",
+  "fill": "#FFFFFF1A",
+  "effect": {"type": "background_blur", "radius": 40},
+  "layout": "vertical",
+  "gap": 40,
+  "padding": 60,
+  "children": [
+    {"type": "text", "fontSize": 70, "fontWeight": "bold", "fill": "#FDED9EFF"},
+    {"type": "text", "fontSize": 54, "fill": "#FFFFFFFF"},
+    {"type": "text", "fontSize": 42, "fill": "#FDED9ECC"}
+  ]
+}
+```
+
+### 文字效果模板: 双层阴影
+```json
+{
+  "type": "text",
+  "effect": {
+    "type": "shadow",
+    "shadowType": "outer",
+    "color": "#00000066",
+    "offset": {"x": 2, "y": 2},
+    "blur": 0
+  }
+}
+```
+
+---
+
+## 七、快速检查清单
+
+**设计阶段**:
+- [ ] 所有文本使用英文半角引号
+- [ ] 颜色值格式正确（#RRGGBBAA）
+- [ ] 字号符合层级规范（70/54/42/36）
+- [ ] 容器使用统一的 gap 和 padding
+
+**编辑阶段**:
+- [ ] 大规模修改使用 Python 脚本
+- [ ] 每次修改后验证 JSON 格式
+- [ ] 保持一致的视觉样式（毛玻璃/阴影）
+
+**内容阶段**:
+- [ ] 文案符合 xiaohongshu_vibe 风格
+- [ ] 使用短句和换行增强可读性
+- [ ] 添加场景化隐喻提升共鸣
+
+**交付阶段**:
+- [ ] 所有卡片渲染正常
+- [ ] 视觉效果一致
+- [ ] JSON 文件格式完整
+
+---
+
+## 八、相关文档
+
+- 参考样式: `/Users/bing/project/me/writer/.agent/prompts/xiaohongshu_vibe.md`
+- 项目文件: `/Users/bing/project/me/writer/article/小红书/pencil/aesthetic_knowledge_cover.pen`
+- 构建脚本: `/tmp/rebuild_all_cards.py`
+
+---
+
+**文档版本**: v1.0  
+**最后更新**: 2026-01-28  
+**维护说明**: 每次重大工作流程更新后，请同步更新本 SOP 文档

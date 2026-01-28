@@ -3,10 +3,10 @@
   "children": [
     {
       "type": "frame",
-      "id": "card-1",
-      "x": 0,
+      "id": "card-2",
+      "x": 1150,
       "y": 0,
-      "name": "P1: 原始参考",
+      "name": "P2: 定义",
       "clip": true,
       "width": 1080,
       "height": 1440,
@@ -15,7 +15,7 @@
       "children": [
         {
           "type": "rectangle",
-          "id": "jfYIg",
+          "id": "eITYJ",
           "x": 0,
           "y": 0,
           "fill": {
@@ -31,58 +31,62 @@
         },
         {
           "type": "frame",
-          "id": "JwxBE",
-          "x": 31,
-          "y": 0,
-          "height": 1440,
+          "id": "akwVm",
+          "x": 80,
+          "y": 300,
+          "width": 920,
+          "height": 840,
+          "fill": "#FFFFFF1A",
+          "cornerRadius": 40,
+          "effect": {
+            "type": "background_blur",
+            "radius": 40
+          },
           "layout": "vertical",
-          "gap": 80,
-          "padding": 80,
+          "gap": 40,
+          "padding": 60,
           "justifyContent": "center",
-          "alignItems": "center",
           "children": [
             {
               "type": "text",
-              "id": "zvSmo",
-              "fill": "#ffffffcc",
-              "content": "每天一个审美知识",
+              "id": "1nGl5",
+              "fill": "#FDED9EFF",
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#00000066",
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                }
+              },
+              "content": "什么是情绪感?",
               "fontFamily": "Inter",
-              "fontSize": 64,
+              "fontSize": 70,
               "fontWeight": "bold"
             },
             {
-              "type": "frame",
-              "id": "My2JQ",
-              "layout": "vertical",
-              "gap": 40,
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "text",
-                  "id": "CBOYW",
-                  "fill": "#FDED9EFF",
-                  "content": "情绪感",
-                  "fontFamily": "Inter",
-                  "fontSize": 140,
-                  "fontWeight": "black"
-                },
-                {
-                  "type": "rectangle",
-                  "id": "jocFg",
-                  "fill": {
-                    "type": "image",
-                    "enabled": true,
-                    "url": "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?q=80&w=2670&auto=format&fit=crop",
-                    "mode": "fit"
-                  },
-                  "width": 800,
-                  "height": 600
+              "type": "text",
+              "id": "xcrlw",
+              "fill": "#FFFFFFCC",
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#00000066",
+                "offset": {
+                  "x": 2,
+                  "y": 2
                 }
-              ]
+              },
+              "content": "它藏在页面打开的第一秒。\n\n是大脑在读懂文字之前，\n就已经做出的直觉判断。",
+              "lineHeight": 1.6,
+              "fontFamily": "Inter",
+              "fontSize": 42,
+              "fontWeight": "normal"
             },
             {
               "type": "text",
-              "id": "rC39L",
+              "id": "FNB2c",
               "fill": "#FFFFFFFF",
               "effect": {
                 "type": "shadow",
@@ -93,422 +97,11 @@
                   "y": 2
                 }
               },
-              "content": "布局是骨架 情绪是灵魂",
-              "textAlign": "center",
+              "content": "是 专业可靠?\n是 温暖亲切?\n还是 先锋前卫?",
+              "lineHeight": 1.5,
               "fontFamily": "Inter",
-              "fontSize": 48,
-              "fontWeight": "normal"
-            }
-          ]
-        },
-        {
-          "type": "frame",
-          "id": "card-2",
-          "x": 991,
-          "y": 0,
-          "name": "P2: 文字重影叠加",
-          "clip": true,
-          "width": 1080,
-          "height": 1440,
-          "fill": "#5E8C98",
-          "layout": "none",
-          "children": [
-            {
-              "type": "rectangle",
-              "id": "GTgBE",
-              "x": 0,
-              "y": 0,
-              "fill": {
-                "type": "image",
-                "opacity": 0.4,
-                "enabled": true,
-                "url": "https://images.unsplash.com/photo-1525909002-1b05e0c869d8?q=80&w=2675&auto=format&fit=crop",
-                "mode": "fill",
-                "blendMode": "overlay"
-              },
-              "width": 1080,
-              "height": 1440
-            },
-            {
-              "type": "frame",
-              "id": "sN0ma",
-              "x": 80,
-              "y": 320,
-              "width": 920,
-              "height": 800,
-              "fill": "#FFFFFF1A",
-              "cornerRadius": 40,
-              "effect": {
-                "type": "background_blur",
-                "radius": 40
-              },
-              "layout": "none",
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "7f96i",
-                  "x": 60,
-                  "y": 60,
-                  "width": 800,
-                  "layout": "vertical",
-                  "gap": 60,
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "RPGh0",
-                      "fill": "#FDED9EFF",
-                      "content": "什么是情绪感?",
-                      "fontFamily": "Inter",
-                      "fontSize": 70,
-                      "fontWeight": "bold"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "xBz3b",
-                      "width": 800,
-                      "height": 400,
-                      "layout": "none",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "qPopy",
-                          "x": 2,
-                          "y": 2,
-                          "fill": "#00000066",
-                          "content": "它决定了用户看到页面\n第一秒时的判断\n\n专业可靠?\n温暖亲切?\n先锋前卫?",
-                          "lineHeight": 1.6,
-                          "fontFamily": "Inter",
-                          "fontSize": 46,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "text",
-                          "id": "bXtpk",
-                          "x": 0,
-                          "y": 0,
-                          "fill": "#FFFFFFFF",
-                          "content": "它决定了用户看到页面\n第一秒时的判断\n\n专业可靠?\n温暖亲切?\n先锋前卫?",
-                          "lineHeight": 1.6,
-                          "fontFamily": "Inter",
-                          "fontSize": 46,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "card-3",
-      "x": 2300,
-      "y": 0,
-      "name": "P3: 核心元素",
-      "clip": true,
-      "width": 1080,
-      "height": 1440,
-      "fill": "#5E8C98",
-      "layout": "none",
-      "children": [
-        {
-          "type": "rectangle",
-          "id": "PgMPS",
-          "x": 0,
-          "y": 0,
-          "fill": {
-            "type": "image",
-            "opacity": 0.4,
-            "enabled": true,
-            "url": "https://images.unsplash.com/photo-1525909002-1b05e0c869d8?q=80&w=2675&auto=format&fit=crop",
-            "mode": "fill",
-            "blendMode": "overlay"
-          },
-          "width": 1080,
-          "height": 1440
-        },
-        {
-          "type": "frame",
-          "id": "ErIvU",
-          "x": 80,
-          "y": 200,
-          "width": 920,
-          "height": 1040,
-          "fill": "#FFFFFF1A",
-          "cornerRadius": 40,
-          "effect": {
-            "type": "background_blur",
-            "radius": 40
-          },
-          "layout": "none",
-          "children": [
-            {
-              "type": "frame",
-              "id": "LJnpq",
-              "x": 60,
-              "y": 60,
-              "width": 800,
-              "layout": "vertical",
-              "gap": 60,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "n98tN",
-                  "fill": "#FDED9EFF",
-                  "content": "情绪从哪里来?",
-                  "fontFamily": "Inter",
-                  "fontSize": 70,
-                  "fontWeight": "bold"
-                },
-                {
-                  "type": "frame",
-                  "id": "XD8ri",
-                  "width": 800,
-                  "height": 800,
-                  "layout": "none",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "P9qBj",
-                      "x": 2,
-                      "y": 2,
-                      "fill": "#00000066",
-                      "content": "颜色 Color\n莫兰迪色 = 宁静 高级\n\n形状 Shape\n圆角 = 安全 温和\n\n留白 Space\n负空间 = 冷静 秩序",
-                      "lineHeight": 1.6,
-                      "fontFamily": "Inter",
-                      "fontSize": 46,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "OU9tV",
-                      "x": 0,
-                      "y": 0,
-                      "fill": "#FFFFFFFF",
-                      "content": "颜色 Color\n莫兰迪色 = 宁静 高级\n\n形状 Shape\n圆角 = 安全 温和\n\n留白 Space\n负空间 = 冷静 秩序",
-                      "lineHeight": 1.6,
-                      "fontFamily": "Inter",
-                      "fontSize": 46,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "card-4",
-      "x": 3450,
-      "y": 0,
-      "name": "P4: 组合示例",
-      "clip": true,
-      "width": 1080,
-      "height": 1440,
-      "fill": "#5E8C98",
-      "layout": "none",
-      "children": [
-        {
-          "type": "rectangle",
-          "id": "iiAns",
-          "x": 0,
-          "y": 0,
-          "fill": {
-            "type": "image",
-            "opacity": 0.4,
-            "enabled": true,
-            "url": "https://images.unsplash.com/photo-1525909002-1b05e0c869d8?q=80&w=2675&auto=format&fit=crop",
-            "mode": "fill",
-            "blendMode": "overlay"
-          },
-          "width": 1080,
-          "height": 1440
-        },
-        {
-          "type": "frame",
-          "id": "g57GK",
-          "x": 80,
-          "y": 200,
-          "width": 920,
-          "height": 1040,
-          "fill": "#FFFFFF1A",
-          "cornerRadius": 40,
-          "effect": {
-            "type": "background_blur",
-            "radius": 40
-          },
-          "layout": "none",
-          "children": [
-            {
-              "type": "frame",
-              "id": "IiMHL",
-              "x": 60,
-              "y": 60,
-              "width": 800,
-              "layout": "vertical",
-              "gap": 60,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "F1jbp",
-                  "fill": "#FDED9EFF",
-                  "content": "试着组合你的调料",
-                  "fontFamily": "Inter",
-                  "fontSize": 70,
-                  "fontWeight": "bold"
-                },
-                {
-                  "type": "frame",
-                  "id": "0OrpR",
-                  "width": 800,
-                  "height": 800,
-                  "layout": "none",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "PeAvY",
-                      "x": 2,
-                      "y": 2,
-                      "fill": "#00000066",
-                      "content": "1. 宁静 治愈\n莫兰迪色 + 巨大负空间\n\n2. 安全 专业\n雾霾蓝 + 毛玻璃\n\n3. 亲和 温暖\n燕麦色 + 柔和大圆角",
-                      "lineHeight": 1.6,
-                      "fontFamily": "Inter",
-                      "fontSize": 46,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "05138",
-                      "x": 0,
-                      "y": 0,
-                      "fill": "#FFFFFFFF",
-                      "content": "1. 宁静 治愈\n莫兰迪色 + 巨大负空间\n\n2. 安全 专业\n雾霾蓝 + 毛玻璃\n\n3. 亲和 温暖\n燕麦色 + 柔和大圆角",
-                      "lineHeight": 1.6,
-                      "fontFamily": "Inter",
-                      "fontSize": 46,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "card-5",
-      "x": 4600,
-      "y": 0,
-      "name": "P5: 总结",
-      "clip": true,
-      "width": 1080,
-      "height": 1440,
-      "fill": "#5E8C98",
-      "layout": "none",
-      "children": [
-        {
-          "type": "rectangle",
-          "id": "3Asig",
-          "x": 0,
-          "y": 0,
-          "fill": {
-            "type": "image",
-            "opacity": 0.4,
-            "enabled": true,
-            "url": "https://images.unsplash.com/photo-1525909002-1b05e0c869d8?q=80&w=2675&auto=format&fit=crop",
-            "mode": "fill",
-            "blendMode": "overlay"
-          },
-          "width": 1080,
-          "height": 1440
-        },
-        {
-          "type": "frame",
-          "id": "32MW1",
-          "x": 80,
-          "y": 320,
-          "width": 920,
-          "height": 800,
-          "fill": "#FFFFFF1A",
-          "cornerRadius": 40,
-          "effect": {
-            "type": "background_blur",
-            "radius": 40
-          },
-          "layout": "none",
-          "children": [
-            {
-              "type": "frame",
-              "id": "9XFQ9",
-              "x": 60,
-              "y": 60,
-              "width": 800,
-              "layout": "vertical",
-              "gap": 80,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "bRipr",
-                  "fill": "#FDED9EFF",
-                  "content": "设计的灵魂",
-                  "fontFamily": "Inter",
-                  "fontSize": 70,
-                  "fontWeight": "bold"
-                },
-                {
-                  "type": "frame",
-                  "id": "6ibse",
-                  "width": 800,
-                  "height": 400,
-                  "layout": "none",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "Bwrnp",
-                      "x": 2,
-                      "y": 2,
-                      "fill": "#00000066",
-                      "content": "好的设计\n不是让用户 看懂 了什么\n而是让用户 感受到 了什么",
-                      "lineHeight": 1.6,
-                      "fontFamily": "Inter",
-                      "fontSize": 54,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "g0Ziw",
-                      "x": 0,
-                      "y": 0,
-                      "fill": "#FFFFFFFF",
-                      "content": "好的设计\n不是让用户 看懂 了什么\n而是让用户 感受到 了什么",
-                      "lineHeight": 1.6,
-                      "fontFamily": "Inter",
-                      "fontSize": 54,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "text",
-                  "id": "uIajc",
-                  "fill": "#FFFFFFFF",
-                  "content": "关注我 每天一个审美知识",
-                  "textAlign": "center",
-                  "fontFamily": "Inter",
-                  "fontSize": 36,
-                  "fontWeight": "500",
-                  "fontStyle": "italic"
-                }
-              ]
+              "fontSize": 46,
+              "fontWeight": "500"
             }
           ]
         }

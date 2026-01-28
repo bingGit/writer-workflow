@@ -1,0 +1,832 @@
+{
+  "version": "2.6",
+  "children": [
+    {
+      "type": "frame",
+      "id": "card-1",
+      "x": 0,
+      "y": 0,
+      "name": "P1: 封面",
+      "clip": true,
+      "width": 1080,
+      "height": 1440,
+      "fill": "#5E8C98",
+      "layout": "none",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "GK09m",
+          "x": 0,
+          "y": 0,
+          "fill": {
+            "type": "image",
+            "opacity": 0.4,
+            "enabled": true,
+            "url": "https://images.unsplash.com/photo-1525909002-1b05e0c869d8?q=80&w=2675&auto=format&fit=crop",
+            "mode": "fill",
+            "blendMode": "overlay"
+          },
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "type": "frame",
+          "id": "5CvLI",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1440,
+          "layout": "vertical",
+          "gap": 60,
+          "padding": 80,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "ZjXvu",
+              "fill": "#FFFFFFFF",
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#00000066",
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                }
+              },
+              "content": "每天一个审美知识",
+              "fontFamily": "Inter",
+              "fontSize": 64,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "frame",
+              "id": "1MvQ0",
+              "layout": "vertical",
+              "gap": 40,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "At9u0",
+                  "fill": "#FDED9EFF",
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000066",
+                    "offset": {
+                      "x": 2,
+                      "y": 2
+                    }
+                  },
+                  "content": "情绪感",
+                  "fontFamily": "Inter",
+                  "fontSize": 140,
+                  "fontWeight": "black"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 20,
+                  "id": "3z3c2",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?q=80&w=2670&auto=format&fit=crop",
+                    "mode": "fit"
+                  },
+                  "width": 800,
+                  "height": 600
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "jDF61",
+              "fill": "#FFFFFFFF",
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#00000066",
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                }
+              },
+              "content": "布局是骨架 情绪是灵魂",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 48,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "card-2",
+      "x": 1150,
+      "y": 0,
+      "name": "P2: 定义",
+      "clip": true,
+      "width": 1080,
+      "height": 1440,
+      "fill": "#5E8C98",
+      "layout": "none",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "eITYJ",
+          "x": 0,
+          "y": 0,
+          "fill": {
+            "type": "image",
+            "opacity": 0.4,
+            "enabled": true,
+            "url": "https://images.unsplash.com/photo-1525909002-1b05e0c869d8?q=80&w=2675&auto=format&fit=crop",
+            "mode": "fill",
+            "blendMode": "overlay"
+          },
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "type": "frame",
+          "id": "akwVm",
+          "x": 80,
+          "y": 300,
+          "width": 920,
+          "height": 840,
+          "fill": "#FFFFFF1A",
+          "cornerRadius": 40,
+          "effect": {
+            "type": "background_blur",
+            "radius": 40
+          },
+          "layout": "vertical",
+          "gap": 40,
+          "padding": 60,
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "1nGl5",
+              "fill": "#FDED9EFF",
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#00000066",
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                }
+              },
+              "content": "什么是情绪感?",
+              "fontFamily": "Inter",
+              "fontSize": 70,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "text",
+              "id": "xcrlw",
+              "fill": "#FFFFFFCC",
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#00000066",
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                }
+              },
+              "content": "它藏在页面打开的第一秒。\n\n是大脑在读懂文字之前，\n就已经做出的直觉判断。",
+              "lineHeight": 1.6,
+              "fontFamily": "Inter",
+              "fontSize": 42,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "FNB2c",
+              "fill": "#FFFFFFFF",
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#00000066",
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                }
+              },
+              "content": "是 专业可靠?\n是 温暖亲切?\n还是 先锋前卫?",
+              "lineHeight": 1.5,
+              "fontFamily": "Inter",
+              "fontSize": 46,
+              "fontWeight": "500"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "card-3",
+      "x": 2300,
+      "y": 0,
+      "name": "P3: 核心元素",
+      "clip": true,
+      "width": 1080,
+      "height": 1440,
+      "fill": "#5E8C98",
+      "layout": "none",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "qDO2R",
+          "x": 0,
+          "y": 0,
+          "fill": {
+            "type": "image",
+            "opacity": 0.4,
+            "enabled": true,
+            "url": "https://images.unsplash.com/photo-1525909002-1b05e0c869d8?q=80&w=2675&auto=format&fit=crop",
+            "mode": "fill",
+            "blendMode": "overlay"
+          },
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "type": "frame",
+          "id": "LRDll",
+          "x": 80,
+          "y": 220,
+          "width": 920,
+          "height": 1000,
+          "fill": "#FFFFFF1A",
+          "cornerRadius": 40,
+          "effect": {
+            "type": "background_blur",
+            "radius": 40
+          },
+          "layout": "vertical",
+          "gap": 50,
+          "padding": 60,
+          "children": [
+            {
+              "type": "text",
+              "id": "9G8kc",
+              "fill": "#FDED9EFF",
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#00000066",
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                }
+              },
+              "content": "情绪从哪里来?",
+              "fontFamily": "Inter",
+              "fontSize": 70,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "frame",
+              "id": "wu9dt",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "RIgCB",
+                  "fill": "#FFFFFFFF",
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000066",
+                    "offset": {
+                      "x": 2,
+                      "y": 2
+                    }
+                  },
+                  "content": "颜色 Color",
+                  "fontFamily": "Inter",
+                  "fontSize": 54,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "n8h33",
+                  "fill": "#FDED9ECC",
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000044",
+                    "offset": {
+                      "x": 1,
+                      "y": 1
+                    },
+                    "blur": 2
+                  },
+                  "content": "莫兰迪色 = 宁静 高级",
+                  "fontFamily": "Inter",
+                  "fontSize": 42,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "UK0Cn",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "g8EGD",
+                  "fill": "#FFFFFFFF",
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000066",
+                    "offset": {
+                      "x": 2,
+                      "y": 2
+                    }
+                  },
+                  "content": "形状 Shape",
+                  "fontFamily": "Inter",
+                  "fontSize": 54,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "4XomG",
+                  "fill": "#FDED9ECC",
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000044",
+                    "offset": {
+                      "x": 1,
+                      "y": 1
+                    },
+                    "blur": 2
+                  },
+                  "content": "圆角 = 安全 柔软",
+                  "fontFamily": "Inter",
+                  "fontSize": 42,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "DBqxs",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "1QLah",
+                  "fill": "#FFFFFFFF",
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000066",
+                    "offset": {
+                      "x": 2,
+                      "y": 2
+                    }
+                  },
+                  "content": "留白 Space",
+                  "fontFamily": "Inter",
+                  "fontSize": 54,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "unw2n",
+                  "fill": "#FDED9ECC",
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000044",
+                    "offset": {
+                      "x": 1,
+                      "y": 1
+                    },
+                    "blur": 2
+                  },
+                  "content": "负空间 = 秩序 冷静",
+                  "fontFamily": "Inter",
+                  "fontSize": 42,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "card-4",
+      "x": 3450,
+      "y": 0,
+      "name": "P4: 组合示例",
+      "clip": true,
+      "width": 1080,
+      "height": 1440,
+      "fill": "#5E8C98",
+      "layout": "none",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "7Evqg",
+          "x": 0,
+          "y": 0,
+          "fill": {
+            "type": "image",
+            "opacity": 0.4,
+            "enabled": true,
+            "url": "https://images.unsplash.com/photo-1525909002-1b05e0c869d8?q=80&w=2675&auto=format&fit=crop",
+            "mode": "fill",
+            "blendMode": "overlay"
+          },
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "type": "frame",
+          "id": "xK3Gx",
+          "x": 80,
+          "y": 180,
+          "width": 920,
+          "height": 1080,
+          "fill": "#FFFFFF1A",
+          "cornerRadius": 40,
+          "effect": {
+            "type": "background_blur",
+            "radius": 40
+          },
+          "layout": "vertical",
+          "gap": 50,
+          "padding": 60,
+          "children": [
+            {
+              "type": "text",
+              "id": "P8YhB",
+              "fill": "#FDED9EFF",
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#00000066",
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                }
+              },
+              "content": "试着组合你的调料",
+              "fontFamily": "Inter",
+              "fontSize": 70,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "frame",
+              "id": "TfyN4",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "NYgRj",
+                  "fill": "#FFFFFFFF",
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000066",
+                    "offset": {
+                      "x": 2,
+                      "y": 2
+                    }
+                  },
+                  "content": "1. 宁静 治愈",
+                  "fontFamily": "Inter",
+                  "fontSize": 54,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "lL0KB",
+                  "fill": "#FDED9ECC",
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000044",
+                    "offset": {
+                      "x": 1,
+                      "y": 1
+                    },
+                    "blur": 2
+                  },
+                  "content": "莫兰迪色 + 巨大留白",
+                  "fontFamily": "Inter",
+                  "fontSize": 42,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "IDcZp",
+                  "fill": "#FFFFFF99",
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000033",
+                    "offset": {
+                      "x": 1,
+                      "y": 1
+                    },
+                    "blur": 2
+                  },
+                  "content": "像清晨的艺术馆",
+                  "fontFamily": "Inter",
+                  "fontSize": 36,
+                  "fontWeight": "normal",
+                  "fontStyle": "italic"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "m1Ira",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "AjcJW",
+                  "fill": "#FFFFFFFF",
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000066",
+                    "offset": {
+                      "x": 2,
+                      "y": 2
+                    }
+                  },
+                  "content": "2. 安全 专业",
+                  "fontFamily": "Inter",
+                  "fontSize": 54,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "m8lFi",
+                  "fill": "#FDED9ECC",
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000044",
+                    "offset": {
+                      "x": 1,
+                      "y": 1
+                    },
+                    "blur": 2
+                  },
+                  "content": "雾霾蓝 + 毛玻璃",
+                  "fontFamily": "Inter",
+                  "fontSize": 42,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "4PSO4",
+                  "fill": "#FFFFFF99",
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000033",
+                    "offset": {
+                      "x": 1,
+                      "y": 1
+                    },
+                    "blur": 2
+                  },
+                  "content": "像现代化的私人银行",
+                  "fontFamily": "Inter",
+                  "fontSize": 36,
+                  "fontWeight": "normal",
+                  "fontStyle": "italic"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "q5ArF",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "42Czs",
+                  "fill": "#FFFFFFFF",
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000066",
+                    "offset": {
+                      "x": 2,
+                      "y": 2
+                    }
+                  },
+                  "content": "3. 亲和 温暖",
+                  "fontFamily": "Inter",
+                  "fontSize": 54,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "O1gXr",
+                  "fill": "#FDED9ECC",
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000044",
+                    "offset": {
+                      "x": 1,
+                      "y": 1
+                    },
+                    "blur": 2
+                  },
+                  "content": "燕麦色 + 柔和大圆角",
+                  "fontFamily": "Inter",
+                  "fontSize": 42,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "tGyCq",
+                  "fill": "#FFFFFF99",
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000033",
+                    "offset": {
+                      "x": 1,
+                      "y": 1
+                    },
+                    "blur": 2
+                  },
+                  "content": "像午后的咖啡馆",
+                  "fontFamily": "Inter",
+                  "fontSize": 36,
+                  "fontWeight": "normal",
+                  "fontStyle": "italic"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "card-5",
+      "x": 4600,
+      "y": 0,
+      "name": "P5: 总结",
+      "clip": true,
+      "width": 1080,
+      "height": 1440,
+      "fill": "#5E8C98",
+      "layout": "none",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "AczMR",
+          "x": 0,
+          "y": 0,
+          "fill": {
+            "type": "image",
+            "opacity": 0.4,
+            "enabled": true,
+            "url": "https://images.unsplash.com/photo-1525909002-1b05e0c869d8?q=80&w=2675&auto=format&fit=crop",
+            "mode": "fill",
+            "blendMode": "overlay"
+          },
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "type": "frame",
+          "id": "yCRBT",
+          "x": 80,
+          "y": 380,
+          "width": 920,
+          "height": 680,
+          "fill": "#FFFFFF1A",
+          "cornerRadius": 40,
+          "effect": {
+            "type": "background_blur",
+            "radius": 40
+          },
+          "layout": "vertical",
+          "gap": 60,
+          "padding": 60,
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "qV8Al",
+              "fill": "#FDED9EFF",
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#00000066",
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                }
+              },
+              "content": "设计的灵魂",
+              "fontFamily": "Inter",
+              "fontSize": 70,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "frame",
+              "id": "3yhFB",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "8ZqFL",
+                  "fill": "#FFFFFFFF",
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000066",
+                    "offset": {
+                      "x": 2,
+                      "y": 2
+                    }
+                  },
+                  "content": "好的设计",
+                  "fontFamily": "Inter",
+                  "fontSize": 54,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "1iNc3",
+                  "fill": "#FFFFFFCC",
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000066",
+                    "offset": {
+                      "x": 2,
+                      "y": 2
+                    }
+                  },
+                  "content": "不是让用户 看懂 了什么\n而是让用户 感受到 了什么",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Inter",
+                  "fontSize": 46,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "qOEog",
+              "fill": "#FFFFFFAA",
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#00000033",
+                "offset": {
+                  "x": 1,
+                  "y": 1
+                },
+                "blur": 2
+              },
+              "content": "布局是骨架，情绪是灵魂\n\n关注我 每天一个审美知识",
+              "lineHeight": 1.8,
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 36,
+              "fontWeight": "normal",
+              "fontStyle": "italic"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
