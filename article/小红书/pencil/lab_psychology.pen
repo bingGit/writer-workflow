@@ -1,0 +1,98 @@
+{
+  "version": "2.6",
+  "children": [
+    {
+      "type": "frame",
+      "id": "world-canvas",
+      "name": "画布",
+      "x": 0,
+      "y": 0,
+      "width": 1080,
+      "height": 1440,
+      "fill": {
+        "type": "image",
+        "url": "blue_texture.png",
+        "mode": "fill",
+        "scale": 1.0
+      },
+      "children": [
+        {
+          "type": "frame",
+          "name": "Content Area",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1440,
+          "padding": 120,
+          "layout": "vertical",
+          "gap": 60,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "layout": "vertical",
+              "gap": 15,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "content": "每天一点心理学",
+                  "fontFamily": "Songti SC",
+                  "fontSize": 48,
+                  "fontWeight": "900",
+                  "fill": "#222222FF",
+                  "letterSpacing": 4
+                },
+                {
+                  "type": "text",
+                  "content": "A little Psychology every day",
+                  "fontFamily": "Times New Roman",
+                  "fontSize": 28,
+                  "fill": "#555555",
+                  "fontStyle": "italic"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "content": "创伤反应",
+              "fontFamily": "Songti SC",
+              "fontSize": 140,
+              "fontWeight": "black",
+              "fill": "#111111EE",
+              "effect": {
+                "type": "shadow",
+                "shadowType": "drop",
+                "color": "#FFFFFF4D",
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "blur": 10
+              }
+            },
+            {
+              "type": "text",
+              "content": "创伤不仅是发生了什么，\n而是你的身体和神经系统记住了什么。\n\n它不是一种病，\n而是一种未完成的生存反应。\n\n—— 贝塞尔·范德考克",
+              "fontFamily": "Songti SC",
+              "fontSize": 46,
+              "lineHeight": 1.8,
+              "textAlign": "center",
+              "fill": "#555555FF",
+              "effect": {
+                "type": "shadow",
+                "shadowType": "drop",
+                "color": "#FFFFFF26",
+                "offset": {
+                  "x": 0,
+                  "y": 1
+                },
+                "blur": 0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
