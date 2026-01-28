@@ -6,7 +6,7 @@
       "id": "world-canvas",
       "x": -49,
       "y": 41,
-      "name": "画布",
+      "name": "P1",
       "clip": true,
       "width": 1080,
       "height": 1440,
@@ -19,18 +19,20 @@
       "children": [
         {
           "type": "rectangle",
-          "name": "纹理层",
+          "id": "88CJD",
           "x": 0,
           "y": 0,
-          "width": 1080,
-          "height": 1440,
+          "name": "纹理层",
           "fill": {
             "type": "image",
+            "opacity": 0.5,
+            "enabled": true,
             "url": "gray_texture.png",
             "mode": "fill",
-            "opacity": 0.5,
             "blendMode": "multiply"
-          }
+          },
+          "width": 1080,
+          "height": 1440
         },
         {
           "type": "text",
@@ -93,18 +95,17 @@
         {
           "type": "frame",
           "id": "illustration-placeholder",
-          "name": "插画占位区",
           "x": 340,
           "y": 500,
+          "name": "插画占位区",
           "width": 400,
           "height": 600,
           "fill": "#5B8BA320",
+          "cornerRadius": 20,
           "stroke": {
             "align": "inside",
-            "thickness": 3,
-            "color": "#FFFFFF66"
+            "thickness": 3
           },
-          "cornerRadius": 20,
           "layout": "vertical",
           "gap": 20,
           "padding": 40,
@@ -113,29 +114,34 @@
           "children": [
             {
               "type": "text",
+              "id": "rK2W1",
+              "fill": "#FFFFFFCC",
               "content": "插画占位区",
+              "textAlign": "center",
               "fontFamily": "Inter, sans-serif",
               "fontSize": 48,
-              "fontWeight": "bold",
-              "fill": "#FFFFFFCC",
-              "textAlign": "center"
+              "fontWeight": "bold"
             },
             {
               "type": "text",
+              "id": "WgEBk",
+              "fill": "#FFFFFF99",
               "content": "400 × 600 px",
+              "textAlign": "center",
               "fontFamily": "Inter, sans-serif",
               "fontSize": 32,
-              "fill": "#FFFFFF99",
-              "textAlign": "center"
+              "fontWeight": "normal"
             },
             {
               "type": "text",
+              "id": "23qxu",
+              "fill": "#FCE49299",
               "content": "替换为:\nillustration_woman.png",
+              "lineHeight": 1.6,
+              "textAlign": "center",
               "fontFamily": "Georgia, serif",
               "fontSize": 28,
-              "fill": "#FCE49299",
-              "textAlign": "center",
-              "lineHeight": 1.6,
+              "fontWeight": "normal",
               "fontStyle": "italic"
             }
           ]
@@ -155,6 +161,125 @@
           "fontSize": 48,
           "fontWeight": "normal",
           "letterSpacing": 2
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "p2-canvas",
+      "x": 1100,
+      "y": 41,
+      "name": "P2",
+      "clip": true,
+      "width": 1080,
+      "height": 1440,
+      "fill": "#6B8E7D",
+      "layout": "none",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "W2KK4",
+          "x": 0,
+          "y": 0,
+          "name": "纹理层",
+          "fill": {
+            "type": "image",
+            "opacity": 0.5,
+            "enabled": true,
+            "url": "gray_texture.png",
+            "mode": "fill",
+            "blendMode": "multiply"
+          },
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "type": "text",
+          "id": "PMpP4",
+          "x": 80,
+          "y": 86,
+          "fill": "#FCE492",
+          "content": "什么是创伤反应？",
+          "textAlign": "center",
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": 80,
+          "fontWeight": "bold",
+          "letterSpacing": 4
+        },
+        {
+          "type": "text",
+          "id": "0t29o",
+          "x": 80,
+          "y": 240,
+          "fill": "#FFFFFFFF",
+          "content": "它不是软弱，也不是矫情，\n而来自大脑深处的保护机制——\n那些曾经帮你活下来的本能反应，\n在危险过去后，依然在运行。",
+          "lineHeight": 1.8,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": 48,
+          "fontWeight": "normal",
+          "letterSpacing": 2
+        },
+        {
+          "type": "frame",
+          "id": "V8slo",
+          "x": 80,
+          "y": 656,
+          "width": 920,
+          "layout": "vertical",
+          "gap": 24,
+          "children": [
+            {
+              "type": "text",
+              "id": "d8CwC",
+              "fill": "#FCE492",
+              "content": "📖  心理学中这样描述它：",
+              "fontFamily": "Inter, sans-serif",
+              "fontSize": 40,
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "fzd91",
+              "fill": "#FFFFFFFF",
+              "content": "当个体遭遇超出承受能力的事件后，\n神经系统产生的持续性应激反应。\n它可能表现为闪回、回避、\n过度警觉或情绪麻木。",
+              "lineHeight": 1.7,
+              "fontFamily": "Inter, sans-serif",
+              "fontSize": 46,
+              "fontWeight": "bold",
+              "letterSpacing": 1
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "bzlHb",
+          "x": 240,
+          "y": 1050,
+          "name": "插画占位区",
+          "width": 600,
+          "height": 300,
+          "fill": "#5B8BA320",
+          "cornerRadius": 20,
+          "stroke": {
+            "align": "inside",
+            "thickness": 2
+          },
+          "layout": "vertical",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "XYmGb",
+              "fill": "#FFFFFF66",
+              "content": "🖼 插画占位 600×300",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 32,
+              "fontWeight": "normal"
+            }
+          ]
         }
       ]
     }
