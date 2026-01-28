@@ -1,0 +1,1260 @@
+{
+  "version": "2.6",
+  "children": [
+    {
+      "type": "frame",
+      "id": "card-v1",
+      "x": 0,
+      "y": 0,
+      "name": "V1: 纯色渐变",
+      "clip": true,
+      "width": 1080,
+      "height": 1440,
+      "fill": "#5E8C98",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "glare-layer-v1",
+          "x": 0,
+          "y": 0,
+          "name": "Atmosphere",
+          "width": 1080,
+          "height": 1440,
+          "layout": "none",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "light-v1",
+              "x": -200,
+              "y": -200,
+              "fill": {
+                "type": "gradient",
+                "gradientType": "radial",
+                "enabled": true,
+                "opacity": 0.3,
+                "rotation": 0,
+                "size": {
+                  "width": 1,
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#FFFFFF",
+                    "position": 0
+                  },
+                  {
+                    "color": "#FFFFFF00",
+                    "position": 1
+                  }
+                ]
+              },
+              "width": 1000,
+              "height": 1000
+            },
+            {
+              "type": "rectangle",
+              "id": "shadow-v1",
+              "x": 480,
+              "y": 840,
+              "fill": {
+                "type": "gradient",
+                "gradientType": "radial",
+                "enabled": true,
+                "opacity": 0.4,
+                "rotation": 0,
+                "size": {
+                  "width": 1,
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#0F172A",
+                    "position": 0
+                  },
+                  {
+                    "color": "#0F172A00",
+                    "position": 1
+                  }
+                ]
+              },
+              "width": 800,
+              "height": 800
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "id": "content-v1",
+          "x": 0,
+          "y": 0,
+          "children": [
+            {
+              "type": "frame",
+              "id": "c-v1",
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1440,
+              "layout": "vertical",
+              "padding": 80,
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "h-v1",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "t1-v1",
+                      "fill": "#FFFFFFFF",
+                      "content": "每天一点心理学",
+                      "fontFamily": "Inter",
+                      "fontSize": 48,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "line-v1",
+                      "fill": "#FFFFFF66",
+                      "width": 100,
+                      "height": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "t2-v1",
+                      "fill": "#FFFFFFAA",
+                      "content": "A LITTLE PSYCHOLOGY EVERY DAY",
+                      "fontFamily": "Inter",
+                      "fontSize": 24,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "b-v1",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 40,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "k-v1",
+                      "fill": "#FAEBD7FF",
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#0000004D",
+                        "offset": {
+                          "x": 0,
+                          "y": 10
+                        },
+                        "blur": 20
+                      },
+                      "content": "易得性偏差",
+                      "fontFamily": "Inter",
+                      "fontSize": 120,
+                      "fontWeight": "black"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "i-v1",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "demo_image.png",
+                        "mode": "fill"
+                      },
+                      "width": 800,
+                      "height": 600,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#00000066",
+                        "offset": {
+                          "x": 0,
+                          "y": 20
+                        },
+                        "blur": 40
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "f-v1",
+                  "width": 920,
+                  "fill": "#FFFFFF1A",
+                  "effect": {
+                    "type": "background_blur",
+                    "radius": 30
+                  },
+                  "layout": "vertical",
+                  "padding": 40,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "q-v1",
+                      "fill": "#FFFFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "“别把‘容易想起来的事’，当成‘经常发生的事’”",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 36,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "ver-v1",
+                  "fill": "#FFFFFF4D",
+                  "content": "V1: 纯色渐变",
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "card-v2",
+      "x": 1150,
+      "y": 0,
+      "name": "V2: 牛皮纸",
+      "clip": true,
+      "width": 1080,
+      "height": 1440,
+      "fill": "#5E8C98",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "glare-layer-v2",
+          "x": 0,
+          "y": 0,
+          "name": "Atmosphere",
+          "width": 1080,
+          "height": 1440,
+          "layout": "none",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "tex-v2",
+              "x": 0,
+              "y": 0,
+              "fill": {
+                "type": "image",
+                "opacity": 0.5,
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?q=80&w=2787&auto=format&fit=crop",
+                "mode": "fill",
+                "blendMode": "multiply"
+              },
+              "width": 1080,
+              "height": 1440
+            },
+            {
+              "type": "rectangle",
+              "id": "light-v2",
+              "x": -200,
+              "y": -200,
+              "fill": {
+                "type": "gradient",
+                "gradientType": "radial",
+                "enabled": true,
+                "opacity": 0.4,
+                "rotation": 0,
+                "size": {
+                  "width": 1,
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#FFFFFF",
+                    "position": 0
+                  },
+                  {
+                    "color": "#FFFFFF00",
+                    "position": 1
+                  }
+                ]
+              },
+              "width": 1000,
+              "height": 1000
+            },
+            {
+              "type": "rectangle",
+              "id": "shadow-v2",
+              "x": 480,
+              "y": 840,
+              "fill": {
+                "type": "gradient",
+                "gradientType": "radial",
+                "enabled": true,
+                "opacity": 0.5,
+                "rotation": 0,
+                "size": {
+                  "width": 1,
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#0F172A",
+                    "position": 0
+                  },
+                  {
+                    "color": "#0F172A00",
+                    "position": 1
+                  }
+                ]
+              },
+              "width": 800,
+              "height": 800
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "id": "content-v2",
+          "x": 0,
+          "y": 0,
+          "children": [
+            {
+              "type": "frame",
+              "id": "c-v2",
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1440,
+              "layout": "vertical",
+              "padding": 80,
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "h-v2",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "t1-v2",
+                      "fill": "#FFFFFFFF",
+                      "content": "每天一点心理学",
+                      "fontFamily": "Inter",
+                      "fontSize": 48,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "line-v2",
+                      "fill": "#FFFFFF66",
+                      "width": 100,
+                      "height": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "t2-v2",
+                      "fill": "#FFFFFFAA",
+                      "content": "A LITTLE PSYCHOLOGY EVERY DAY",
+                      "fontFamily": "Inter",
+                      "fontSize": 24,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "b-v2",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 40,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "k-v2",
+                      "fill": "#FAEBD7FF",
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#0000004D",
+                        "offset": {
+                          "x": 0,
+                          "y": 10
+                        },
+                        "blur": 20
+                      },
+                      "content": "易得性偏差",
+                      "fontFamily": "Inter",
+                      "fontSize": 120,
+                      "fontWeight": "black"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "i-v2",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "demo_image.png",
+                        "mode": "fill"
+                      },
+                      "width": 800,
+                      "height": 600,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#00000066",
+                        "offset": {
+                          "x": 0,
+                          "y": 20
+                        },
+                        "blur": 40
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "f-v2",
+                  "width": 920,
+                  "fill": "#FFFFFF1A",
+                  "effect": {
+                    "type": "background_blur",
+                    "radius": 30
+                  },
+                  "layout": "vertical",
+                  "padding": 40,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "q-v2",
+                      "fill": "#FFFFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "“别把‘容易想起来的事’，当成‘经常发生的事’”",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 36,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "ver-v2",
+                  "name": "怎么回事",
+                  "context": "飞洒",
+                  "fill": "#ffffff66",
+                  "content": "审美解读",
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "card-v3",
+      "x": 2300,
+      "y": 0,
+      "name": "V3: 水彩纸 (模糊)",
+      "clip": true,
+      "width": 1080,
+      "height": 1440,
+      "fill": "#5E8C98",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "glare-layer-v3",
+          "x": 0,
+          "y": 0,
+          "name": "Atmosphere",
+          "width": 1080,
+          "height": 1440,
+          "layout": "none",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "paper-texture-v3",
+              "x": 0,
+              "y": 0,
+              "name": "Cold Pressed Watercolor (Blurred)",
+              "fill": {
+                "type": "image",
+                "opacity": 0.8,
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1525909002-1b05e0c869d8?q=80&w=2675&auto=format&fit=crop",
+                "mode": "fill",
+                "blendMode": "overlay"
+              },
+              "width": 1080,
+              "height": 1440
+            },
+            {
+              "type": "rectangle",
+              "id": "light-v3",
+              "x": -200,
+              "y": -200,
+              "fill": {
+                "type": "gradient",
+                "gradientType": "radial",
+                "enabled": true,
+                "opacity": 0.3,
+                "rotation": 0,
+                "size": {
+                  "width": 1,
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#FFFFFF",
+                    "position": 0
+                  },
+                  {
+                    "color": "#FFFFFF00",
+                    "position": 1
+                  }
+                ]
+              },
+              "width": 1000,
+              "height": 1000
+            },
+            {
+              "type": "rectangle",
+              "id": "shadow-v3",
+              "x": 480,
+              "y": 840,
+              "fill": {
+                "type": "gradient",
+                "gradientType": "radial",
+                "enabled": true,
+                "opacity": 0.5,
+                "rotation": 0,
+                "size": {
+                  "width": 1,
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#0F172A",
+                    "position": 0
+                  },
+                  {
+                    "color": "#0F172A00",
+                    "position": 1
+                  }
+                ]
+              },
+              "width": 800,
+              "height": 800
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "id": "content-v3",
+          "x": 0,
+          "y": 0,
+          "children": [
+            {
+              "type": "frame",
+              "id": "c-v3",
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1440,
+              "layout": "vertical",
+              "padding": 80,
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "h-v3",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "t1-v3",
+                      "fill": "#FFFFFFFF",
+                      "content": "每天一点心理学",
+                      "fontFamily": "Inter",
+                      "fontSize": 48,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "line-v3",
+                      "fill": "#FFFFFF66",
+                      "width": 100,
+                      "height": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "t2-v3",
+                      "fill": "#FFFFFFAA",
+                      "content": "A LITTLE PSYCHOLOGY EVERY DAY",
+                      "fontFamily": "Inter",
+                      "fontSize": 24,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "b-v3",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 40,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "k-v3",
+                      "fill": "#FAEBD7FF",
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#0000004D",
+                        "offset": {
+                          "x": 0,
+                          "y": 10
+                        },
+                        "blur": 20
+                      },
+                      "content": "易得性偏差",
+                      "fontFamily": "Inter",
+                      "fontSize": 120,
+                      "fontWeight": "black"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "i-v3",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "demo_image.png",
+                        "mode": "fill"
+                      },
+                      "width": 800,
+                      "height": 600,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#00000066",
+                        "offset": {
+                          "x": 0,
+                          "y": 20
+                        },
+                        "blur": 40
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "f-v3",
+                  "width": 920,
+                  "fill": "#FFFFFF1A",
+                  "effect": [
+                    {
+                      "type": "background_blur",
+                      "radius": 30
+                    },
+                    {
+                      "type": "shadow",
+                      "shadowType": "outer",
+                      "color": "#00000040",
+                      "offset": {
+                        "x": 0,
+                        "y": 4
+                      },
+                      "blur": 4
+                    }
+                  ],
+                  "layout": "vertical",
+                  "padding": 40,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "q-v3",
+                      "fill": {
+                        "type": "color",
+                        "color": "#e39898ff",
+                        "enabled": false
+                      },
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "“别把‘容易想起来的事’，当成‘经常发生的事’”",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 36,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "ver-v3",
+                  "fill": "#FFFFFF4D",
+                  "content": "V3: 水彩纸 (模糊)",
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "card-v4",
+      "x": 3450,
+      "y": 0,
+      "name": "V4: 水彩纸 (无模糊)",
+      "clip": true,
+      "width": 1080,
+      "height": 1440,
+      "fill": "#5E8C98",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "glare-layer-v4",
+          "x": 0,
+          "y": 0,
+          "name": "Atmosphere",
+          "width": 1080,
+          "height": 1440,
+          "layout": "none",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "paper-texture-v4",
+              "x": 0,
+              "y": 0,
+              "name": "Cold Pressed Watercolor (Subtle)",
+              "fill": {
+                "type": "image",
+                "opacity": 0.4,
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1525909002-1b05e0c869d8?q=80&w=2675&auto=format&fit=crop",
+                "mode": "fill",
+                "blendMode": "overlay"
+              },
+              "width": 1080,
+              "height": 1440
+            },
+            {
+              "type": "rectangle",
+              "id": "light-v4",
+              "x": -200,
+              "y": -200,
+              "fill": {
+                "type": "gradient",
+                "gradientType": "radial",
+                "enabled": true,
+                "opacity": 0.3,
+                "rotation": 0,
+                "size": {
+                  "width": 1,
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#FFFFFF",
+                    "position": 0
+                  },
+                  {
+                    "color": "#FFFFFF00",
+                    "position": 1
+                  }
+                ]
+              },
+              "width": 1000,
+              "height": 1000
+            },
+            {
+              "type": "rectangle",
+              "id": "shadow-v4",
+              "x": 480,
+              "y": 840,
+              "fill": {
+                "type": "gradient",
+                "gradientType": "radial",
+                "enabled": true,
+                "opacity": 0.5,
+                "rotation": 0,
+                "size": {
+                  "width": 1,
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#0F172A",
+                    "position": 0
+                  },
+                  {
+                    "color": "#0F172A00",
+                    "position": 1
+                  }
+                ]
+              },
+              "width": 800,
+              "height": 800
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "id": "content-v4",
+          "x": 0,
+          "y": 0,
+          "children": [
+            {
+              "type": "frame",
+              "id": "c-v4",
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1440,
+              "layout": "vertical",
+              "padding": 80,
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "h-v4",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "t1-v4",
+                      "fill": "#FFFFFFFF",
+                      "content": "每天一点心理学",
+                      "fontFamily": "Inter",
+                      "fontSize": 48,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "line-v4",
+                      "fill": "#FFFFFF66",
+                      "width": 100,
+                      "height": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "t2-v4",
+                      "fill": "#FFFFFFAA",
+                      "content": "A LITTLE PSYCHOLOGY EVERY DAY",
+                      "fontFamily": "Inter",
+                      "fontSize": 24,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "b-v4",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 40,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "k-v4",
+                      "fill": "#FAEBD7FF",
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#0000004D",
+                        "offset": {
+                          "x": 0,
+                          "y": 10
+                        },
+                        "blur": 20
+                      },
+                      "content": "易得性偏差",
+                      "fontFamily": "Inter",
+                      "fontSize": 120,
+                      "fontWeight": "black"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "i-v4",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "demo_image.png",
+                        "mode": "fill"
+                      },
+                      "width": 800,
+                      "height": 600,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#00000066",
+                        "offset": {
+                          "x": 0,
+                          "y": 20
+                        },
+                        "blur": 40
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "f-v4",
+                  "width": 920,
+                  "fill": "#FFFFFF1A",
+                  "effect": [
+                    {
+                      "type": "background_blur",
+                      "radius": 30
+                    },
+                    {
+                      "type": "shadow",
+                      "shadowType": "outer",
+                      "color": "#00000040",
+                      "offset": {
+                        "x": 0,
+                        "y": 4
+                      },
+                      "blur": 4
+                    }
+                  ],
+                  "layout": "vertical",
+                  "padding": 40,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "q-v4",
+                      "fill": "#FFFFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "“别把‘容易想起来的事’，当成‘经常发生的事’”",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 36,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "ver-v4",
+                  "fill": "#FFFFFF4D",
+                  "content": "V4: 水彩纸 (无模糊)",
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "card-v5",
+      "x": 4600,
+      "y": 0,
+      "name": "V5: 水彩纸 (无模糊+高细节)",
+      "clip": true,
+      "width": 1080,
+      "height": 1440,
+      "fill": "#5E8C98",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "glare-layer-v5",
+          "x": 0,
+          "y": 0,
+          "name": "Atmosphere",
+          "width": 1080,
+          "height": 1440,
+          "layout": "none",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "paper-texture-v5",
+              "x": 0,
+              "y": 0,
+              "name": "Cold Pressed Watercolor (Sharper)",
+              "fill": {
+                "type": "image",
+                "opacity": 0.8,
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1525909002-1b05e0c869d8?q=80&w=2675&auto=format&fit=crop",
+                "mode": "fill",
+                "blendMode": "overlay"
+              },
+              "width": 1080,
+              "height": 1440
+            },
+            {
+              "type": "rectangle",
+              "id": "light-v5",
+              "x": -200,
+              "y": -200,
+              "fill": {
+                "type": "gradient",
+                "gradientType": "radial",
+                "enabled": true,
+                "opacity": 0.3,
+                "rotation": 0,
+                "size": {
+                  "width": 1,
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#FFFFFF",
+                    "position": 0
+                  },
+                  {
+                    "color": "#FFFFFF00",
+                    "position": 1
+                  }
+                ]
+              },
+              "width": 1000,
+              "height": 1000
+            },
+            {
+              "type": "rectangle",
+              "id": "shadow-v5",
+              "x": 480,
+              "y": 840,
+              "fill": {
+                "type": "gradient",
+                "gradientType": "radial",
+                "enabled": true,
+                "opacity": 0.5,
+                "rotation": 0,
+                "size": {
+                  "width": 1,
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#0F172A",
+                    "position": 0
+                  },
+                  {
+                    "color": "#0F172A00",
+                    "position": 1
+                  }
+                ]
+              },
+              "width": 800,
+              "height": 800
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "id": "content-v5",
+          "x": 0,
+          "y": 0,
+          "children": [
+            {
+              "type": "frame",
+              "id": "c-v5",
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 1440,
+              "layout": "vertical",
+              "padding": 80,
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "h-v5",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "t1-v5",
+                      "fill": "#FFFFFFFF",
+                      "content": "每天一点心理学",
+                      "fontFamily": "Inter",
+                      "fontSize": 48,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "line-v5",
+                      "fill": "#FFFFFF66",
+                      "width": 100,
+                      "height": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "t2-v5",
+                      "fill": "#FFFFFFAA",
+                      "content": "A LITTLE PSYCHOLOGY EVERY DAY",
+                      "fontFamily": "Inter",
+                      "fontSize": 24,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "b-v5",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 40,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "k-v5",
+                      "fill": "#FAEBD7FF",
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#0000004D",
+                        "offset": {
+                          "x": 0,
+                          "y": 10
+                        },
+                        "blur": 20
+                      },
+                      "content": "易得性偏差",
+                      "fontFamily": "Inter",
+                      "fontSize": 120,
+                      "fontWeight": "black"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "i-v5",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "demo_image.png",
+                        "mode": "fill"
+                      },
+                      "width": 800,
+                      "height": 600,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#00000066",
+                        "offset": {
+                          "x": 0,
+                          "y": 20
+                        },
+                        "blur": 40
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "f-v5",
+                  "width": 920,
+                  "fill": "#FFFFFF1A",
+                  "effect": [
+                    {
+                      "type": "background_blur",
+                      "radius": 30
+                    },
+                    {
+                      "type": "shadow",
+                      "shadowType": "outer",
+                      "color": "#00000040",
+                      "offset": {
+                        "x": 0,
+                        "y": 4
+                      },
+                      "blur": 4
+                    }
+                  ],
+                  "layout": "vertical",
+                  "padding": 40,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "q-v5",
+                      "fill": "#0e0d0dff",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "“别把‘容易想起来的事’，当成‘经常发生的事’”",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 36,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "ver-v5",
+                  "fill": "#FFFFFF4D",
+                  "content": "V5: 水彩纸 (无模糊+高细节)",
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "themes": {
+    "Theme": [
+      "Default",
+      "Variant-1"
+    ]
+  }
+}
