@@ -18,6 +18,21 @@
       "layout": "none",
       "children": [
         {
+          "type": "rectangle",
+          "name": "纹理层",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1440,
+          "fill": {
+            "type": "image",
+            "url": "gray_texture.png",
+            "mode": "fill",
+            "opacity": 0.5,
+            "blendMode": "multiply"
+          }
+        },
+        {
           "type": "text",
           "id": "jPgCV",
           "x": 266,
