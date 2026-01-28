@@ -36,9 +36,9 @@
           "y": 0,
           "height": 1440,
           "layout": "vertical",
+          "gap": 80,
           "padding": 80,
           "justifyContent": "center",
-          "gap": 80,
           "alignItems": "center",
           "children": [
             {
@@ -100,100 +100,100 @@
               "fontWeight": "normal"
             }
           ]
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "card-2",
-      "x": 1150,
-      "y": 0,
-      "name": "P2: 文字重影叠加",
-      "clip": true,
-      "width": 1080,
-      "height": 1440,
-      "fill": "#5E8C98",
-      "layout": "none",
-      "children": [
-        {
-          "type": "rectangle",
-          "id": "GTgBE",
-          "x": 0,
-          "y": 0,
-          "fill": {
-            "type": "image",
-            "opacity": 0.4,
-            "enabled": true,
-            "url": "https://images.unsplash.com/photo-1525909002-1b05e0c869d8?q=80&w=2675&auto=format&fit=crop",
-            "mode": "fill",
-            "blendMode": "overlay"
-          },
-          "width": 1080,
-          "height": 1440
         },
         {
           "type": "frame",
-          "id": "sN0ma",
-          "x": 80,
-          "y": 320,
-          "width": 920,
-          "height": 800,
-          "fill": "#FFFFFF1A",
-          "cornerRadius": 40,
-          "effect": {
-            "type": "background_blur",
-            "radius": 40
-          },
+          "id": "card-2",
+          "x": 991,
+          "y": 0,
+          "name": "P2: 文字重影叠加",
+          "clip": true,
+          "width": 1080,
+          "height": 1440,
+          "fill": "#5E8C98",
           "layout": "none",
           "children": [
             {
+              "type": "rectangle",
+              "id": "GTgBE",
+              "x": 0,
+              "y": 0,
+              "fill": {
+                "type": "image",
+                "opacity": 0.4,
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1525909002-1b05e0c869d8?q=80&w=2675&auto=format&fit=crop",
+                "mode": "fill",
+                "blendMode": "overlay"
+              },
+              "width": 1080,
+              "height": 1440
+            },
+            {
               "type": "frame",
-              "id": "7f96i",
-              "x": 60,
-              "y": 60,
-              "width": 800,
-              "layout": "vertical",
-              "gap": 60,
+              "id": "sN0ma",
+              "x": 80,
+              "y": 320,
+              "width": 920,
+              "height": 800,
+              "fill": "#FFFFFF1A",
+              "cornerRadius": 40,
+              "effect": {
+                "type": "background_blur",
+                "radius": 40
+              },
+              "layout": "none",
               "children": [
                 {
-                  "type": "text",
-                  "id": "RPGh0",
-                  "fill": "#FDED9EFF",
-                  "content": "什么是情绪感?",
-                  "fontFamily": "Inter",
-                  "fontSize": 70,
-                  "fontWeight": "bold"
-                },
-                {
                   "type": "frame",
-                  "id": "xBz3b",
+                  "id": "7f96i",
+                  "x": 60,
+                  "y": 60,
                   "width": 800,
-                  "height": 400,
-                  "layout": "none",
+                  "layout": "vertical",
+                  "gap": 60,
                   "children": [
                     {
                       "type": "text",
-                      "id": "qPopy",
-                      "x": 2,
-                      "y": 2,
-                      "fill": "#00000066",
-                      "content": "它决定了用户看到页面\n第一秒时的判断\n\n专业可靠?\n温暖亲切?\n先锋前卫?",
-                      "lineHeight": 1.6,
+                      "id": "RPGh0",
+                      "fill": "#FDED9EFF",
+                      "content": "什么是情绪感?",
                       "fontFamily": "Inter",
-                      "fontSize": 46,
-                      "fontWeight": "normal"
+                      "fontSize": 70,
+                      "fontWeight": "bold"
                     },
                     {
-                      "type": "text",
-                      "id": "bXtpk",
-                      "x": 0,
-                      "y": 0,
-                      "fill": "#FFFFFFFF",
-                      "content": "它决定了用户看到页面\n第一秒时的判断\n\n专业可靠?\n温暖亲切?\n先锋前卫?",
-                      "lineHeight": 1.6,
-                      "fontFamily": "Inter",
-                      "fontSize": 46,
-                      "fontWeight": "normal"
+                      "type": "frame",
+                      "id": "xBz3b",
+                      "width": 800,
+                      "height": 400,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "qPopy",
+                          "x": 2,
+                          "y": 2,
+                          "fill": "#00000066",
+                          "content": "它决定了用户看到页面\n第一秒时的判断\n\n专业可靠?\n温暖亲切?\n先锋前卫?",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 46,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "bXtpk",
+                          "x": 0,
+                          "y": 0,
+                          "fill": "#FFFFFFFF",
+                          "content": "它决定了用户看到页面\n第一秒时的判断\n\n专业可靠?\n温暖亲切?\n先锋前卫?",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 46,
+                          "fontWeight": "normal"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -217,9 +217,13 @@
       "children": [
         {
           "type": "rectangle",
+          "id": "PgMPS",
+          "x": 0,
+          "y": 0,
           "fill": {
             "type": "image",
             "opacity": 0.4,
+            "enabled": true,
             "url": "https://images.unsplash.com/photo-1525909002-1b05e0c869d8?q=80&w=2675&auto=format&fit=crop",
             "mode": "fill",
             "blendMode": "overlay"
@@ -229,6 +233,7 @@
         },
         {
           "type": "frame",
+          "id": "ErIvU",
           "x": 80,
           "y": 200,
           "width": 920,
@@ -243,6 +248,7 @@
           "children": [
             {
               "type": "frame",
+              "id": "LJnpq",
               "x": 60,
               "y": 60,
               "width": 800,
@@ -251,34 +257,43 @@
               "children": [
                 {
                   "type": "text",
+                  "id": "n98tN",
                   "fill": "#FDED9EFF",
                   "content": "情绪从哪里来?",
+                  "fontFamily": "Inter",
                   "fontSize": 70,
                   "fontWeight": "bold"
                 },
                 {
                   "type": "frame",
-                  "layout": "none",
+                  "id": "XD8ri",
                   "width": 800,
                   "height": 800,
+                  "layout": "none",
                   "children": [
                     {
                       "type": "text",
+                      "id": "P9qBj",
                       "x": 2,
                       "y": 2,
                       "fill": "#00000066",
                       "content": "颜色 Color\n莫兰迪色 = 宁静 高级\n\n形状 Shape\n圆角 = 安全 温和\n\n留白 Space\n负空间 = 冷静 秩序",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
                       "fontSize": 46,
-                      "lineHeight": 1.6
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
+                      "id": "OU9tV",
                       "x": 0,
                       "y": 0,
                       "fill": "#FFFFFFFF",
                       "content": "颜色 Color\n莫兰迪色 = 宁静 高级\n\n形状 Shape\n圆角 = 安全 温和\n\n留白 Space\n负空间 = 冷静 秩序",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
                       "fontSize": 46,
-                      "lineHeight": 1.6
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -302,9 +317,13 @@
       "children": [
         {
           "type": "rectangle",
+          "id": "iiAns",
+          "x": 0,
+          "y": 0,
           "fill": {
             "type": "image",
             "opacity": 0.4,
+            "enabled": true,
             "url": "https://images.unsplash.com/photo-1525909002-1b05e0c869d8?q=80&w=2675&auto=format&fit=crop",
             "mode": "fill",
             "blendMode": "overlay"
@@ -314,6 +333,7 @@
         },
         {
           "type": "frame",
+          "id": "g57GK",
           "x": 80,
           "y": 200,
           "width": 920,
@@ -328,6 +348,7 @@
           "children": [
             {
               "type": "frame",
+              "id": "IiMHL",
               "x": 60,
               "y": 60,
               "width": 800,
@@ -336,34 +357,43 @@
               "children": [
                 {
                   "type": "text",
+                  "id": "F1jbp",
                   "fill": "#FDED9EFF",
                   "content": "试着组合你的调料",
+                  "fontFamily": "Inter",
                   "fontSize": 70,
                   "fontWeight": "bold"
                 },
                 {
                   "type": "frame",
-                  "layout": "none",
+                  "id": "0OrpR",
                   "width": 800,
                   "height": 800,
+                  "layout": "none",
                   "children": [
                     {
                       "type": "text",
+                      "id": "PeAvY",
                       "x": 2,
                       "y": 2,
                       "fill": "#00000066",
                       "content": "1. 宁静 治愈\n莫兰迪色 + 巨大负空间\n\n2. 安全 专业\n雾霾蓝 + 毛玻璃\n\n3. 亲和 温暖\n燕麦色 + 柔和大圆角",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
                       "fontSize": 46,
-                      "lineHeight": 1.6
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
+                      "id": "05138",
                       "x": 0,
                       "y": 0,
                       "fill": "#FFFFFFFF",
                       "content": "1. 宁静 治愈\n莫兰迪色 + 巨大负空间\n\n2. 安全 专业\n雾霾蓝 + 毛玻璃\n\n3. 亲和 温暖\n燕麦色 + 柔和大圆角",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
                       "fontSize": 46,
-                      "lineHeight": 1.6
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -387,9 +417,13 @@
       "children": [
         {
           "type": "rectangle",
+          "id": "3Asig",
+          "x": 0,
+          "y": 0,
           "fill": {
             "type": "image",
             "opacity": 0.4,
+            "enabled": true,
             "url": "https://images.unsplash.com/photo-1525909002-1b05e0c869d8?q=80&w=2675&auto=format&fit=crop",
             "mode": "fill",
             "blendMode": "overlay"
@@ -399,6 +433,7 @@
         },
         {
           "type": "frame",
+          "id": "32MW1",
           "x": 80,
           "y": 320,
           "width": 920,
@@ -413,6 +448,7 @@
           "children": [
             {
               "type": "frame",
+              "id": "9XFQ9",
               "x": 60,
               "y": 60,
               "width": 800,
@@ -421,44 +457,56 @@
               "children": [
                 {
                   "type": "text",
+                  "id": "bRipr",
                   "fill": "#FDED9EFF",
                   "content": "设计的灵魂",
+                  "fontFamily": "Inter",
                   "fontSize": 70,
                   "fontWeight": "bold"
                 },
                 {
                   "type": "frame",
-                  "layout": "none",
+                  "id": "6ibse",
                   "width": 800,
                   "height": 400,
+                  "layout": "none",
                   "children": [
                     {
                       "type": "text",
+                      "id": "Bwrnp",
                       "x": 2,
                       "y": 2,
                       "fill": "#00000066",
                       "content": "好的设计\n不是让用户 看懂 了什么\n而是让用户 感受到 了什么",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
                       "fontSize": 54,
-                      "lineHeight": 1.6
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
+                      "id": "g0Ziw",
                       "x": 0,
                       "y": 0,
                       "fill": "#FFFFFFFF",
                       "content": "好的设计\n不是让用户 看懂 了什么\n而是让用户 感受到 了什么",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
                       "fontSize": 54,
-                      "lineHeight": 1.6
+                      "fontWeight": "normal"
                     }
                   ]
                 },
                 {
                   "type": "text",
+                  "id": "uIajc",
                   "fill": "#FFFFFFFF",
                   "content": "关注我 每天一个审美知识",
-                  "fontSize": 36,
                   "textAlign": "center",
-                  "width": 800
+                  "fontFamily": "Inter",
+                  "fontSize": 36,
+                  "fontWeight": "500",
+                  "fontStyle": "italic"
                 }
               ]
             }
