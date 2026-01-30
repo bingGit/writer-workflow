@@ -316,7 +316,7 @@ if __name__ == "__main__":
     parser = MoxingshuParser()
     if len(sys.argv) > 1:
         if sys.argv[1] == 'list': print(parser.fetch_article_list())
-        elif sys.argv[1] == 'export': print(parser.export_hierarchy(sys.argv[2], "--details" in sys.argv))
+        elif sys.argv[1] == 'export': print(parser.export_hierarchy(sys.argv[2], "--details" in sys.argv or "--detail" in sys.argv))
         else:
             res = parser.parse(sys.argv[1])
             for r in res: print(f"- {r}")
