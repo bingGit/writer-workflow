@@ -379,7 +379,25 @@ pencil render file.pen -o output.png
 
 ---
 
-## 九、相关文档
+## 九、底层工程原理
+
+本 SOP 的设计逻辑对标现代软件工程的核心原则：
+
+| 工程原则 | SOP 体现 | 设计收益 |
+|---------|---------|---------|
+| **分层抽象** (Layering) | 背景层 → 内容层 → 文本层 | 关注点分离，改一层不影响其他层 |
+| **约定优于配置** (Convention over Config) | `layout: "none"` 才能绝对定位 | 减少隐式规则导致的错误 |
+| **可组合性** (Composability) | 主题-背景色表、可复用模板 | 原子化设计 + 组件复用 |
+| **防御性编程** (Defensive) | 占位框架、脚本全量重建 | 假设环境不可靠，先保证可运行 |
+| **声明式范式** (Declarative) | JSON 描述"想要什么"而非"怎么画" | 可读性高、易于版本控制 |
+| **版本控制思维** (VCS Mindset) | 需求演进记录 V1→V5 | 记录决策而非仅保存文件 |
+| **测试验证** (Testing) | 快速检查清单、JSON 格式验证 | 每次修改后验证 = 单元测试思想 |
+
+> 💡 **核心洞察**：这份 SOP 本质上是把**软件工程的系统性思维**应用到**设计资产管理**领域。它不仅是操作手册，更是一个**可维护、可扩展、可复用的设计系统架构文档**。
+
+---
+
+## 十、相关文档
 
 - 参考样式: `/Users/bing/project/me/writer/.agent/prompts/xiaohongshu_vibe.md`
 - 项目文件: `/Users/bing/project/me/writer/article/小红书/pencil/aesthetic_knowledge_cover.pen`
@@ -387,6 +405,6 @@ pencil render file.pen -o output.png
 
 ---
 
-**文档版本**: v1.0  
-**最后更新**: 2026-01-28  
+**文档版本**: v1.1  
+**最后更新**: 2026-01-29  
 **维护说明**: 每次重大工作流程更新后，请同步更新本 SOP 文档

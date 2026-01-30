@@ -1,0 +1,628 @@
+{
+  "version": "2.6",
+  "children": [
+    {
+      "type": "frame",
+      "id": "p1-canvas",
+      "x": 0,
+      "y": 0,
+      "name": "P1-封面",
+      "clip": true,
+      "width": 1080,
+      "height": 1440,
+      "fill": "#6B8E7D",
+      "layout": "none",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "qcVa0",
+          "x": 0,
+          "y": 0,
+          "name": "纹理层",
+          "fill": {
+            "type": "image",
+            "opacity": 0.5,
+            "enabled": true,
+            "url": "gray_texture.png",
+            "mode": "fill",
+            "blendMode": "multiply"
+          },
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "type": "text",
+          "id": "6BVSu",
+          "x": 0,
+          "y": 71,
+          "fill": "#FFFFFFFF",
+          "textGrowth": "fixed-width-height",
+          "width": 1080,
+          "height": 91,
+          "content": "每天一个审美知识",
+          "textAlign": "center",
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": 64,
+          "fontWeight": "bold",
+          "letterSpacing": 10
+        },
+        {
+          "type": "text",
+          "id": "HrpRz",
+          "x": 0,
+          "y": 162,
+          "fill": "#FFFFFFCC",
+          "textGrowth": "fixed-width-height",
+          "width": 1080,
+          "height": 51,
+          "content": "A little Aesthetic every day",
+          "textAlign": "center",
+          "fontFamily": "Georgia, serif",
+          "fontSize": 36,
+          "fontWeight": "normal",
+          "letterSpacing": 2,
+          "fontStyle": "italic"
+        },
+        {
+          "type": "text",
+          "id": "SHimg",
+          "x": 0,
+          "y": 280,
+          "fill": "#FCE492",
+          "effect": {
+            "type": "shadow",
+            "shadowType": "outer",
+            "color": "#FCE49226",
+            "offset": {
+              "x": 0,
+              "y": 2
+            },
+            "blur": 8
+          },
+          "textGrowth": "fixed-width-height",
+          "width": 1080,
+          "height": 199,
+          "content": "呼吸感",
+          "textAlign": "center",
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": 140,
+          "fontWeight": "900"
+        },
+        {
+          "type": "frame",
+          "id": "oy0tB",
+          "x": 340,
+          "y": 520,
+          "name": "插画占位区",
+          "width": 400,
+          "height": 600,
+          "fill": "#5B8BA320",
+          "cornerRadius": 20,
+          "stroke": {
+            "align": "inside",
+            "thickness": 2
+          },
+          "layout": "vertical",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "H2l9X",
+              "fill": "#FFFFFF66",
+              "content": "🖼 插画占位 400×600\n建议: 简约人物剪影/留白场景",
+              "textAlign": "center",
+              "fontFamily": "Inter, sans-serif",
+              "fontSize": 32,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "nvOGe",
+          "x": 0,
+          "y": 1207,
+          "fill": "#FFFFFFFF",
+          "textGrowth": "fixed-width-height",
+          "width": 1080,
+          "height": 120,
+          "content": "不打扰\n才是最高级的温柔",
+          "lineHeight": 1.5,
+          "textAlign": "center",
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": 48,
+          "fontWeight": "normal",
+          "letterSpacing": 2
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "p2-canvas",
+      "x": 1150,
+      "y": 0,
+      "name": "P2-视觉减负",
+      "clip": true,
+      "width": 1080,
+      "height": 1440,
+      "fill": "#5B8BA3",
+      "layout": "none",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "wVD7K",
+          "x": 0,
+          "y": 0,
+          "name": "纹理层",
+          "fill": {
+            "type": "image",
+            "opacity": 0.5,
+            "enabled": true,
+            "url": "gray_texture.png",
+            "mode": "fill",
+            "blendMode": "multiply"
+          },
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "type": "text",
+          "id": "v9hvD",
+          "x": 80,
+          "y": 86,
+          "fill": "#FCE492",
+          "content": "🎬 呼吸感的本质",
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": 70,
+          "fontWeight": "bold",
+          "letterSpacing": 4
+        },
+        {
+          "type": "text",
+          "id": "9QoGK",
+          "x": 80,
+          "y": 186,
+          "fill": "#FFFFFFFF",
+          "content": "是\"视觉减负\"",
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": 70,
+          "fontWeight": "bold",
+          "letterSpacing": 4
+        },
+        {
+          "type": "frame",
+          "id": "eyD2r",
+          "x": 80,
+          "y": 320,
+          "width": 920,
+          "layout": "vertical",
+          "gap": 40,
+          "children": [
+            {
+              "type": "text",
+              "id": "sfFEa",
+              "fill": "#FFFFFFFF",
+              "content": "给内容加黑框,通过强对比锁住视线?\n那是在造\"牢笼\"。",
+              "lineHeight": 1.8,
+              "fontFamily": "Inter, sans-serif",
+              "fontSize": 48,
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "mqU2y",
+              "fill": "#FCE492CC",
+              "content": "真正的呼吸感,\n是淡金色的光晕,是浅蓝色的远山。",
+              "lineHeight": 1.8,
+              "fontFamily": "Inter, sans-serif",
+              "fontSize": 48,
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "GgYtr",
+              "fill": "#FFFFFF99",
+              "content": "它们存在,但从不喧宾夺主。",
+              "fontFamily": "Georgia, serif",
+              "fontSize": 42,
+              "fontWeight": "normal",
+              "letterSpacing": 1,
+              "fontStyle": "italic"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "D0bEB",
+          "x": 240,
+          "y": 900,
+          "name": "插画占位区",
+          "width": 600,
+          "height": 300,
+          "fill": "#5B8BA320",
+          "cornerRadius": 20,
+          "stroke": {
+            "align": "inside",
+            "thickness": 2
+          },
+          "layout": "vertical",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "1jqCB",
+              "fill": "#FFFFFF66",
+              "content": "🖼 插画占位 600×300\n建议: 黑框 vs 淡色渐变对比图",
+              "textAlign": "center",
+              "fontFamily": "Inter, sans-serif",
+              "fontSize": 32,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "p3-canvas",
+      "x": 2300,
+      "y": 0,
+      "name": "P3-感知对比",
+      "clip": true,
+      "width": 1080,
+      "height": 1440,
+      "fill": "#7B7291",
+      "layout": "none",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "7p4Dc",
+          "x": 0,
+          "y": 0,
+          "name": "纹理层",
+          "fill": {
+            "type": "image",
+            "opacity": 0.5,
+            "enabled": true,
+            "url": "gray_texture.png",
+            "mode": "fill",
+            "blendMode": "multiply"
+          },
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "type": "text",
+          "id": "aW2iZ",
+          "x": 80,
+          "y": 86,
+          "fill": "#FCE492",
+          "content": "🔍 感知 vs 干扰",
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": 80,
+          "fontWeight": "bold",
+          "letterSpacing": 4
+        },
+        {
+          "type": "frame",
+          "id": "GQFzl",
+          "x": 80,
+          "y": 240,
+          "width": 920,
+          "layout": "vertical",
+          "gap": 50,
+          "children": [
+            {
+              "type": "frame",
+              "id": "BCKW1",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "yd2vK",
+                  "fill": "#FFFFFF99",
+                  "content": "❌ 深色线条",
+                  "fontFamily": "Inter, sans-serif",
+                  "fontSize": 42,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "1NJzB",
+                  "fill": "#FFFFFFFF",
+                  "content": "是堵墙,强制定义了边界。",
+                  "fontFamily": "Inter, sans-serif",
+                  "fontSize": 48,
+                  "fontWeight": "bold",
+                  "letterSpacing": 2
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "liOMQ",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "DR9KD",
+                  "fill": "#FCE492CC",
+                  "content": "✅ 淡色渐变",
+                  "fontFamily": "Inter, sans-serif",
+                  "fontSize": 42,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "G3VOr",
+                  "fill": "#FFFFFFFF",
+                  "content": "是层雾,让视线可以穿透。",
+                  "fontFamily": "Inter, sans-serif",
+                  "fontSize": 48,
+                  "fontWeight": "bold",
+                  "letterSpacing": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "XnmWC",
+          "x": 80,
+          "y": 600,
+          "width": 920,
+          "fill": "#FFFFFF1A",
+          "cornerRadius": 20,
+          "layout": "vertical",
+          "gap": 24,
+          "padding": 40,
+          "children": [
+            {
+              "type": "text",
+              "id": "eVZRZ",
+              "fill": "#FCE492",
+              "content": "💡 最高级的设计",
+              "fontFamily": "Inter, sans-serif",
+              "fontSize": 42,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "text",
+              "id": "CdpL5",
+              "fill": "#FFFFFFFF",
+              "content": "是将对比度降到\"最小可觉差\"(JND)。\n\n你感觉不到边框的存在,\n却能自然地聚焦在内容本身。",
+              "lineHeight": 1.8,
+              "fontFamily": "Inter, sans-serif",
+              "fontSize": 44,
+              "fontWeight": "normal",
+              "letterSpacing": 1
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "npoyH",
+          "x": 240,
+          "y": 1081,
+          "name": "插画占位区",
+          "width": 600,
+          "height": 300,
+          "fill": "#5B8BA320",
+          "cornerRadius": 20,
+          "stroke": {
+            "align": "inside",
+            "thickness": 2
+          },
+          "layout": "vertical",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "fob1D",
+              "fill": "#FFFFFF66",
+              "content": "🖼 插画占位 600×300\nJND 示意图",
+              "textAlign": "center",
+              "fontFamily": "Inter, sans-serif",
+              "fontSize": 32,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "p4-canvas",
+      "x": 3450,
+      "y": 0,
+      "name": "P4-设计原则",
+      "clip": true,
+      "width": 1080,
+      "height": 1440,
+      "fill": "#4A7A8F",
+      "layout": "none",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "GtUpv",
+          "x": 0,
+          "y": 0,
+          "name": "纹理层",
+          "fill": {
+            "type": "image",
+            "opacity": 0.5,
+            "enabled": true,
+            "url": "gray_texture.png",
+            "mode": "fill",
+            "blendMode": "multiply"
+          },
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "type": "text",
+          "id": "eRNzB",
+          "x": 80,
+          "y": 86,
+          "fill": "#FCE492",
+          "content": "💡 试着给你的设计做减法",
+          "lineHeight": 1.3,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": 70,
+          "fontWeight": "bold",
+          "letterSpacing": 3
+        },
+        {
+          "type": "frame",
+          "id": "kQnMc",
+          "x": 80,
+          "y": 280,
+          "width": 920,
+          "layout": "vertical",
+          "gap": 40,
+          "children": [
+            {
+              "type": "frame",
+              "id": "ZBzzF",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "bVrFj",
+                  "fill": "#FCE492",
+                  "content": "1️⃣ 弱化边界",
+                  "fontFamily": "Inter, sans-serif",
+                  "fontSize": 54,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "ncy1M",
+                  "fill": "#FFFFFFFF",
+                  "content": "用光影代替线条",
+                  "fontFamily": "Inter, sans-serif",
+                  "fontSize": 42,
+                  "fontWeight": "normal",
+                  "letterSpacing": 2
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Gj3ni",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "SYzij",
+                  "fill": "#FCE492",
+                  "content": "2️⃣ 增加留白",
+                  "fontFamily": "Inter, sans-serif",
+                  "fontSize": 54,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "vRo73",
+                  "fill": "#FFFFFFFF",
+                  "content": "让视线有地方停顿",
+                  "fontFamily": "Inter, sans-serif",
+                  "fontSize": 42,
+                  "fontWeight": "normal",
+                  "letterSpacing": 2
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "PXU3W",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "dhoTx",
+                  "fill": "#FCE492",
+                  "content": "3️⃣ 模糊背景",
+                  "fontFamily": "Inter, sans-serif",
+                  "fontSize": 54,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "6zhqw",
+                  "fill": "#FFFFFFFF",
+                  "content": "毛玻璃不仅是特效,\n是把干扰变成氛围",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Inter, sans-serif",
+                  "fontSize": 42,
+                  "fontWeight": "normal",
+                  "letterSpacing": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "lh4Fz",
+          "x": 80,
+          "y": 880,
+          "width": 920,
+          "fill": "#FFFFFF1A",
+          "cornerRadius": 20,
+          "layout": "vertical",
+          "gap": 30,
+          "padding": 50,
+          "children": [
+            {
+              "type": "text",
+              "id": "LgRe8",
+              "fill": "#FFFFFF99",
+              "content": "🌌 案例对比",
+              "fontFamily": "Inter, sans-serif",
+              "fontSize": 40,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "A2999",
+              "fill": "#FFFFFFFF",
+              "content": "拼多多 → 拥挤制造紧迫\nNotion → 留白创造沉浸",
+              "lineHeight": 1.8,
+              "fontFamily": "Inter, sans-serif",
+              "fontSize": 48,
+              "fontWeight": "bold",
+              "letterSpacing": 2
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "xDC8W",
+          "x": 141,
+          "y": 1240,
+          "fill": "#FCE492CC",
+          "content": "所谓审美,\n不过是选择如何对待别人的注意力。",
+          "lineHeight": 1.8,
+          "textAlign": "center",
+          "fontFamily": "Georgia, serif",
+          "fontSize": 44,
+          "fontWeight": "normal",
+          "letterSpacing": 1,
+          "fontStyle": "italic"
+        }
+      ]
+    }
+  ]
+}
