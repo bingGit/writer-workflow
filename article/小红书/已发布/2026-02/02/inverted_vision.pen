@@ -1,0 +1,567 @@
+{
+  "version": "2.6",
+  "children": [
+    {
+      "type": "frame",
+      "id": "BN963",
+      "x": 0,
+      "y": 0,
+      "name": "P1: 倒着看世界",
+      "width": 1080,
+      "height": 1440,
+      "fill": "#7B7291",
+      "layout": "none",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "uLOhr",
+          "x": 0,
+          "y": 0,
+          "name": "Background",
+          "fill": "#7B7291",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "type": "rectangle",
+          "id": "aEy0t",
+          "x": 0,
+          "y": 0,
+          "name": "Texture",
+          "fill": {
+            "type": "image",
+            "opacity": 0.5,
+            "enabled": true,
+            "url": "gray_texture.png",
+            "mode": "fill",
+            "blendMode": "multiply"
+          },
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "type": "text",
+          "id": "3sFHK",
+          "x": 16,
+          "y": 71,
+          "fill": "#FFFFFFFF",
+          "textGrowth": "fixed-width-height",
+          "width": 1080,
+          "height": 91,
+          "content": "每天一个审美知识",
+          "textAlign": "center",
+          "fontFamily": "Inter",
+          "fontSize": 64,
+          "fontWeight": "bold",
+          "letterSpacing": 10
+        },
+        {
+          "type": "text",
+          "id": "uE4Ip",
+          "x": 0,
+          "y": 162,
+          "fill": "#FFFFFFCC",
+          "textGrowth": "fixed-width-height",
+          "width": 1080,
+          "height": 51,
+          "content": "A little Aesthetic every day",
+          "textAlign": "center",
+          "fontFamily": "Georgia",
+          "fontSize": 36,
+          "fontWeight": "normal",
+          "letterSpacing": 2,
+          "fontStyle": "italic"
+        },
+        {
+          "type": "text",
+          "id": "ijGWD",
+          "x": 29,
+          "y": 213,
+          "fill": "#FCE492",
+          "effect": {
+            "type": "shadow",
+            "shadowType": "outer",
+            "color": "#FCE49226",
+            "offset": {
+              "x": 0,
+              "y": 2
+            },
+            "blur": 8
+          },
+          "textGrowth": "fixed-width-height",
+          "width": 1080,
+          "height": 200,
+          "content": "倒着看世界",
+          "textAlign": "center",
+          "fontFamily": "Inter",
+          "fontSize": 140,
+          "fontWeight": "900"
+        },
+        {
+          "type": "frame",
+          "id": "SUZe8",
+          "x": 281,
+          "y": 479,
+          "name": "p1img",
+          "width": 550,
+          "height": 601,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "inverted_vision.png",
+            "mode": "fill"
+          },
+          "effect": {
+            "type": "background_blur",
+            "radius": 20
+          }
+        },
+        {
+          "type": "text",
+          "id": "XCiZm",
+          "x": 0,
+          "y": 1207,
+          "fill": "#FFFFFFFF",
+          "textGrowth": "fixed-width-height",
+          "width": 1080,
+          "height": 120,
+          "content": "真正的视觉不需要翻译\n一个关于视觉觉醒的测试",
+          "lineHeight": 1.5,
+          "textAlign": "center",
+          "fontFamily": "Inter",
+          "fontSize": 48,
+          "fontWeight": "normal",
+          "letterSpacing": 2
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "uKJZe",
+      "x": 1280,
+      "y": 0,
+      "name": "P2: 💭 视觉困惑",
+      "width": 1080,
+      "height": 1440,
+      "fill": "#7B7291",
+      "layout": "none",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "3ev4u",
+          "x": 0,
+          "y": 0,
+          "name": "Background",
+          "fill": "#7B7291",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "type": "rectangle",
+          "id": "DYWTO",
+          "x": 0,
+          "y": 0,
+          "name": "Texture",
+          "fill": {
+            "type": "image",
+            "opacity": 0.5,
+            "enabled": true,
+            "url": "gray_texture.png",
+            "mode": "fill",
+            "blendMode": "multiply"
+          },
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "type": "frame",
+          "id": "ftEV1",
+          "x": 80,
+          "y": 300,
+          "name": "ContentContainer",
+          "width": 920,
+          "height": 840,
+          "fill": "#FFFFFF1A",
+          "cornerRadius": 40,
+          "effect": {
+            "type": "background_blur",
+            "radius": 40
+          },
+          "layout": "vertical",
+          "gap": 40,
+          "padding": 60,
+          "children": [
+            {
+              "type": "text",
+              "id": "YNMh5",
+              "fill": "#FDED9EFF",
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#00000066",
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                }
+              },
+              "content": "💭 视觉困惑",
+              "fontFamily": "Inter",
+              "fontSize": 70,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "text",
+              "id": "cdYvi",
+              "fill": "#FFFFFFFF",
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#00000066",
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                }
+              },
+              "content": "为什么照片总觉得差点意思？\n\n脑补了一万字故事，\n去掉故事就索然无味。",
+              "lineHeight": 1.5,
+              "fontFamily": "Inter",
+              "fontSize": 54,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "text",
+              "id": "ZAWXR",
+              "fill": "#FFFFFF99",
+              "content": "Concept vs Form",
+              "fontFamily": "Inter",
+              "fontSize": 36,
+              "fontWeight": "normal",
+              "fontStyle": "italic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "oG377",
+      "x": 2560,
+      "y": 0,
+      "name": "P3: 🧠 视觉翻译",
+      "width": 1080,
+      "height": 1440,
+      "fill": "#7B7291",
+      "layout": "none",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "gh8Yp",
+          "x": 0,
+          "y": 0,
+          "name": "Background",
+          "fill": "#7B7291",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "type": "rectangle",
+          "id": "oVP8O",
+          "x": 0,
+          "y": 0,
+          "name": "Texture",
+          "fill": {
+            "type": "image",
+            "opacity": 0.5,
+            "enabled": true,
+            "url": "gray_texture.png",
+            "mode": "fill",
+            "blendMode": "multiply"
+          },
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "type": "frame",
+          "id": "ZRqHZ",
+          "x": 80,
+          "y": 300,
+          "name": "ContentContainer",
+          "width": 920,
+          "height": 840,
+          "fill": "#FFFFFF1A",
+          "cornerRadius": 40,
+          "effect": {
+            "type": "background_blur",
+            "radius": 40
+          },
+          "layout": "vertical",
+          "gap": 40,
+          "padding": 60,
+          "children": [
+            {
+              "type": "text",
+              "id": "FO0oO",
+              "fill": "#FDED9EFF",
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#00000066",
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                }
+              },
+              "content": "🧠 视觉翻译",
+              "fontFamily": "Inter",
+              "fontSize": 70,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "text",
+              "id": "6r6m5",
+              "fill": "#FFFFFFFF",
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#00000066",
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                }
+              },
+              "content": "我们在看世界时，\n大脑自动挂载字幕。\n\n你以为看的是照片，\n其实看的是联想。",
+              "lineHeight": 1.5,
+              "fontFamily": "Inter",
+              "fontSize": 54,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "text",
+              "id": "UwlAp",
+              "fill": "#FFFFFF99",
+              "content": "Mental Subtitles",
+              "fontFamily": "Inter",
+              "fontSize": 36,
+              "fontWeight": "normal",
+              "fontStyle": "italic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "WbuKh",
+      "x": 3840,
+      "y": 0,
+      "name": "P4: 🛡️ 生存本能",
+      "width": 1080,
+      "height": 1440,
+      "fill": "#7B7291",
+      "layout": "none",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "WyM8a",
+          "x": 0,
+          "y": 0,
+          "name": "Background",
+          "fill": "#7B7291",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "type": "rectangle",
+          "id": "JJ6no",
+          "x": 0,
+          "y": 0,
+          "name": "Texture",
+          "fill": {
+            "type": "image",
+            "opacity": 0.5,
+            "enabled": true,
+            "url": "gray_texture.png",
+            "mode": "fill",
+            "blendMode": "multiply"
+          },
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "type": "frame",
+          "id": "SSc89",
+          "x": 80,
+          "y": 300,
+          "name": "ContentContainer",
+          "width": 920,
+          "height": 840,
+          "fill": "#FFFFFF1A",
+          "cornerRadius": 40,
+          "effect": {
+            "type": "background_blur",
+            "radius": 40
+          },
+          "layout": "vertical",
+          "gap": 40,
+          "padding": 60,
+          "children": [
+            {
+              "type": "text",
+              "id": "5jXaO",
+              "fill": "#FDED9EFF",
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#00000066",
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                }
+              },
+              "content": "🛡️ 生存本能",
+              "fontFamily": "Inter",
+              "fontSize": 70,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "text",
+              "id": "wsvjS",
+              "fill": "#FFFFFFFF",
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#00000066",
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                }
+              },
+              "content": "大脑只关心“是什么”\n（老人=安全/危险？）\n\n为了读懂意义，\n我们牺牲了感知。",
+              "lineHeight": 1.5,
+              "fontFamily": "Inter",
+              "fontSize": 54,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "text",
+              "id": "nHbMU",
+              "fill": "#FFFFFF99",
+              "content": "Evolutionary Filter",
+              "fontFamily": "Inter",
+              "fontSize": 36,
+              "fontWeight": "normal",
+              "fontStyle": "italic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "rQr2Z",
+      "x": 5120,
+      "y": 0,
+      "name": "P5: 🌱 倒转实验",
+      "width": 1080,
+      "height": 1440,
+      "fill": "#7B7291",
+      "layout": "none",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "uagWP",
+          "x": 0,
+          "y": 0,
+          "name": "Background",
+          "fill": "#7B7291",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "type": "rectangle",
+          "id": "t5B3R",
+          "x": 0,
+          "y": 0,
+          "name": "Texture",
+          "fill": {
+            "type": "image",
+            "opacity": 0.5,
+            "enabled": true,
+            "url": "gray_texture.png",
+            "mode": "fill",
+            "blendMode": "multiply"
+          },
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "type": "frame",
+          "id": "4BOp6",
+          "x": 80,
+          "y": 300,
+          "name": "ContentContainer",
+          "width": 920,
+          "height": 840,
+          "fill": "#FFFFFF1A",
+          "cornerRadius": 40,
+          "effect": {
+            "type": "background_blur",
+            "radius": 40
+          },
+          "layout": "vertical",
+          "gap": 40,
+          "padding": 60,
+          "children": [
+            {
+              "type": "text",
+              "id": "nILjd",
+              "fill": "#FDED9EFF",
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#00000066",
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                }
+              },
+              "content": "🌱 倒转实验",
+              "fontFamily": "Inter",
+              "fontSize": 70,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "text",
+              "id": "T8JXO",
+              "fill": "#FFFFFFFF",
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#00000066",
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                }
+              },
+              "content": "试着把手机倒过来。\n如果情绪还在，\n那是视觉的力量。\n\n一场反抗大脑惯性的起义。",
+              "lineHeight": 1.5,
+              "fontFamily": "Inter",
+              "fontSize": 54,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "text",
+              "id": "PBYwR",
+              "fill": "#FFFFFF99",
+              "content": "Rebellion against Inertia",
+              "fontFamily": "Inter",
+              "fontSize": 36,
+              "fontWeight": "normal",
+              "fontStyle": "italic"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

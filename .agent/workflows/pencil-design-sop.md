@@ -82,10 +82,6 @@ description: Pencil JSON 设计工具标准操作流程 - 从需求到交付的�
 | 温暖/接纳 | `#8B7D6B` 暖灰 | 包容、安全、大地感 |
 | 警示/重点 | `#A68B7C` 砖红灰 | 注意、重要、行动 |
 
-**✅ 系列一致性原则**:
-- 同一主题下的所有卡片（P1-P5）**必须使用完全相同的背景色**。
-- 禁止在同一系列中混用不同含义的莫兰迪色。
-
 ---
 
 ### 阶段 2: JSON 结构搭建
@@ -118,9 +114,19 @@ description: Pencil JSON 设计工具标准操作流程 - 从需求到交付的�
 - 若需要使用 `x`, `y` 坐标精确控制位置，父级 Frame **必须** 设置 `"layout": "none"`。
 - 若使用 `gap`, `padding` 进行自动排列，父级 Frame 应设置 `"layout": "vertical"`。
 
----
+#### 步骤 2.3 全自动生成 (Integrated Generation)
+**执行逻辑**: 使用 Python 脚本将数据源转化为 JSON 卡片和配图提示词。
 
-### 阶段 3: 内容填充与样式应用
+**操作命令**:
+```bash
+# 编辑 scripts/generate_card_series.py 填入卡片数据 (Content + Metaphor)
+# 然后运行:
+python3 scripts/generate_card_series.py
+```
+
+**Output**:
+1. `article/../pencil/project.pen`: 可直接渲染的卡片文件
+2. `article/../pencil/project_prompts.txt`: 配套的 Midjourney/SD 提示词列表（已自动同步背景色和隐喻）
 
 #### 步骤 3.1 样式统一化（P2-P5）
 **从 P2 确定的毛玻璃+双层文字模板**:
@@ -142,11 +148,6 @@ description: Pencil JSON 设计工具标准操作流程 - 从需求到交付的�
 - **问题**: 使用 `replace_file_content` 替换 P2-P5 时，由于目标内容不唯一导致 JSON 格式错误
 - **表现**: `Expecting ',' delimiter: line 808 column 11`
 - **解决**: 改用 Python 脚本全量重建文件
-
-#### 步骤 3.2 最终一致性检查
-- **检查项**: 对比 P1 至 P5 的 `fill` 属性（背景色）。
-- **标准**: 所有卡片的背景 fill 值必须完全一致（例如均为 `#5B8BA3`）。
-- **修正**: 若发现不一致，以 P1 封面定义的颜色为准，批量更新后续卡片。
 
 ---
 
@@ -369,9 +370,7 @@ pencil render file.pen -o output.png
 - [ ] 所有文本使用英文半角引号
 - [ ] 颜色值格式正确（#RRGGBBAA）
 - [ ] 字号符合层级规范（70/54/42/36）
-- [ ] 字号符合层级规范（70/54/42/36）
 - [ ] 容器使用统一的 gap 和 padding
-- [ ] **[关键]** 同系列所有卡片背景色 (fill) 保持一致
 
 **编辑阶段**:
 - [ ] 大规模修改使用 Python 脚本
