@@ -1,0 +1,617 @@
+{
+  "version": "2.6",
+  "children": [
+    {
+      "type": "frame",
+      "id": "xhs-home",
+      "x": 0,
+      "y": 0,
+      "name": "Xiaohongshu Home",
+      "clip": true,
+      "width": 1080,
+      "height": 2400,
+      "fill": "#F5F5F5",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "top-nav",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 180,
+          "fill": "#FFFFFFCC",
+          "effect": {
+            "type": "background_blur",
+            "radius": 40
+          },
+          "layout": "none",
+          "children": [
+            {
+              "type": "text",
+              "id": "NkpH7",
+              "x": 80,
+              "y": 100,
+              "fill": "#999999",
+              "content": "关注",
+              "fontFamily": "Inter",
+              "fontSize": 32,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "j3ldZ",
+              "x": 200,
+              "y": 95,
+              "fill": "#000000",
+              "content": "发现",
+              "fontFamily": "Inter",
+              "fontSize": 36,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "text",
+              "id": "szckX",
+              "x": 320,
+              "y": 100,
+              "fill": "#999999",
+              "content": "成都",
+              "fontFamily": "Inter",
+              "fontSize": 32,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": 3,
+              "id": "w5YMu",
+              "x": 200,
+              "y": 145,
+              "fill": "#FF2442",
+              "width": 64,
+              "height": 6
+            },
+            {
+              "type": "text",
+              "id": "WYTPz",
+              "x": 920,
+              "y": 100,
+              "content": "🔍",
+              "fontFamily": "Inter",
+              "fontSize": 40,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "content-area",
+          "x": 20,
+          "y": 200,
+          "width": 1040,
+          "height": 2020,
+          "layout": "none",
+          "children": [
+            {
+              "type": "frame",
+              "id": "note-note-0",
+              "x": 0,
+              "y": 0,
+              "clip": true,
+              "width": 510,
+              "fill": "#FFFFFF",
+              "cornerRadius": 24,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#0000000D",
+                "offset": {
+                  "x": 0,
+                  "y": 4
+                },
+                "blur": 12
+              },
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "img-note-0",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1542332213-9b5a5a3fad35?q=80&w=2070&auto=format&fit=crop",
+                    "mode": "fill"
+                  },
+                  "width": "fill_container",
+                  "height": 600
+                },
+                {
+                  "type": "frame",
+                  "id": "text-cont-note-0",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "title-note-0",
+                      "fill": "#000000",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "终于找到了！成都最好拍的机位📷",
+                      "fontFamily": "Inter",
+                      "fontSize": 28,
+                      "fontWeight": "semibold"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "author-cont-note-0",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "2uez1",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "cornerRadius": 16,
+                              "id": "ARfmB",
+                              "fill": "#E0E0E0",
+                              "width": 32,
+                              "height": 32
+                            },
+                            {
+                              "type": "text",
+                              "id": "UShxL",
+                              "fill": "#666666",
+                              "content": "摄影师阿强",
+                              "fontFamily": "Inter",
+                              "fontSize": 22,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "gvpcX",
+                          "gap": 4,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "2pL0y",
+                              "content": "❤️",
+                              "fontFamily": "Inter",
+                              "fontSize": 20,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "TiwEu",
+                              "fill": "#999999",
+                              "content": "1205",
+                              "fontFamily": "Inter",
+                              "fontSize": 22,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "note-note-1",
+              "x": 530,
+              "y": 0,
+              "clip": true,
+              "width": 510,
+              "fill": "#FFFFFF",
+              "cornerRadius": 24,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#0000000D",
+                "offset": {
+                  "x": 0,
+                  "y": 4
+                },
+                "blur": 12
+              },
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "img-note-1",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?q=80&w=2067&auto=format&fit=crop",
+                    "mode": "fill"
+                  },
+                  "width": "fill_container",
+                  "height": 600
+                },
+                {
+                  "type": "frame",
+                  "id": "text-cont-note-1",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "title-note-1",
+                      "fill": "#000000",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "极简主义者的书房长什么样？🌿",
+                      "fontFamily": "Inter",
+                      "fontSize": 28,
+                      "fontWeight": "semibold"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "author-cont-note-1",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Cu3gJ",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "cornerRadius": 16,
+                              "id": "VxwdF",
+                              "fill": "#E0E0E0",
+                              "width": 32,
+                              "height": 32
+                            },
+                            {
+                              "type": "text",
+                              "id": "kRTep",
+                              "fill": "#666666",
+                              "content": "家居美学",
+                              "fontFamily": "Inter",
+                              "fontSize": 22,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "RYVVj",
+                          "gap": 4,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "C1fvH",
+                              "content": "❤️",
+                              "fontFamily": "Inter",
+                              "fontSize": 20,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "y2UA5",
+                              "fill": "#999999",
+                              "content": "583",
+                              "fontFamily": "Inter",
+                              "fontSize": 22,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "note-note-2",
+              "x": 0,
+              "y": 820,
+              "clip": true,
+              "width": 510,
+              "fill": "#FFFFFF",
+              "cornerRadius": 24,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#0000000D",
+                "offset": {
+                  "x": 0,
+                  "y": 4
+                },
+                "blur": 12
+              },
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "img-note-2",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=2072&auto=format&fit=crop",
+                    "mode": "fill"
+                  },
+                  "width": "fill_container",
+                  "height": 600
+                },
+                {
+                  "type": "frame",
+                  "id": "text-cont-note-2",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "title-note-2",
+                      "fill": "#000000",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "拒绝路人感！这套搭配我能穿一整年",
+                      "fontFamily": "Inter",
+                      "fontSize": 28,
+                      "fontWeight": "semibold"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "author-cont-note-2",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "1fwGk",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "cornerRadius": 16,
+                              "id": "LptCF",
+                              "fill": "#E0E0E0",
+                              "width": 32,
+                              "height": 32
+                            },
+                            {
+                              "type": "text",
+                              "id": "OjxMW",
+                              "fill": "#666666",
+                              "content": "穿搭博主子",
+                              "fontFamily": "Inter",
+                              "fontSize": 22,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "B4MiI",
+                          "gap": 4,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "MInhx",
+                              "content": "❤️",
+                              "fontFamily": "Inter",
+                              "fontSize": 20,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "E8lBy",
+                              "fill": "#999999",
+                              "content": "2341",
+                              "fontFamily": "Inter",
+                              "fontSize": 22,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "note-note-3",
+              "x": 530,
+              "y": 820,
+              "clip": true,
+              "width": 510,
+              "fill": "#FFFFFF",
+              "cornerRadius": 24,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#0000000D",
+                "offset": {
+                  "x": 0,
+                  "y": 4
+                },
+                "blur": 12
+              },
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "img-note-3",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?q=80&w=1974&auto=format&fit=crop",
+                    "mode": "fill"
+                  },
+                  "width": "fill_container",
+                  "height": 600
+                },
+                {
+                  "type": "frame",
+                  "id": "text-cont-note-3",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "title-note-3",
+                      "fill": "#000000",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "深夜食堂 | 这一碗螺蛳粉治愈了所有人",
+                      "fontFamily": "Inter",
+                      "fontSize": 28,
+                      "fontWeight": "semibold"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "author-cont-note-3",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "IeXl9",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "cornerRadius": 16,
+                              "id": "msXFv",
+                              "fill": "#E0E0E0",
+                              "width": 32,
+                              "height": 32
+                            },
+                            {
+                              "type": "text",
+                              "id": "lITxf",
+                              "fill": "#666666",
+                              "content": "美食探店王",
+                              "fontFamily": "Inter",
+                              "fontSize": 22,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "is6zr",
+                          "gap": 4,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "plpB1",
+                              "content": "❤️",
+                              "fontFamily": "Inter",
+                              "fontSize": 20,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "WOeNg",
+                              "fill": "#999999",
+                              "content": "892",
+                              "fontFamily": "Inter",
+                              "fontSize": 22,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "bottom-bar",
+          "x": 0,
+          "y": 2240,
+          "width": 1080,
+          "height": 160,
+          "fill": "#FFFFFF",
+          "padding": 20,
+          "justifyContent": "space_around",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "WU58P",
+              "fill": "#000000",
+              "content": "首页",
+              "fontFamily": "Inter",
+              "fontSize": 32,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "text",
+              "id": "pYSlI",
+              "fill": "#999999",
+              "content": "视频",
+              "fontFamily": "Inter",
+              "fontSize": 32,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": 16,
+              "id": "pfw5A",
+              "fill": "#FF2442",
+              "width": 100,
+              "height": 60
+            },
+            {
+              "type": "text",
+              "id": "rbJRl",
+              "fill": "#999999",
+              "content": "消息",
+              "fontFamily": "Inter",
+              "fontSize": 32,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "3EbBY",
+              "fill": "#999999",
+              "content": "我",
+              "fontFamily": "Inter",
+              "fontSize": 32,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
